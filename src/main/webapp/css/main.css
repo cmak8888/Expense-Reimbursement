@@ -1,0 +1,11 @@
+.stack {
+    display: block;
+}
+
+.header {
+    padding: 10px;
+}
+
+#home:hover {
+    cursor: pointer;
+}
