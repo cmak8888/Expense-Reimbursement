@@ -12,7 +12,7 @@ window.onload = function() {
     document.getElementById("viewTickets").addEventListener('click', viewTickets);
     document.getElementById("logOutSubmit").addEventListener('click', logout);
     document.getElementById("home").addEventListener('click', goHome)
-    document.addEventListener("DOMContentLoaded", getUser)
+    // document.addEventListener("DOMContentLoaded", getUser)
     // document.getElementById().addEventListener('click');
 
 }
@@ -21,7 +21,7 @@ function logout() {
     console.log("Logout");
     let xhttp = new XMLHttpRequest();
     xhttp.onreadystatechange = function() {
-        document.location.reload();
+        // document.location.reload();
 
     }
 
