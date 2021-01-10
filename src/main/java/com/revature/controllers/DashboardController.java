@@ -1,6 +1,8 @@
 package com.revature.controllers;
 
 import java.io.IOException;
+import java.util.ArrayList;
+import java.util.List;
 
 import javax.mail.MessagingException;
 import javax.servlet.RequestDispatcher;
@@ -15,14 +17,13 @@ import org.springframework.mail.MailException;
 
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.revature.ExpReimburse;
 import com.revature.exceptions.Exception405;
 import com.revature.models.Ticket;
 import com.revature.models.User;
+import com.revature.services.JSONService;
 import com.revature.services.MailService;
 import com.revature.services.TicketService;
 import com.revature.services.UserService;
-import com.revature.services.JSONService;
 
 public class DashboardController {
 
@@ -62,7 +63,8 @@ public class DashboardController {
 	}
 	
 	
-	public static void viewTicketPage(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {HttpSession sesh = req.getSession();
+	public static void viewTicketPage(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+		HttpSession sesh = req.getSession();
 		if(sesh.getAttribute("User") == null) {
 			resp.sendRedirect("http://localhost:8080/ExpReimburse/expr");
 			return;
@@ -72,7 +74,7 @@ public class DashboardController {
 	}
 	
 	public static void viewTicketsPage(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-		RequestDispatcher redis = req.getRequestDispatcher("/Tickets.html");
+		RequestDispatcher redis = req.getRequestDispatcher("/ViewTickets.html");
 		redis.forward(req, resp);
 	
 	}
@@ -85,41 +87,85 @@ public class DashboardController {
 	}
 	
 	//Views specific ticket
-	public static void viewTicket(HttpServletRequest req, HttpServletResponse resp) throws JsonProcessingException, IOException, Exception405 {
-		if(req.getMethod().equals("GET")) {
-			JSONObject jTicket = new JSONObject();
-			Ticket ticket = null; 
-			resp.setContentType("application/json"); 
-			
-			ticket = TicketService.getTicket(Integer.parseInt(req.getParameter("ticket_id")));
-			jTicket = JSONService.packageObject(ticket);
-			
-			resp.getWriter().write(jTicket.toString());
-			
-			
+	public static void getTicket(HttpServletRequest req, HttpServletResponse resp) throws JsonProcessingException, IOException, Exception405 {
+		if(req.getSession(false) != null) {
+			if(req.getMethod().equals("GET")) {
+				HttpSession sesh = req.getSession();
+				JSONObject jTicket = new JSONObject(); 
+				Ticket ticket = null; 
+				resp.setContentType("application/json"); 
+				ticket = TicketService.getTicket((int)sesh.getAttribute("ticketid"));
+				jTicket = new JSONObject(ticket);
+				
+				resp.getWriter().write(jTicket.toString());
+				
+				
+			} else {
+				throw new Exception405(resp, "Could not find ticket with id");
+			}
 		} else {
-			throw new Exception405(resp, "Could not find ticket with id");
+			resp.setStatus(401);
+			log.warn("User does not have authorization");
 		}
-		
 	}
 	
-	public static void viewMyTickets(HttpServletRequest req, HttpServletResponse resp) {
-		TicketService.getTicketByUser(Integer.parseInt(req.getParameter("user_id")));
+	public static void getTickets(HttpServletRequest req, HttpServletResponse resp) throws IOException, ServletException {
+		HttpSession sesh = req.getSession(false);
+		if((sesh == null)) {
+			resp.sendRedirect("http://localhost:8080/ExpReimburse/expr");
+			return;
+		} else if(((User) sesh.getAttribute("User")).getUserType() == "Employee"){
+			List<Ticket> tickets = new ArrayList<Ticket>();
+			tickets = TicketService.getTicketByUser(((User) sesh.getAttribute("User")).getId());
+			
+			JSONObject jTickets = new JSONObject();
+			jTickets = JSONService.ticketListToObject(tickets);
+			
+			resp.setContentType("application/json");
+			resp.getWriter().write(jTickets.toString());
+		} else if(((User) sesh.getAttribute("User")).getUserType() == "Manager") {
+			List<Ticket> tickets = new ArrayList<Ticket>();
+			tickets = TicketService.getAllTickets();
+			
+			JSONObject jTickets = new JSONObject();
+			jTickets = JSONService.ticketListToObject(tickets);
+			
+			resp.setContentType("application/json");
+			resp.getWriter().write(jTickets.toString());
+		}
 	}
 	
-	public static void viewTickets(HttpServletRequest req, HttpServletResponse resp) {
-		TicketService.getAllTickets();
+	public static void getUser(HttpServletRequest req, HttpServletResponse resp) throws IOException, Exception405 {
+		log.info("Inside getUser()");
+		if(req.getSession(false) != null) {
+			log.info("getUser session");
+			HttpSession sesh = req.getSession();
+			if(sesh.getAttribute("User") != null) {
+				JSONObject userObject = new JSONObject();
+				User user = (User) sesh.getAttribute("User");
+				log.info(user.toString());
+				userObject.put("name", user.getName());
+				resp.setContentType("application/json");
+				resp.getWriter().write(userObject.toString());
+			} else {
+				resp.setStatus(403);
+				throw new Exception405(resp, "Cannot get User");
+			}
+		} else {
+			resp.setStatus(403);
+			throw new Exception405(resp, "Cannot get User Session");
+		}
 	}
 	
 	//Post/Forms
-	public static void createNewUser(HttpServletRequest req, HttpServletResponse resp) {
+	public static void postUser(HttpServletRequest req, HttpServletResponse resp) {
 		User user = new User(req.getParameter("firstname") + " " + req.getParameter("lastname"), req.getParameter("user_type"), req.getParameter("username"), req.getParameter("email"));
 		UserService.saveUser(user, req.getParameter("firstname"), req.getParameter("lastname"));
-		sendEmail(user, user.getUsername(), user.getPassword());
+		postEmail(user, user.getUsername(), user.getPassword());
 		//Send email
 	}
 	
-	public static void makeTicket(HttpServletRequest req, HttpServletResponse resp) throws IOException, ServletException {
+	public static void postTicket(HttpServletRequest req, HttpServletResponse resp) throws IOException, ServletException {
 		HttpSession sesh = req.getSession(false);
 		resp.setContentType("application/json");
 		if(sesh != null) {
@@ -127,7 +173,7 @@ public class DashboardController {
 			ObjectMapper om = new ObjectMapper(); 
 			Ticket ticket = om.readValue(req.getReader(), Ticket.class); 
 			//Ticket ticket = new Ticket(req.getParameter("title"), user, Integer.parseInt(req.getParameter("tickettype")),  req.getParameter("description")/*, req.getParameter("image")*/);
-				
+			ticket.setUser(user);
 			TicketService.submitTicket(ticket);
 			
 			RequestDispatcher redis = req.getRequestDispatcher("/ticketComplete.html");
@@ -137,7 +183,7 @@ public class DashboardController {
 		}
 	}
 	
-	public static void sendEmail(User user, String msg) {
+	public static void postEmail(User user, String msg) {
 		try {
 			MailService.sendEmail(user, msg);
 		} catch(MailException e) {
@@ -145,7 +191,7 @@ public class DashboardController {
 		}
 	}
 	
-	public static void sendEmail(User user, String username, String password) {
+	public static void postEmail(User user, String username, String password) {
 		try {
 			MailService.sendEmail(user, username, password);
 		} catch(MailException e) {
@@ -153,7 +199,7 @@ public class DashboardController {
 		}
 	}
 	
-	public static void sendEmail(User user) {
+	public static void postEmail(User user) {
 		try {
 			MailService.sendEmail(user);
 		} catch(MailException e) {
@@ -161,7 +207,7 @@ public class DashboardController {
 		}
 	}
 	
-	public static void sendEmail(HttpServletRequest req, HttpServletResponse resp) {
+	public static void postEmail(HttpServletRequest req, HttpServletResponse resp) {
 		
 	}
 	
@@ -188,11 +234,12 @@ public class DashboardController {
 	//Puts
 	public static void acceptTicket(HttpServletRequest req, HttpServletResponse resp) {
 		TicketService.acceptTicket(Integer.parseInt(req.getParameter("id")));
-		sendEmail(TicketService.getUserWithTicketId(Integer.parseInt(req.getParameter("id"))), "Your ticket " + req.getParameter("id") + " has been approved.");
+		postEmail(TicketService.getUserWithTicketId(Integer.parseInt(req.getParameter("id"))), "Your ticket " + req.getParameter("id") + " has been approved.");
 	}
 	
 	public static void rejectTicket(HttpServletRequest req, HttpServletResponse resp) {
 		TicketService.rejectTicket(Integer.parseInt(req.getParameter("id")));
+		postEmail(TicketService.getUserWithTicketId(Integer.parseInt(req.getParameter("id"))), "Your ticket " + req.getParameter("id") + " has been rejected.");
 	}
 	
 	//Delete

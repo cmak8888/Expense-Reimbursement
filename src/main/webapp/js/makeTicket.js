@@ -1,26 +1,8 @@
 window.onload = function() {
-    // document.getElementById("logOutSubmit").addEventListener('click', logout);
     document.getElementById("submitTicket").addEventListener('click', submitTicket);
+    document.getElemendById("logOutSubmit").addEventListener('click', logout);
     document.getElementById("home").addEventListener('click', goHome);
-    document.getElemendById("logOutSubmit").addEventListener('click', logout)
-
 }
-
-function logout() {
-    console.log("Logout");
-    let xhttp = new XMLHttpRequest();
-    xhttp.onreadystatechange = function() {
-        document.location.reload();
-
-    }
-
-    let logoutURL = "http://localhost:8080/ExpReimburse/expr/api/logout";
-    // let logoutURL = endPoints[getLogout];
-
-    xhttp.open("GET", logoutURL);
-    xhttp.send();
-}
-
 
 function viewTicket() {
     console.log("Login");
@@ -38,12 +20,35 @@ function viewTicket() {
     xhttp.send();
 }
 
+function submitTicket() {
+    console.log("Submit Ticket");
+    let newTicket = {
+        title: document.getElementById(title).value,
+        description: document.getElementById(description).value,
+        tickettype: document.getElementById(tickettype).value,
+        amount: document.getElementById(amount).value
+    }
+    let xhttp = new XMLHttpRequest();
+    xhttp.onreadystatechange = function() {
+        if(xhttp.readyState == 4 && xhttp.status == 200){
+            console.log("Success");
+            window.location = "http://localhost:8080/ExpReimburse/expr/ticketComplete.html";
+        } else {
+            console.log("error");
+        }
+    }
+    let submitTicketURL = "http://localhost:8080/ExpReimburse/expr/api/postTicket";
+    xhttp.open("POST", submitTicketURL);
+    xhttp.send(JSON.stringify(newTicket));
+}
 
 function logout() {
     console.log("Logout");
     let xhttp = new XMLHttpRequest();
     xhttp.onreadystatechange = function() {
-        document.location.reload();
+        if(xhttp.readyState == 4 && xhttp.status == 200) {
+            window.location = "login.html";
+        }
 
     }
 

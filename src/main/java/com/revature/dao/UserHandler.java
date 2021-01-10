@@ -90,9 +90,9 @@ public class UserHandler implements UserDao {
 	@Override
 	public boolean verifyUser(String username, String password) {
 		// TODO Auto-generated method stub
-		String sql = "call verify_user(?,?)";
+		String sql = "select * from exp_users where 'username' = ? and 'password' = ?;";
 		try(Connection conn = Connector.getConnection()) {
-			CallableStatement cs = conn.prepareCall(sql);
+			PreparedStatement cs = conn.prepareStatement(sql);
 			cs.setString(1, username);
 			cs.setString(2, password);
 			ResultSet rs = cs.executeQuery();

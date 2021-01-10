@@ -59,18 +59,25 @@ public class TicketService {
 	}
 	
 	public static void deleteAllTickets() {
-		
+		Log.info("Removing all Tickets");
+		tDao.removeAllTickets();
 	}
 	
 	public static void deleteAllRejectedTickets() {
+		Log.info("Removing all Tickets");
+		tDao.removeAllRejectedTickets();
 		
 	}
 	
 	public static void deleteAllTicketsForUser(int id) {
+		Log.info("Removing all Tickets of" + id);
+		tDao.removeAllTickets(id);
 		
 	}
 	
 	public static void deleteAllTicketsForUser(User user) {
+		Log.info("Removing all Tickets");
+		tDao.removeAllTickets(user.getId());
 		
 	}
 }

@@ -25,7 +25,7 @@ public class TicketsHandler implements TicketsDao {
 			ps.setInt(1, id);
 			ResultSet rs = ps.executeQuery();
 			if(rs.next()) {
-				ticket = (new Ticket(rs.getInt("ticket_id"),rs.getInt("user_id"), rs.getString("title"), rs.getString("description"), rs.getInt("ticket_type"), rs.getBytes("image"), rs.getBoolean("approved"), rs.getString("timestamp")));
+				ticket = (new Ticket(rs.getInt("ticket_id"),rs.getInt("user_id"), rs.getString("title"), rs.getString("description"), rs.getInt("ticket_type"), rs.getBytes("image"), rs.getDouble("amount"), rs.getBoolean("approved"), rs.getString("timestamp")));
 			}
 		} catch (SQLException e) {
 			e.printStackTrace();
@@ -42,7 +42,7 @@ public class TicketsHandler implements TicketsDao {
 			ps.setBoolean(1, approved);
 			ResultSet rs = ps.executeQuery();
 			while(rs.next()) {
-				tickets.add(new Ticket(rs.getInt("ticket_id"),rs.getInt("user_id"), rs.getString("title"), rs.getString("description"), rs.getInt("ticket_type"), rs.getBytes("image"), rs.getBoolean("approved"), rs.getString("timestamp")));
+				tickets.add(new Ticket(rs.getInt("ticket_id"),rs.getInt("user_id"), rs.getString("title"), rs.getString("description"), rs.getInt("ticket_type"), rs.getBytes("image"), rs.getDouble("amount"), rs.getBoolean("approved"), rs.getString("timestamp")));
 			}
 		} catch (SQLException e) {
 			e.printStackTrace();
@@ -75,7 +75,7 @@ public class TicketsHandler implements TicketsDao {
 			ps.setInt(1, user.getId());
 			ResultSet rs = ps.executeQuery();
 			while(rs.next()) {
-				tickets.add(new Ticket(rs.getInt("ticket_id"),rs.getInt("user_id"), rs.getString("title"), rs.getString("description"), rs.getInt("ticket_type"), rs.getBytes("image"), rs.getBoolean("approved"), rs.getString("timestamp")));
+				tickets.add(new Ticket(rs.getInt("ticket_id"),rs.getInt("user_id"), rs.getString("title"), rs.getString("description"), rs.getInt("ticket_type"), rs.getBytes("image"), rs.getDouble("amount"), rs.getBoolean("approved"), rs.getString("timestamp")));
 			}
 		} catch (SQLException e) {
 			e.printStackTrace();
@@ -91,7 +91,7 @@ public class TicketsHandler implements TicketsDao {
 			ps.setInt(1, id);
 			ResultSet rs = ps.executeQuery();
 			while(rs.next()) {
-				tickets.add(new Ticket(rs.getInt("ticket_id"),rs.getInt("user_id"), rs.getString("title"), rs.getString("description"), rs.getInt("ticket_type"), rs.getBytes("image"), rs.getBoolean("approved"), rs.getString("timestamp")));
+				tickets.add(new Ticket(rs.getInt("ticket_id"),rs.getInt("user_id"), rs.getString("title"), rs.getString("description"), rs.getInt("ticket_type"), rs.getBytes("image"), rs.getDouble("amount"), rs.getBoolean("approved"), rs.getString("timestamp")));
 			}
 		} catch (SQLException e) {
 			e.printStackTrace();
@@ -107,7 +107,7 @@ public class TicketsHandler implements TicketsDao {
 			cs.setInt(1, TicketType.getTicketValue(tType));
 			ResultSet rs = cs.executeQuery();
 			while(rs.next()) {
-				tickets.add(new Ticket(rs.getInt("ticket_id"),rs.getInt("user_id"), rs.getString("title"), rs.getString("description"), rs.getInt("ticket_type"), rs.getBytes("image"), rs.getBoolean("approved"), rs.getString("timestamp")));
+				tickets.add(new Ticket(rs.getInt("ticket_id"),rs.getInt("user_id"), rs.getString("title"), rs.getString("description"), rs.getInt("ticket_type"), rs.getBytes("image"), rs.getDouble("amount"), rs.getBoolean("approved"), rs.getString("timestamp")));
 			}
 		} catch (SQLException e) {
 			e.printStackTrace();
@@ -125,7 +125,7 @@ public class TicketsHandler implements TicketsDao {
 			ps.setBoolean(2, approved);
 			ResultSet rs = ps.executeQuery();
 			while(rs.next()) {
-				tickets.add(new Ticket(rs.getInt("ticket_id"),rs.getInt("user_id"), rs.getString("title"), rs.getString("description"), rs.getInt("ticket_type"), rs.getBytes("image"), rs.getBoolean("approved"), rs.getString("timestamp")));
+				tickets.add(new Ticket(rs.getInt("ticket_id"),rs.getInt("user_id"), rs.getString("title"), rs.getString("description"), rs.getInt("ticket_type"), rs.getBytes("image"), rs.getDouble("amount"), rs.getBoolean("approved"), rs.getString("timestamp")));
 			}
 		} catch (SQLException e) {
 			e.printStackTrace();
@@ -143,7 +143,7 @@ public class TicketsHandler implements TicketsDao {
 			cs.setInt(2, TicketType.getTicketValue(tType));
 			ResultSet rs = cs.executeQuery();
 			while(rs.next()) {
-				tickets.add(new Ticket(rs.getInt("ticket_id"),rs.getInt("user_id"), rs.getString("title"), rs.getString("description"), rs.getInt("ticket_type"), rs.getBytes("image"), rs.getBoolean("approved"), rs.getString("timestamp")));
+				tickets.add(new Ticket(rs.getInt("ticket_id"),rs.getInt("user_id"), rs.getString("title"), rs.getString("description"), rs.getInt("ticket_type"), rs.getBytes("image"), rs.getDouble("amount"), rs.getBoolean("approved"), rs.getString("timestamp")));
 			}
 		} catch (SQLException e) {
 			e.printStackTrace();
@@ -159,7 +159,7 @@ public class TicketsHandler implements TicketsDao {
 			Statement s = conn.createStatement();
 			ResultSet rs = s.executeQuery(sql);
 			while(rs.next()) {
-				tickets.add(new Ticket(rs.getInt("ticket_id"),rs.getInt("user_id"), rs.getString("title"), rs.getString("description"), rs.getInt("ticket_type"), rs.getBytes("image"), rs.getBoolean("approved"), rs.getString("timestamp")));
+				tickets.add(new Ticket(rs.getInt("ticket_id"),rs.getInt("user_id"), rs.getString("title"), rs.getString("description"), rs.getInt("ticket_type"), rs.getBytes("image"), rs.getDouble("amount"), rs.getBoolean("approved"), rs.getString("timestamp")));
 			}
 		} catch (SQLException e) {
 			e.printStackTrace();
@@ -194,14 +194,15 @@ public class TicketsHandler implements TicketsDao {
 
 	public void createTicket(Ticket ticket) {
 		// TODO Auto-generated method stub
-		String sql = "INSERT INTO exp_tickets (user_id, title, type, description, timestamp) VALUES (?,?,?,?,?)";
+		String sql = "INSERT INTO exp_tickets (user_id, title, type, description, amount, timestamp) VALUES (?,?,?,?,?, ?)";
 		try(Connection conn = Connector.getConnection()) {
 			PreparedStatement ps = conn.prepareStatement(sql);
 			ps.setInt(1, ticket.getUser().getId());
 			ps.setString(2, ticket.getTitle());
 			ps.setInt(3,TicketType.getTicketValue(ticket.getTicketType()));
 			ps.setString(4, ticket.getDescription());
-			ps.setString(5, ticket.getTimeStamp());
+			ps.setDouble(5, ticket.getAmount());
+			ps.setString(6, ticket.getTimeStamp());
 			ps.execute();
 		} catch (SQLException e) {
 			Log.warn("Error, SQL Exception in creating Ticket " + ticket.getId());
@@ -238,7 +239,7 @@ public class TicketsHandler implements TicketsDao {
 			ps.setString(2, OrderDirection.getString(order));
 			ResultSet rs = ps.executeQuery();
 			while(rs.next()) {
-				tickets.add(new Ticket(rs.getInt("ticket_id"),rs.getInt("user_id"), rs.getString("title"), rs.getString("description"), rs.getInt("ticket_type"), rs.getBytes("image"), rs.getBoolean("approved"), rs.getString("timestamp")));
+				tickets.add(new Ticket(rs.getInt("ticket_id"),rs.getInt("user_id"), rs.getString("title"), rs.getString("description"), rs.getInt("ticket_type"), rs.getBytes("image"), rs.getDouble("amount"), rs.getBoolean("approved"), rs.getString("timestamp")));
 			}
 		} catch(SQLException e) {
 			e.printStackTrace();

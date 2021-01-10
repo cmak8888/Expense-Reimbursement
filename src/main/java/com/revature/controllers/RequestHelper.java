@@ -48,13 +48,13 @@ public class RequestHelper {
 			LogoutController.getLogOutPage(req, resp);
 			break;
 		case "/ExpReimburse/expr/api/viewTicket":
-			DashboardController.viewTicket(req, resp);
+			DashboardController.getTicket(req, resp);
 			break;
 		case "/ExpReimburse/expr/api/viewTickets":
-			DashboardController.viewTickets(req, resp);
+			DashboardController.getTickets(req, resp);
 			break;
-		case "/ExpReimburse/expr/api/viewMyTickets":
-			DashboardController.viewMyTickets(req, resp);
+		case "/ExpReimburse/expr/api/getUser":
+			DashboardController.getUser(req, resp);
 			break;
 		case "/ExpReimburse/expr/api/endPoints":
 			SpecialController.getEndpoints(req,resp);
@@ -74,13 +74,13 @@ public class RequestHelper {
 			LoginController.login(req, resp);
 			break;
 		case "/ExpReimburse/expr/api/newuser":
-			DashboardController.createNewUser(req, resp);
+			DashboardController.postUser(req, resp);
 			break;
 		case "/ExpReimburse/expr/api/submitTicket":
-			DashboardController.makeTicket(req,resp);
+			DashboardController.postTicket(req,resp);
 			break;
 		case "/ExpReimburse/expr/api/sendEmail":
-			DashboardController.sendEmail(req,resp);
+			DashboardController.postEmail(req,resp);
 			break;
 		case "ExpReimburse/expr/api/sendEmailWithAttachment":
 			DashboardController.sendEmailWithAttachment(req,resp);

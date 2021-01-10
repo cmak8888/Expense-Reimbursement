@@ -4,7 +4,6 @@ window.onload = function() {
     document.getElementById("viewTickets").addEventListener('click', viewTicket)
     document.getElementById("home").addEventListener('click', goHome)
     document.getElementById("logOutSubmit").addEventListener('click', logout)
-
 }
 
 function logout() {
@@ -51,6 +50,14 @@ function viewTicket() {
     //let loginURL = endPoints[postLogin];
     xhttp.open("GET", viewTicketURL);
     xhttp.send();
+}
+
+function approveTicket(event) {
+
+}
+
+function rejectTicket(event) {
+    
 }
 
 function goHome() {

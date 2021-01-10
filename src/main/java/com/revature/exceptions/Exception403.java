@@ -4,16 +4,16 @@ import javax.servlet.http.HttpServletResponse;
 
 import com.revature.services.Log;;
 
-public class Exception405 extends Exception {
+public class Exception403 extends Exception {
 
 	/**
 	 * 
 	 */
 	private static final long serialVersionUID = -2791958324577494989L;
-	public Exception405(HttpServletResponse resp, String msg) {
+	public Exception403(HttpServletResponse resp, String msg) {
 		super(msg);
-		resp.setStatus(405);
+		resp.setStatus(403);
 		System.out.println(msg);
-		Log.warn("Error 405 " + msg);
+		Log.warn("Error 403 " + msg);
 	}
 }

@@ -19,6 +19,7 @@ public class Ticket {
 	private String description;
 	private byte[] image;
 	private String timeStamp;
+	private double amount;
 	private boolean approved;
 	private static final SimpleDateFormat sdf = new SimpleDateFormat("yyyy.MM.dd.HH.mm.ss");
 	
@@ -82,6 +83,14 @@ public class Ticket {
 		this.approved = approved;
 	}
 
+	public double getAmount() {
+		return amount;
+	}
+
+	public void setAmount(double amount) {
+		this.amount = amount;
+	}
+
 	public byte[] getImage() {
 		return image;
 	}
@@ -90,46 +99,57 @@ public class Ticket {
 		this.image = image;
 	}
 	
-	public Ticket() {
-		
+	public Ticket(int id, int user, String title, String description, int ticketType, double amount, boolean approved, String timestamp) {
+		this.id = id;
+		this.title = title;
+		this.user = UserService.getUser(user);
+		this.ticketType = TicketType.values()[ticketType];
+		this.description = description;
+		this.setAmount(amount);
+		this.approved = approved;
+		this.timeStamp = timestamp;
 	}
 	
-	public Ticket(int id, int user, String title, String description, int ticketType, byte[] image, boolean approved, String timestamp) {
+	public Ticket(int id, int user, String title, String description, int ticketType, byte[] image, double amount, boolean approved, String timestamp) {
 		this.id = id;
 		this.title = title;
 		this.user = UserService.getUser(user);
 		this.ticketType = TicketType.values()[ticketType];
 		this.description = description;
 		this.image = image;
+		this.setAmount(amount);
 		this.approved = approved;
 		this.timeStamp = timestamp;
 	}
 	
-	public Ticket(String title, int user, int ticketType, String description, byte[] image) {
+	public Ticket(String title, int user, int ticketType, String description, double amount, byte[] image) {
 		this.title = title;
 		this.user = UserService.getUser(user);
 		this.ticketType = TicketType.values()[ticketType];
 		this.description = description;
+		this.setAmount(amount);
 		this.image = image;
 		Timestamp timestamp = new Timestamp(System.currentTimeMillis());
 		this.timeStamp = sdf.format(timestamp.getTime());
 	}
 	
-	public Ticket(String title, User user, int ticketType, String description, String imageLocation) throws IOException {
+	public Ticket(String title, User user, int ticketType, String description, double amount, String imageLocation) throws IOException {
 		this.title = title;
 		this.user = user;
 		this.ticketType = TicketType.values()[ticketType];
 		this.description = description;
+		this.setAmount(amount);
 		saveImage(imageLocation);
 		Timestamp timestamp = new Timestamp(System.currentTimeMillis());
 		this.timeStamp = sdf.format(timestamp.getTime());
 	}
 	
-	public Ticket(String title, User user, int ticketType, String description) {
+	public Ticket(String title, User user, int ticketType, String description, double amount) {
 		this.title = title;
 		this.user = user;
 		this.ticketType = TicketType.values()[ticketType];
 		this.description = description;
+		this.setAmount(amount);
 		Timestamp timestamp = new Timestamp(System.currentTimeMillis());
 		this.timeStamp = sdf.format(timestamp.getTime());
 	}

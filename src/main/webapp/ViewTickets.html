@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="css/viewTickets.css" type="text/css" />
+    <link rel="stylesheet" href="css/dashboard.css" type="text/css" />
+</head>
+
+<body>
+    <header class="header">
+        <i class="fas fa-bars header__menu"></i>
+        <div class="header__search">
+          <div id="home">Dashboard</div>
+        </div>
+        <div class="header__avatar">
+          <div class="dropdown">
+            <ul class="dropdown__list">
+              <li class="dropdown__list-item">
+                <span class="dropdown__icon"><i class="far fa-user"></i></span>
+                <span class="dropdown__title">my profile</span>
+              </li>
+              <li id="logOutSubmit" class="dropdown__list-item">
+                <span class="dropdown__icon"><i class="fas fa-sign-out-alt"></i></span>
+                <span class="dropdown__title">log out</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </header>
+    <main>
+        <div class="table-wrapper" tabindex="0">
+          <table id="respTable">
+          <thead>
+            <tr>
+              <th>Ticket Id</th>
+              <th>Name</th>
+              <th>Ticket Type</th>
+              <th>Approved (g)</th>
+              <th>Date Created</th>
+            </tr>
+          </thead>
+          
+        </table>
+        </div>
+      </main>
+      <script src="js/dashboardJQuery.js"></script>
+      <script src="js/viewTicket.js"></script>
+</body>
+</html>

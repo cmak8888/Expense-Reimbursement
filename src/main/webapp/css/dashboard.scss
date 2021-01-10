@@ -18,7 +18,7 @@ $height-header: 50px;
 $height-footer: 50px;
 $width-sidenav: 240px;
 
-$profile-pic: "../../images/blankpfp.png";
+$profile-pic: "ExpReimburse/images/blankpfp.png";
 
 @mixin profile-avatar {
   background-image: url($profile-pic);

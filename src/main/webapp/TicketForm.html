@@ -41,18 +41,10 @@
             <form>
               <div class="row">
                 <div class="col-25">
-                  <label for="fname">First Name</label>
+                  <label for="fname">Title</label>
                 </div>
                 <div class="col-75">
-                  <input type="text" id="fname" name="firstname" placeholder="First Name" required>
-                </div>
-              </div>
-              <div class="row">
-                <div class="col-25">
-                  <label for="lname">Last Name</label>
-                </div>
-                <div class="col-75">
-                  <input type="text" id="lname" name="lastname" placeholder="Last Name" required>
+                  <input type="text" id="title" name="title" placeholder="Title" required>
                 </div>
               </div>
               <div class="row">
@@ -77,7 +69,15 @@
                 </div>
               </div>
               <div class="row">
-                <input id="submitTicket" type="submit" value="Submit">
+                <div class="col-25">
+                  <label for="Amount">Amount</label>
+                </div>
+                <div class="col-75">
+                  <input type="number" id="amount" name="amount" placeholder="0.00" required/>
+                </div>
+              </div>
+              <div class="row">
+                <input id="submitTicket" class="btn btn-primary" type="submit" value="Submit">
               </div>
             </form>
           </div>

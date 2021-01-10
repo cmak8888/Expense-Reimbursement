@@ -7,6 +7,7 @@
 var endPoints = {}
 
 window.onload = function() {
+    getUser();
     // document.getElementById("logOutSubmit").addEventListener('click', logout);
     document.getElementById("submitTicket").addEventListener('click', createTicket);
     document.getElementById("viewTickets").addEventListener('click', viewTickets);
@@ -17,12 +18,26 @@ window.onload = function() {
 
 }
 
+function DomManipulation(data) {
+    let user = data.name;
+    console.log(data);
+    document.getElementById("name").innerHTML = user;
+}
+
 function logout() {
     console.log("Logout");
     let xhttp = new XMLHttpRequest();
     xhttp.onreadystatechange = function() {
         // document.location.reload();
-
+        xhttp.onreadystatechange = function() {
+            if(xhttp.readyState == 4 && xhttp.status == 200){
+                // document.location.reload();
+                console.log("Success");
+                window.location = "http://localhost:8080/ExpReimburse/expr/logout";
+            } else {
+                console.log("error");
+            }
+        }
     }
 
     let logoutURL = "http://localhost:8080/ExpReimburse/expr/api/logout";
@@ -33,22 +48,9 @@ function logout() {
 }
 
 function getUser() {
-    let xhttp = new XMLHttpRequest();
-    xhttp.onreadystatechange = function() {
-        if(xhttp.readyState == 4 && xhttp.status == 200){
-            console.log("Success");
-            let data = JSON.parse(xhttp.responseText);
-            document.getElementById("name").innerHTML=data.get("username");
-        } else {
-            console.log("error");
-        }
-    }
-
-    let newUserURL = "http://localhost:8080/ExpReimburse/expr/api/getUser";
+   fetch("http://localhost:8080/ExpReimburse/expr/api/getUser")
+   .then(resp => resp.json()).then(data => DomManipulation(data)).catch(alert);
     // let logoutURL = endPoints[getLogout];
-
-    xhttp.open("GET", newUserURL);
-    xhttp.send();
 }
 
 function createTicket() {
@@ -56,8 +58,7 @@ function createTicket() {
     let xhttp = new XMLHttpRequest();
     xhttp.onreadystatechange = function() {
         if(xhttp.readyState == 4 && xhttp.status == 200){
-            // document.location.reload();
-            console.log("Success");
+            window.location="http://localhost:8080/ExpReimburse/expr/CreateTicket";
         } else {
             console.log("error");
         }
@@ -76,6 +77,7 @@ function viewTickets() {
     xhttp.onreadystatechange = function() {
         if(xhttp.readyState == 4 && xhttp.status == 200){
             console.log("Success");
+            window.location = "http://localhost:8080/ExpReimburse/expr/ViewTickets";
         } else {
             console.log("error");
         }
@@ -92,6 +94,7 @@ function goHome() {
     xhttp.onreadystatechange = function() {
         if(xhttp.readyState == 4 && xhttp.status == 200){
             console.log("Success");
+            window.location = "http://localhost:8080/ExpReimburse/expr/home";
         } else {
             console.log("error");
         }

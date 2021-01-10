@@ -1,6 +1,8 @@
+let tickets = {}
 
 window.onload = function(){
-    document.getElementById("");
+    getTickets();
+    document.getElementById("approved").addEventListener('click', approvedTickets);
 }
 
 function logout() {
@@ -18,7 +20,11 @@ function logout() {
     xhttp.send();
 }
 
-function getTicket() {
+function approvedTickets() {
+    
+}
+
+function getTickets() {
     let xhttp = new XMLHttpRequest();
     xhttp.onreadystatechange = function() {
         if(xhttp.status == 200 && xhttp.readyState == 4) {
@@ -26,7 +32,7 @@ function getTicket() {
         }
     }
 
-    let logoutURL = "http://localhost:8080/ExpReimburse/expr/api/getTicket";
+    let logoutURL = "http://localhost:8080/ExpReimburse/expr/api/viewTickets";
     // let logoutURL = endPoints[getLogout];
 
     xhttp.open("GET", logoutURL);

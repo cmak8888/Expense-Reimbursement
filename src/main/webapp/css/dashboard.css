@@ -102,7 +102,7 @@ a {
 }
 
 .header__avatar {
-  background-image: url("../../images/blankpfp.png");
+  background-image: url("../images/blankpfp.png");
   background-size: cover;
   background-repeat: no-repeat;
   border-radius: 50%;
@@ -255,7 +255,7 @@ a {
 }
 
 .sidenav__profile-avatar {
-  background-image: url("../../images/blankpfp.png");
+  background-image: url("../images/blankpfp.png");
   background-size: cover;
   background-repeat: no-repeat;
   border-radius: 50%;
@@ -436,7 +436,7 @@ a {
   height: 250px;
   color: #FFF;
   background-size: cover;
-  background-image: url("../../images/blankpfp.png");
+  background-image: url("../images/blankpfp.png");
   margin-bottom: 20px;
 }
 

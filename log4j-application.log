@@ -1615,3 +1615,994 @@ Email: testtest@gmail.com
 2021-01-06 18:37:44 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/dashboard
 2021-01-06 18:37:44 INFO  DashboardController:43 - testing
 2021-01-06 18:37:44 INFO  DashboardController:47 - Am a Employee
+2021-01-07 13:26:36 INFO  RequestHelper:21 - In Get/ExpReimburse/expr
+2021-01-07 13:26:36 INFO  LoginController:52 - getHomePage() Retrieving home page
+2021-01-07 13:26:36 INFO  LoginController:56 - Not logged in
+2021-01-07 13:26:38 INFO  RequestHelper:71 - In Post/ExpReimburse/expr/api/login
+2021-01-07 13:26:38 INFO  RequestHelper:21 - In Get/ExpReimburse/expr
+2021-01-07 13:26:38 INFO  LoginController:52 - getHomePage() Retrieving home page
+2021-01-07 13:26:38 INFO  LoginController:56 - Not logged in
+2021-01-07 13:26:38 INFO  LoginController:33 - Name: Testing
+Type: Employee
+Username: testing
+Password: **********
+Email: testtest@gmail.com
+2021-01-07 13:26:39 INFO  RequestHelper:71 - In Post/ExpReimburse/expr/api/login
+2021-01-07 13:26:39 INFO  LoginController:33 - Name: Testing
+Type: Employee
+Username: testing
+Password: **********
+Email: testtest@gmail.com
+2021-01-07 13:26:40 INFO  RequestHelper:71 - In Post/ExpReimburse/expr/api/login
+2021-01-07 13:26:40 INFO  LoginController:33 - Name: Testing
+Type: Employee
+Username: testing
+Password: **********
+Email: testtest@gmail.com
+2021-01-07 13:26:40 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/home
+2021-01-07 13:26:40 INFO  LoginController:52 - getHomePage() Retrieving home page
+2021-01-07 13:26:40 INFO  LoginController:61 - Name: Testing
+Type: Employee
+Username: testing
+Password: **********
+Email: testtest@gmail.com
+2021-01-07 13:26:40 INFO  LoginController:62 - Employee
+2021-01-07 13:26:40 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/dashboard
+2021-01-07 13:26:40 INFO  DashboardController:42 - testing
+2021-01-07 13:26:40 INFO  DashboardController:46 - Am a Employee
+2021-01-07 13:26:41 INFO  RequestHelper:71 - In Post/ExpReimburse/expr/api/login
+2021-01-07 13:26:41 INFO  LoginController:33 - Name: Testing
+Type: Employee
+Username: testing
+Password: **********
+Email: testtest@gmail.com
+2021-01-07 13:26:41 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/home
+2021-01-07 13:26:41 INFO  LoginController:52 - getHomePage() Retrieving home page
+2021-01-07 13:26:41 INFO  LoginController:61 - Name: Testing
+Type: Employee
+Username: testing
+Password: **********
+Email: testtest@gmail.com
+2021-01-07 13:26:41 INFO  LoginController:62 - Employee
+2021-01-07 13:26:41 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/dashboard
+2021-01-07 13:26:41 INFO  DashboardController:42 - testing
+2021-01-07 13:26:41 INFO  DashboardController:46 - Am a Employee
+2021-01-07 13:26:53 INFO  RequestHelper:21 - In Get/ExpReimburse/expr
+2021-01-07 13:26:53 INFO  LoginController:52 - getHomePage() Retrieving home page
+2021-01-07 13:26:53 INFO  LoginController:61 - Name: Testing
+Type: Employee
+Username: testing
+Password: **********
+Email: testtest@gmail.com
+2021-01-07 13:26:53 INFO  LoginController:62 - Employee
+2021-01-07 13:26:53 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/dashboard
+2021-01-07 13:26:53 INFO  DashboardController:42 - testing
+2021-01-07 13:26:53 INFO  DashboardController:46 - Am a Employee
+2021-01-07 13:27:04 INFO  RequestHelper:71 - In Post/ExpReimburse/expr/api/login
+2021-01-07 13:27:04 INFO  LoginController:33 - Name: Testing
+Type: Employee
+Username: testing
+Password: **********
+Email: testtest@gmail.com
+2021-01-07 13:27:04 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/home
+2021-01-07 13:27:04 INFO  LoginController:52 - getHomePage() Retrieving home page
+2021-01-07 13:27:04 INFO  LoginController:61 - Name: Testing
+Type: Employee
+Username: testing
+Password: **********
+Email: testtest@gmail.com
+2021-01-07 13:27:04 INFO  LoginController:62 - Employee
+2021-01-07 13:27:04 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/dashboard
+2021-01-07 13:27:04 INFO  DashboardController:42 - testing
+2021-01-07 13:27:04 INFO  DashboardController:46 - Am a Employee
+2021-01-07 13:27:06 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/CreateTicket
+2021-01-07 13:27:06 INFO  DashboardController:81 - Make Ticket
+2021-01-07 13:27:18 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/ViewTickets
+2021-01-07 13:27:24 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/ViewTickets
+2021-01-07 13:28:10 INFO  RequestHelper:21 - In Get/ExpReimburse/expr
+2021-01-07 13:28:10 INFO  LoginController:52 - getHomePage() Retrieving home page
+2021-01-07 13:28:10 INFO  LoginController:61 - Name: Testing
+Type: Employee
+Username: testing
+Password: **********
+Email: testtest@gmail.com
+2021-01-07 13:28:10 INFO  LoginController:62 - Employee
+2021-01-07 13:28:10 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/dashboard
+2021-01-07 13:28:10 INFO  DashboardController:42 - testing
+2021-01-07 13:28:10 INFO  DashboardController:46 - Am a Employee
+2021-01-07 13:29:00 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/CreateTicket
+2021-01-07 13:29:00 INFO  DashboardController:81 - Make Ticket
+2021-01-07 13:36:49 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/CreateTicket
+2021-01-07 13:36:49 INFO  DashboardController:81 - Make Ticket
+2021-01-10 02:00:21 INFO  RequestHelper:21 - In Get/ExpReimburse/expr
+2021-01-10 02:00:21 INFO  LoginController:55 - getHomePage() Retrieving home page
+2021-01-10 02:00:21 INFO  LoginController:59 - Not logged in
+2021-01-10 02:00:58 INFO  RequestHelper:68 - In Post/ExpReimburse/expr/api/login
+2021-01-10 02:00:58 INFO  RequestHelper:21 - In Get/ExpReimburse/expr
+2021-01-10 02:00:58 INFO  LoginController:55 - getHomePage() Retrieving home page
+2021-01-10 02:00:58 INFO  LoginController:59 - Not logged in
+2021-01-10 02:18:16 INFO  RequestHelper:68 - In Post/ExpReimburse/expr/api/login
+2021-01-10 02:22:22 INFO  RequestHelper:68 - In Post/ExpReimburse/expr/api/login
+2021-01-10 02:31:15 INFO  RequestHelper:68 - In Post/ExpReimburse/expr/api/login
+2021-01-10 02:41:08 INFO  RequestHelper:68 - In Post/ExpReimburse/expr/api/login
+2021-01-10 03:03:00 INFO  RequestHelper:68 - In Post/ExpReimburse/expr/api/login
+2021-01-10 03:33:06 INFO  RequestHelper:68 - In Post/ExpReimburse/expr/api/login
+2021-01-10 04:31:55 INFO  RequestHelper:68 - In Post/ExpReimburse/expr/api/login
+2021-01-10 04:31:55 INFO  LoginController:34 - Name: Testing
+Type: Employee
+Username: testing
+Password: **********
+Email: testtest@gmail.com
+2021-01-10 04:34:50 INFO  RequestHelper:68 - In Post/ExpReimburse/expr/api/login
+2021-01-10 04:34:50 INFO  LoginController:34 - Name: Testing
+Type: Employee
+Username: testing
+Password: **********
+Email: testtest@gmail.com
+2021-01-10 04:34:55 INFO  RequestHelper:68 - In Post/ExpReimburse/expr/api/login
+2021-01-10 04:34:55 INFO  LoginController:34 - Name: Testing
+Type: Employee
+Username: testing
+Password: **********
+Email: testtest@gmail.com
+2021-01-10 04:34:56 INFO  RequestHelper:68 - In Post/ExpReimburse/expr/api/login
+2021-01-10 04:34:56 INFO  LoginController:34 - Name: Testing
+Type: Employee
+Username: testing
+Password: **********
+Email: testtest@gmail.com
+2021-01-10 04:34:56 INFO  RequestHelper:68 - In Post/ExpReimburse/expr/api/login
+2021-01-10 04:34:56 INFO  LoginController:34 - Name: Testing
+Type: Employee
+Username: testing
+Password: **********
+Email: testtest@gmail.com
+2021-01-10 04:34:57 INFO  RequestHelper:68 - In Post/ExpReimburse/expr/api/login
+2021-01-10 04:34:57 INFO  LoginController:34 - Name: Testing
+Type: Employee
+Username: testing
+Password: **********
+Email: testtest@gmail.com
+2021-01-10 04:34:58 INFO  RequestHelper:68 - In Post/ExpReimburse/expr/api/login
+2021-01-10 04:34:58 INFO  LoginController:34 - Name: Testing
+Type: Employee
+Username: testing
+Password: **********
+Email: testtest@gmail.com
+2021-01-10 04:34:59 INFO  RequestHelper:68 - In Post/ExpReimburse/expr/api/login
+2021-01-10 04:34:59 INFO  LoginController:34 - Name: Testing
+Type: Employee
+Username: testing
+Password: **********
+Email: testtest@gmail.com
+2021-01-10 04:35:17 INFO  RequestHelper:21 - In Get/ExpReimburse/expr
+2021-01-10 04:35:17 INFO  LoginController:55 - getHomePage() Retrieving home page
+2021-01-10 04:35:17 INFO  LoginController:64 - Name: Testing
+Type: Employee
+Username: testing
+Password: **********
+Email: testtest@gmail.com
+2021-01-10 04:35:17 INFO  LoginController:65 - Employee
+2021-01-10 04:35:17 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/dashboard
+2021-01-10 04:35:17 INFO  DashboardController:43 - testing
+2021-01-10 04:35:17 INFO  DashboardController:47 - Am a Employee
+2021-01-10 04:36:55 INFO  RequestHelper:68 - In Post/ExpReimburse/expr/api/login
+2021-01-10 04:36:55 INFO  LoginController:34 - Name: Testing
+Type: Employee
+Username: testing
+Password: **********
+Email: testtest@gmail.com
+2021-01-10 04:37:08 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/ViewTickets
+2021-01-10 04:37:11 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/CreateTicket
+2021-01-10 04:37:11 INFO  DashboardController:83 - Make Ticket
+2021-01-10 04:58:51 INFO  RequestHelper:21 - In Get/ExpReimburse/expr
+2021-01-10 04:58:51 INFO  LoginController:55 - getHomePage() Retrieving home page
+2021-01-10 04:58:51 INFO  LoginController:59 - Not logged in
+2021-01-10 04:58:53 INFO  RequestHelper:68 - In Post/ExpReimburse/expr/api/login
+2021-01-10 04:58:53 INFO  LoginController:34 - Name: Testing
+Type: Employee
+Username: testing
+Password: **********
+Email: testtest@gmail.com
+2021-01-10 04:58:58 INFO  RequestHelper:68 - In Post/ExpReimburse/expr/api/login
+2021-01-10 04:58:58 INFO  LoginController:34 - Name: Testing
+Type: Employee
+Username: testing
+Password: **********
+Email: testtest@gmail.com
+2021-01-10 04:59:09 INFO  RequestHelper:21 - In Get/ExpReimburse/expr
+2021-01-10 04:59:09 INFO  LoginController:55 - getHomePage() Retrieving home page
+2021-01-10 04:59:09 INFO  LoginController:64 - Name: Testing
+Type: Employee
+Username: testing
+Password: **********
+Email: testtest@gmail.com
+2021-01-10 04:59:09 INFO  LoginController:65 - Employee
+2021-01-10 04:59:09 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/dashboard
+2021-01-10 04:59:09 INFO  DashboardController:43 - testing
+2021-01-10 04:59:09 INFO  DashboardController:47 - Am a Employee
+2021-01-10 04:59:14 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/CreateTicket
+2021-01-10 04:59:14 INFO  DashboardController:83 - Make Ticket
+2021-01-10 05:00:32 INFO  RequestHelper:21 - In Get/ExpReimburse/expr
+2021-01-10 05:00:32 INFO  LoginController:55 - getHomePage() Retrieving home page
+2021-01-10 05:00:32 INFO  LoginController:59 - Not logged in
+2021-01-10 05:00:35 INFO  RequestHelper:68 - In Post/ExpReimburse/expr/api/login
+2021-01-10 05:00:35 INFO  RequestHelper:21 - In Get/ExpReimburse/expr
+2021-01-10 05:00:35 INFO  LoginController:55 - getHomePage() Retrieving home page
+2021-01-10 05:00:35 INFO  LoginController:59 - Not logged in
+2021-01-10 05:00:35 INFO  LoginController:34 - Name: Testing
+Type: Employee
+Username: testing
+Password: **********
+Email: testtest@gmail.com
+2021-01-10 05:00:39 INFO  RequestHelper:68 - In Post/ExpReimburse/expr/api/login
+2021-01-10 05:00:39 INFO  LoginController:34 - Name: Testing
+Type: Employee
+Username: testing
+Password: **********
+Email: testtest@gmail.com
+2021-01-10 05:00:39 INFO  RequestHelper:21 - In Get/ExpReimburse/expr
+2021-01-10 05:00:39 INFO  LoginController:55 - getHomePage() Retrieving home page
+2021-01-10 05:00:39 INFO  LoginController:64 - Name: Testing
+Type: Employee
+Username: testing
+Password: **********
+Email: testtest@gmail.com
+2021-01-10 05:00:39 INFO  LoginController:65 - Employee
+2021-01-10 05:00:39 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/dashboard
+2021-01-10 05:00:39 INFO  DashboardController:43 - testing
+2021-01-10 05:00:39 INFO  DashboardController:47 - Am a Employee
+2021-01-10 05:00:44 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/CreateTicket
+2021-01-10 05:00:44 INFO  DashboardController:83 - Make Ticket
+2021-01-10 05:02:04 INFO  RequestHelper:21 - In Get/ExpReimburse/expr
+2021-01-10 05:02:04 INFO  LoginController:55 - getHomePage() Retrieving home page
+2021-01-10 05:02:04 INFO  LoginController:64 - Name: Testing
+Type: Employee
+Username: testing
+Password: **********
+Email: testtest@gmail.com
+2021-01-10 05:02:04 INFO  LoginController:65 - Employee
+2021-01-10 05:02:04 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/dashboard
+2021-01-10 05:02:04 INFO  DashboardController:43 - testing
+2021-01-10 05:02:04 INFO  DashboardController:47 - Am a Employee
+2021-01-10 05:23:02 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/CreateTicket
+2021-01-10 05:23:02 INFO  DashboardController:83 - Make Ticket
+2021-01-10 05:39:25 INFO  RequestHelper:68 - In Post/ExpReimburse/expr/api/login
+2021-01-10 05:39:25 INFO  RequestHelper:21 - In Get/ExpReimburse/expr
+2021-01-10 05:39:25 INFO  LoginController:55 - getHomePage() Retrieving home page
+2021-01-10 05:39:25 INFO  LoginController:59 - Not logged in
+2021-01-10 05:39:25 INFO  LoginController:34 - Name: Testing
+Type: Employee
+Username: testing
+Password: **********
+Email: testtest@gmail.com
+2021-01-10 05:39:26 INFO  RequestHelper:68 - In Post/ExpReimburse/expr/api/login
+2021-01-10 05:39:26 INFO  LoginController:34 - Name: Testing
+Type: Employee
+Username: testing
+Password: **********
+Email: testtest@gmail.com
+2021-01-10 05:39:27 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/home
+2021-01-10 05:39:27 INFO  LoginController:55 - getHomePage() Retrieving home page
+2021-01-10 05:39:27 INFO  LoginController:64 - Name: Testing
+Type: Employee
+Username: testing
+Password: **********
+Email: testtest@gmail.com
+2021-01-10 05:39:27 INFO  LoginController:65 - Employee
+2021-01-10 05:39:27 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/dashboard
+2021-01-10 05:39:27 INFO  DashboardController:43 - testing
+2021-01-10 05:39:27 INFO  DashboardController:47 - Am a Employee
+2021-01-10 05:39:27 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/api/getUser
+2021-01-10 06:26:03 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/CreateTicket
+2021-01-10 06:26:03 INFO  DashboardController:83 - Make Ticket
+2021-01-10 06:26:03 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/CreateTicket
+2021-01-10 06:26:03 INFO  DashboardController:83 - Make Ticket
+2021-01-10 07:13:19 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/CreateTicket
+2021-01-10 07:13:19 INFO  DashboardController:83 - Make Ticket
+2021-01-10 14:00:37 INFO  RequestHelper:21 - In Get/ExpReimburse/expr
+2021-01-10 14:00:37 INFO  LoginController:55 - getHomePage() Retrieving home page
+2021-01-10 14:00:38 INFO  LoginController:59 - Not logged in
+2021-01-10 14:00:41 INFO  RequestHelper:68 - In Post/ExpReimburse/expr/api/login
+2021-01-10 14:00:41 INFO  LoginController:34 - Name: Testing
+Type: Employee
+Username: testing
+Password: **********
+Email: testtest@gmail.com
+2021-01-10 14:00:41 INFO  RequestHelper:21 - In Get/ExpReimburse/expr
+2021-01-10 14:00:41 INFO  LoginController:55 - getHomePage() Retrieving home page
+2021-01-10 14:00:41 INFO  LoginController:64 - Name: Testing
+Type: Employee
+Username: testing
+Password: **********
+Email: testtest@gmail.com
+2021-01-10 14:00:41 INFO  LoginController:65 - Employee
+2021-01-10 14:00:41 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/dashboard
+2021-01-10 14:00:41 INFO  DashboardController:43 - testing
+2021-01-10 14:00:41 INFO  DashboardController:47 - Am a Employee
+2021-01-10 14:00:41 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/home
+2021-01-10 14:00:41 INFO  LoginController:55 - getHomePage() Retrieving home page
+2021-01-10 14:00:41 INFO  LoginController:64 - Name: Testing
+Type: Employee
+Username: testing
+Password: **********
+Email: testtest@gmail.com
+2021-01-10 14:00:41 INFO  LoginController:65 - Employee
+2021-01-10 14:00:41 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/dashboard
+2021-01-10 14:00:41 INFO  DashboardController:43 - testing
+2021-01-10 14:00:41 INFO  DashboardController:47 - Am a Employee
+2021-01-10 14:00:42 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/api/getUser
+2021-01-10 14:08:58 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/home
+2021-01-10 14:08:58 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/home
+2021-01-10 14:08:58 INFO  LoginController:55 - getHomePage() Retrieving home page
+2021-01-10 14:08:58 INFO  LoginController:55 - getHomePage() Retrieving home page
+2021-01-10 14:08:58 INFO  LoginController:59 - Not logged in
+2021-01-10 14:08:58 INFO  LoginController:59 - Not logged in
+2021-01-10 14:09:02 INFO  RequestHelper:71 - In Post/ExpReimburse/expr/api/login
+2021-01-10 14:09:02 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/home
+2021-01-10 14:09:02 INFO  LoginController:55 - getHomePage() Retrieving home page
+2021-01-10 14:09:02 INFO  LoginController:59 - Not logged in
+2021-01-10 14:09:02 INFO  LoginController:34 - Name: Testing
+Type: Employee
+Username: testing
+Password: **********
+Email: testtest@gmail.com
+2021-01-10 14:09:05 INFO  RequestHelper:71 - In Post/ExpReimburse/expr/api/login
+2021-01-10 14:09:05 INFO  LoginController:34 - Name: Testing
+Type: Employee
+Username: testing
+Password: **********
+Email: testtest@gmail.com
+2021-01-10 14:09:05 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/home
+2021-01-10 14:09:05 INFO  LoginController:55 - getHomePage() Retrieving home page
+2021-01-10 14:09:05 INFO  LoginController:64 - Name: Testing
+Type: Employee
+Username: testing
+Password: **********
+Email: testtest@gmail.com
+2021-01-10 14:09:05 INFO  LoginController:65 - Employee
+2021-01-10 14:09:05 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/dashboard
+2021-01-10 14:09:05 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/home
+2021-01-10 14:09:05 INFO  LoginController:55 - getHomePage() Retrieving home page
+2021-01-10 14:09:05 INFO  DashboardController:43 - testing
+2021-01-10 14:09:05 INFO  LoginController:64 - Name: Testing
+Type: Employee
+Username: testing
+Password: **********
+Email: testtest@gmail.com
+2021-01-10 14:09:05 INFO  LoginController:65 - Employee
+2021-01-10 14:09:05 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/dashboard
+2021-01-10 14:09:05 INFO  DashboardController:43 - testing
+2021-01-10 14:09:05 INFO  DashboardController:47 - Am a Employee
+2021-01-10 14:09:05 INFO  DashboardController:47 - Am a Employee
+2021-01-10 14:09:05 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/api/getUser
+2021-01-10 14:09:40 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/home
+2021-01-10 14:09:40 INFO  LoginController:55 - getHomePage() Retrieving home page
+2021-01-10 14:09:40 INFO  LoginController:59 - Not logged in
+2021-01-10 14:09:42 INFO  RequestHelper:71 - In Post/ExpReimburse/expr/api/login
+2021-01-10 14:09:42 INFO  LoginController:34 - Name: Testing
+Type: Employee
+Username: testing
+Password: **********
+Email: testtest@gmail.com
+2021-01-10 14:09:42 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/home
+2021-01-10 14:09:42 INFO  LoginController:55 - getHomePage() Retrieving home page
+2021-01-10 14:09:42 INFO  LoginController:64 - Name: Testing
+Type: Employee
+Username: testing
+Password: **********
+Email: testtest@gmail.com
+2021-01-10 14:09:42 INFO  LoginController:65 - Employee
+2021-01-10 14:09:42 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/dashboard
+2021-01-10 14:09:42 INFO  DashboardController:43 - testing
+2021-01-10 14:09:42 INFO  DashboardController:47 - Am a Employee
+2021-01-10 14:09:42 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/home
+2021-01-10 14:09:42 INFO  LoginController:55 - getHomePage() Retrieving home page
+2021-01-10 14:09:42 INFO  LoginController:64 - Name: Testing
+Type: Employee
+Username: testing
+Password: **********
+Email: testtest@gmail.com
+2021-01-10 14:09:42 INFO  LoginController:65 - Employee
+2021-01-10 14:09:42 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/dashboard
+2021-01-10 14:09:42 INFO  DashboardController:43 - testing
+2021-01-10 14:09:42 INFO  DashboardController:47 - Am a Employee
+2021-01-10 14:09:43 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/api/getUser
+2021-01-10 14:10:22 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/home
+2021-01-10 14:10:22 INFO  LoginController:55 - getHomePage() Retrieving home page
+2021-01-10 14:10:22 INFO  LoginController:59 - Not logged in
+2021-01-10 14:10:23 INFO  RequestHelper:71 - In Post/ExpReimburse/expr/api/login
+2021-01-10 14:10:23 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/home
+2021-01-10 14:10:23 INFO  LoginController:55 - getHomePage() Retrieving home page
+2021-01-10 14:10:23 INFO  LoginController:59 - Not logged in
+2021-01-10 14:10:23 INFO  LoginController:34 - Name: Testing
+Type: Employee
+Username: testing
+Password: **********
+Email: testtest@gmail.com
+2021-01-10 14:10:24 INFO  RequestHelper:71 - In Post/ExpReimburse/expr/api/login
+2021-01-10 14:10:24 INFO  LoginController:34 - Name: Testing
+Type: Employee
+Username: testing
+Password: **********
+Email: testtest@gmail.com
+2021-01-10 14:10:24 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/home
+2021-01-10 14:10:24 INFO  LoginController:55 - getHomePage() Retrieving home page
+2021-01-10 14:10:24 INFO  LoginController:64 - Name: Testing
+Type: Employee
+Username: testing
+Password: **********
+Email: testtest@gmail.com
+2021-01-10 14:10:24 INFO  LoginController:65 - Employee
+2021-01-10 14:10:24 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/dashboard
+2021-01-10 14:10:24 INFO  DashboardController:43 - testing
+2021-01-10 14:10:24 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/home
+2021-01-10 14:10:24 INFO  DashboardController:47 - Am a Employee
+2021-01-10 14:10:24 INFO  LoginController:55 - getHomePage() Retrieving home page
+2021-01-10 14:10:24 INFO  LoginController:64 - Name: Testing
+Type: Employee
+Username: testing
+Password: **********
+Email: testtest@gmail.com
+2021-01-10 14:10:24 INFO  LoginController:65 - Employee
+2021-01-10 14:10:24 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/dashboard
+2021-01-10 14:10:24 INFO  DashboardController:43 - testing
+2021-01-10 14:10:24 INFO  DashboardController:47 - Am a Employee
+2021-01-10 14:10:25 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/api/getUser
+2021-01-10 14:12:28 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/home
+2021-01-10 14:12:28 INFO  LoginController:55 - getHomePage() Retrieving home page
+2021-01-10 14:12:28 INFO  LoginController:59 - Not logged in
+2021-01-10 14:12:30 INFO  RequestHelper:71 - In Post/ExpReimburse/expr/api/login
+2021-01-10 14:12:30 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/home
+2021-01-10 14:12:30 INFO  LoginController:55 - getHomePage() Retrieving home page
+2021-01-10 14:12:30 INFO  LoginController:59 - Not logged in
+2021-01-10 14:12:30 INFO  LoginController:34 - Name: Testing
+Type: Employee
+Username: testing
+Password: **********
+Email: testtest@gmail.com
+2021-01-10 14:12:32 INFO  RequestHelper:71 - In Post/ExpReimburse/expr/api/login
+2021-01-10 14:12:32 INFO  LoginController:34 - Name: Testing
+Type: Employee
+Username: testing
+Password: **********
+Email: testtest@gmail.com
+2021-01-10 14:12:32 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/home
+2021-01-10 14:12:32 INFO  LoginController:55 - getHomePage() Retrieving home page
+2021-01-10 14:12:32 INFO  LoginController:64 - Name: Testing
+Type: Employee
+Username: testing
+Password: **********
+Email: testtest@gmail.com
+2021-01-10 14:12:32 INFO  LoginController:65 - Employee
+2021-01-10 14:12:32 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/dashboard
+2021-01-10 14:12:32 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/home
+2021-01-10 14:12:32 INFO  LoginController:55 - getHomePage() Retrieving home page
+2021-01-10 14:12:32 INFO  DashboardController:43 - testing
+2021-01-10 14:12:32 INFO  LoginController:64 - Name: Testing
+Type: Employee
+Username: testing
+Password: **********
+Email: testtest@gmail.com
+2021-01-10 14:12:32 INFO  LoginController:65 - Employee
+2021-01-10 14:12:32 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/dashboard
+2021-01-10 14:12:32 INFO  DashboardController:43 - testing
+2021-01-10 14:12:32 INFO  DashboardController:47 - Am a Employee
+2021-01-10 14:12:32 INFO  DashboardController:47 - Am a Employee
+2021-01-10 14:12:32 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/api/getUser
+2021-01-10 14:12:32 INFO  DashboardController:140 - Name: Testing
+Type: Employee
+Username: testing
+Password: **********
+Email: testtest@gmail.com
+2021-01-10 14:13:38 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/home
+2021-01-10 14:13:38 INFO  LoginController:55 - getHomePage() Retrieving home page
+2021-01-10 14:13:38 INFO  LoginController:59 - Not logged in
+2021-01-10 14:13:40 INFO  RequestHelper:71 - In Post/ExpReimburse/expr/api/login
+2021-01-10 14:13:40 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/home
+2021-01-10 14:13:40 INFO  LoginController:55 - getHomePage() Retrieving home page
+2021-01-10 14:13:40 INFO  LoginController:34 - Name: Testing
+Type: Employee
+Username: testing
+Password: **********
+Email: testtest@gmail.com
+2021-01-10 14:13:40 INFO  LoginController:64 - Name: Testing
+Type: Employee
+Username: testing
+Password: **********
+Email: testtest@gmail.com
+2021-01-10 14:13:40 INFO  LoginController:65 - Employee
+2021-01-10 14:13:40 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/dashboard
+2021-01-10 14:13:40 INFO  DashboardController:43 - testing
+2021-01-10 14:13:40 INFO  DashboardController:47 - Am a Employee
+2021-01-10 14:13:40 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/home
+2021-01-10 14:13:40 INFO  LoginController:55 - getHomePage() Retrieving home page
+2021-01-10 14:13:40 INFO  LoginController:64 - Name: Testing
+Type: Employee
+Username: testing
+Password: **********
+Email: testtest@gmail.com
+2021-01-10 14:13:40 INFO  LoginController:65 - Employee
+2021-01-10 14:13:40 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/dashboard
+2021-01-10 14:13:40 INFO  DashboardController:43 - testing
+2021-01-10 14:13:40 INFO  DashboardController:47 - Am a Employee
+2021-01-10 14:13:40 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/api/getUser
+2021-01-10 14:13:40 INFO  DashboardController:136 - getUser session
+2021-01-10 14:13:40 INFO  DashboardController:141 - Name: Testing
+Type: Employee
+Username: testing
+Password: **********
+Email: testtest@gmail.com
+2021-01-10 14:14:29 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/api/logout
+2021-01-10 14:14:29 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/
+2021-01-10 14:14:36 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/
+2021-01-10 14:14:37 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/
+2021-01-10 14:14:38 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/
+2021-01-10 14:14:41 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/
+2021-01-10 14:15:16 INFO  RequestHelper:71 - In Post/ExpReimburse/expr
+2021-01-10 14:15:20 INFO  RequestHelper:21 - In Get/ExpReimburse/expr
+2021-01-10 14:15:20 INFO  LoginController:55 - getHomePage() Retrieving home page
+2021-01-10 14:15:20 INFO  LoginController:59 - Not logged in
+2021-01-10 14:15:30 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/
+2021-01-10 14:15:30 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/
+2021-01-10 14:17:35 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/
+2021-01-10 14:17:36 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/
+2021-01-10 14:17:40 INFO  RequestHelper:21 - In Get/ExpReimburse/expr
+2021-01-10 14:17:40 INFO  LoginController:55 - getHomePage() Retrieving home page
+2021-01-10 14:17:40 INFO  LoginController:59 - Not logged in
+2021-01-10 14:17:46 INFO  RequestHelper:71 - In Post/ExpReimburse/expr/api/login
+2021-01-10 14:17:46 INFO  RequestHelper:21 - In Get/ExpReimburse/expr
+2021-01-10 14:17:46 INFO  LoginController:55 - getHomePage() Retrieving home page
+2021-01-10 14:17:46 INFO  LoginController:59 - Not logged in
+2021-01-10 14:17:46 INFO  LoginController:34 - Name: Testing
+Type: Employee
+Username: testing
+Password: **********
+Email: testtest@gmail.com
+2021-01-10 14:17:48 INFO  RequestHelper:71 - In Post/ExpReimburse/expr/api/login
+2021-01-10 14:17:48 INFO  LoginController:34 - Name: Testing
+Type: Employee
+Username: testing
+Password: **********
+Email: testtest@gmail.com
+2021-01-10 14:17:48 INFO  RequestHelper:21 - In Get/ExpReimburse/expr
+2021-01-10 14:17:48 INFO  LoginController:55 - getHomePage() Retrieving home page
+2021-01-10 14:17:48 INFO  LoginController:64 - Name: Testing
+Type: Employee
+Username: testing
+Password: **********
+Email: testtest@gmail.com
+2021-01-10 14:17:48 INFO  LoginController:65 - Employee
+2021-01-10 14:17:48 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/dashboard
+2021-01-10 14:17:48 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/home
+2021-01-10 14:17:48 INFO  LoginController:55 - getHomePage() Retrieving home page
+2021-01-10 14:17:48 INFO  LoginController:64 - Name: Testing
+Type: Employee
+Username: testing
+Password: **********
+Email: testtest@gmail.com
+2021-01-10 14:17:48 INFO  LoginController:65 - Employee
+2021-01-10 14:17:48 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/dashboard
+2021-01-10 14:17:48 INFO  DashboardController:43 - testing
+2021-01-10 14:17:48 INFO  DashboardController:43 - testing
+2021-01-10 14:17:48 INFO  DashboardController:47 - Am a Employee
+2021-01-10 14:17:48 INFO  DashboardController:47 - Am a Employee
+2021-01-10 14:17:48 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/api/getUser
+2021-01-10 14:17:48 INFO  DashboardController:136 - getUser session
+2021-01-10 14:17:48 INFO  DashboardController:141 - Name: Testing
+Type: Employee
+Username: testing
+Password: **********
+Email: testtest@gmail.com
+2021-01-10 14:17:56 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/CreateTicket
+2021-01-10 14:17:56 INFO  DashboardController:83 - Make Ticket
+2021-01-10 14:17:56 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/CreateTicket
+2021-01-10 14:17:56 INFO  DashboardController:83 - Make Ticket
+2021-01-10 14:18:14 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/CreateTicket
+2021-01-10 14:18:14 INFO  DashboardController:83 - Make Ticket
+2021-01-10 14:20:18 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/CreateTicket
+2021-01-10 14:20:18 INFO  DashboardController:83 - Make Ticket
+2021-01-10 14:20:22 INFO  RequestHelper:21 - In Get/ExpReimburse/expr
+2021-01-10 14:20:22 INFO  LoginController:55 - getHomePage() Retrieving home page
+2021-01-10 14:20:22 INFO  LoginController:59 - Not logged in
+2021-01-10 14:20:27 INFO  RequestHelper:71 - In Post/ExpReimburse/expr/api/login
+2021-01-10 14:20:27 INFO  RequestHelper:21 - In Get/ExpReimburse/expr
+2021-01-10 14:20:27 INFO  LoginController:55 - getHomePage() Retrieving home page
+2021-01-10 14:20:27 INFO  LoginController:59 - Not logged in
+2021-01-10 14:20:27 INFO  LoginController:34 - Name: Testing
+Type: Employee
+Username: testing
+Password: **********
+Email: testtest@gmail.com
+2021-01-10 14:20:44 INFO  RequestHelper:71 - In Post/ExpReimburse/expr/api/login
+2021-01-10 14:20:45 INFO  LoginController:34 - Name: Testing
+Type: Employee
+Username: testing
+Password: **********
+Email: testtest@gmail.com
+2021-01-10 14:20:45 INFO  RequestHelper:21 - In Get/ExpReimburse/expr
+2021-01-10 14:20:45 INFO  LoginController:55 - getHomePage() Retrieving home page
+2021-01-10 14:20:45 INFO  LoginController:64 - Name: Testing
+Type: Employee
+Username: testing
+Password: **********
+Email: testtest@gmail.com
+2021-01-10 14:20:45 INFO  LoginController:65 - Employee
+2021-01-10 14:20:45 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/dashboard
+2021-01-10 14:20:45 INFO  DashboardController:43 - testing
+2021-01-10 14:20:45 INFO  DashboardController:47 - Am a Employee
+2021-01-10 14:20:45 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/home
+2021-01-10 14:20:45 INFO  LoginController:55 - getHomePage() Retrieving home page
+2021-01-10 14:20:45 INFO  LoginController:64 - Name: Testing
+Type: Employee
+Username: testing
+Password: **********
+Email: testtest@gmail.com
+2021-01-10 14:20:45 INFO  LoginController:65 - Employee
+2021-01-10 14:20:45 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/dashboard
+2021-01-10 14:20:45 INFO  DashboardController:43 - testing
+2021-01-10 14:20:45 INFO  DashboardController:47 - Am a Employee
+2021-01-10 14:20:45 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/api/getUser
+2021-01-10 14:20:45 INFO  DashboardController:136 - getUser session
+2021-01-10 14:20:45 INFO  DashboardController:141 - Name: Testing
+Type: Employee
+Username: testing
+Password: **********
+Email: testtest@gmail.com
+2021-01-10 14:24:32 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/home
+2021-01-10 14:24:32 INFO  LoginController:55 - getHomePage() Retrieving home page
+2021-01-10 14:24:32 INFO  LoginController:59 - Not logged in
+2021-01-10 14:24:35 INFO  RequestHelper:71 - In Post/ExpReimburse/expr/api/login
+2021-01-10 14:24:35 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/home
+2021-01-10 14:24:35 INFO  LoginController:34 - Name: Testing
+Type: Employee
+Username: testing
+Password: **********
+Email: testtest@gmail.com
+2021-01-10 14:24:35 INFO  LoginController:55 - getHomePage() Retrieving home page
+2021-01-10 14:24:35 INFO  LoginController:64 - Name: Testing
+Type: Employee
+Username: testing
+Password: **********
+Email: testtest@gmail.com
+2021-01-10 14:24:35 INFO  LoginController:65 - Employee
+2021-01-10 14:24:35 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/dashboard
+2021-01-10 14:24:35 INFO  DashboardController:43 - testing
+2021-01-10 14:24:35 INFO  DashboardController:47 - Am a Employee
+2021-01-10 14:24:35 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/home
+2021-01-10 14:24:35 INFO  LoginController:55 - getHomePage() Retrieving home page
+2021-01-10 14:24:35 INFO  LoginController:64 - Name: Testing
+Type: Employee
+Username: testing
+Password: **********
+Email: testtest@gmail.com
+2021-01-10 14:24:35 INFO  LoginController:65 - Employee
+2021-01-10 14:24:35 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/dashboard
+2021-01-10 14:24:35 INFO  DashboardController:43 - testing
+2021-01-10 14:24:35 INFO  DashboardController:47 - Am a Employee
+2021-01-10 14:24:35 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/api/getUser
+2021-01-10 14:24:35 INFO  DashboardController:136 - getUser session
+2021-01-10 14:24:35 INFO  DashboardController:141 - Name: Testing
+Type: Employee
+Username: testing
+Password: **********
+Email: testtest@gmail.com
+2021-01-10 14:28:40 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/api/getUser
+2021-01-10 14:28:40 INFO  DashboardController:135 - Inside getUser()
+2021-01-10 14:28:40 WARN  ExpReimburse:33 - Error 405 Cannot get User Session
+2021-01-10 14:29:30 INFO  RequestHelper:21 - In Get/ExpReimburse/expr
+2021-01-10 14:29:30 INFO  LoginController:55 - getHomePage() Retrieving home page
+2021-01-10 14:29:30 INFO  LoginController:59 - Not logged in
+2021-01-10 14:29:34 INFO  RequestHelper:71 - In Post/ExpReimburse/expr
+2021-01-10 14:29:56 INFO  RequestHelper:71 - In Post/ExpReimburse/expr/api/login
+2021-01-10 14:29:56 INFO  LoginController:34 - Name: Testing
+Type: Employee
+Username: testing
+Password: **********
+Email: testtest@gmail.com
+2021-01-10 14:30:17 INFO  RequestHelper:71 - In Post/ExpReimburse/expr/api/getUser
+2021-01-10 14:30:29 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/api/getUser
+2021-01-10 14:30:29 INFO  DashboardController:135 - Inside getUser()
+2021-01-10 14:30:29 INFO  DashboardController:137 - getUser session
+2021-01-10 14:30:29 INFO  DashboardController:142 - Name: Testing
+Type: Employee
+Username: testing
+Password: **********
+Email: testtest@gmail.com
+2021-01-10 14:31:01 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/home
+2021-01-10 14:31:01 INFO  LoginController:55 - getHomePage() Retrieving home page
+2021-01-10 14:31:01 INFO  LoginController:59 - Not logged in
+2021-01-10 14:31:04 INFO  RequestHelper:71 - In Post/ExpReimburse/expr/api/login
+2021-01-10 14:31:04 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/home
+2021-01-10 14:31:04 INFO  LoginController:55 - getHomePage() Retrieving home page
+2021-01-10 14:31:04 INFO  LoginController:59 - Not logged in
+2021-01-10 14:31:04 INFO  LoginController:34 - Name: Testing
+Type: Employee
+Username: testing
+Password: **********
+Email: testtest@gmail.com
+2021-01-10 14:31:05 INFO  RequestHelper:71 - In Post/ExpReimburse/expr/api/login
+2021-01-10 14:31:05 INFO  LoginController:34 - Name: Testing
+Type: Employee
+Username: testing
+Password: **********
+Email: testtest@gmail.com
+2021-01-10 14:31:05 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/home
+2021-01-10 14:31:05 INFO  LoginController:55 - getHomePage() Retrieving home page
+2021-01-10 14:31:05 INFO  LoginController:64 - Name: Testing
+Type: Employee
+Username: testing
+Password: **********
+Email: testtest@gmail.com
+2021-01-10 14:31:05 INFO  LoginController:65 - Employee
+2021-01-10 14:31:05 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/dashboard
+2021-01-10 14:31:05 INFO  DashboardController:43 - testing
+2021-01-10 14:31:05 INFO  DashboardController:47 - Am a Employee
+2021-01-10 14:31:05 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/home
+2021-01-10 14:31:05 INFO  LoginController:55 - getHomePage() Retrieving home page
+2021-01-10 14:31:05 INFO  LoginController:64 - Name: Testing
+Type: Employee
+Username: testing
+Password: **********
+Email: testtest@gmail.com
+2021-01-10 14:31:05 INFO  LoginController:65 - Employee
+2021-01-10 14:31:05 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/dashboard
+2021-01-10 14:31:05 INFO  DashboardController:43 - testing
+2021-01-10 14:31:05 INFO  DashboardController:47 - Am a Employee
+2021-01-10 14:31:05 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/api/getUser
+2021-01-10 14:31:05 INFO  DashboardController:135 - Inside getUser()
+2021-01-10 14:31:05 INFO  DashboardController:137 - getUser session
+2021-01-10 14:31:05 INFO  DashboardController:142 - Name: Testing
+Type: Employee
+Username: testing
+Password: **********
+Email: testtest@gmail.com
+2021-01-10 14:31:21 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/api/logout
+2021-01-10 14:31:21 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/logout
+2021-01-10 14:31:21 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/app.js
+2021-01-10 14:32:37 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/logout
+2021-01-10 14:32:37 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/app.js
+2021-01-10 14:44:28 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/logout
+2021-01-10 14:44:28 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/app.js
+2021-01-10 14:44:31 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/
+2021-01-10 14:44:34 INFO  RequestHelper:21 - In Get/ExpReimburse/expr
+2021-01-10 14:44:34 INFO  LoginController:55 - getHomePage() Retrieving home page
+2021-01-10 14:44:34 INFO  LoginController:59 - Not logged in
+2021-01-10 14:44:36 INFO  RequestHelper:71 - In Post/ExpReimburse/expr/api/login
+2021-01-10 14:44:36 INFO  RequestHelper:21 - In Get/ExpReimburse/expr
+2021-01-10 14:44:36 INFO  LoginController:55 - getHomePage() Retrieving home page
+2021-01-10 14:44:36 INFO  LoginController:59 - Not logged in
+2021-01-10 14:44:36 INFO  LoginController:34 - Name: Testing
+Type: Employee
+Username: testing
+Password: **********
+Email: testtest@gmail.com
+2021-01-10 14:44:37 INFO  RequestHelper:71 - In Post/ExpReimburse/expr/api/login
+2021-01-10 14:44:37 INFO  LoginController:34 - Name: Testing
+Type: Employee
+Username: testing
+Password: **********
+Email: testtest@gmail.com
+2021-01-10 14:44:37 INFO  RequestHelper:21 - In Get/ExpReimburse/expr
+2021-01-10 14:44:37 INFO  LoginController:55 - getHomePage() Retrieving home page
+2021-01-10 14:44:37 INFO  LoginController:64 - Name: Testing
+Type: Employee
+Username: testing
+Password: **********
+Email: testtest@gmail.com
+2021-01-10 14:44:37 INFO  LoginController:65 - Employee
+2021-01-10 14:44:37 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/dashboard
+2021-01-10 14:44:37 INFO  DashboardController:43 - testing
+2021-01-10 14:44:37 INFO  DashboardController:47 - Am a Employee
+2021-01-10 14:44:37 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/home
+2021-01-10 14:44:37 INFO  LoginController:55 - getHomePage() Retrieving home page
+2021-01-10 14:44:37 INFO  LoginController:64 - Name: Testing
+Type: Employee
+Username: testing
+Password: **********
+Email: testtest@gmail.com
+2021-01-10 14:44:37 INFO  LoginController:65 - Employee
+2021-01-10 14:44:37 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/dashboard
+2021-01-10 14:44:37 INFO  DashboardController:43 - testing
+2021-01-10 14:44:37 INFO  DashboardController:47 - Am a Employee
+2021-01-10 14:44:38 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/api/getUser
+2021-01-10 14:44:38 INFO  DashboardController:135 - Inside getUser()
+2021-01-10 14:44:38 INFO  DashboardController:137 - getUser session
+2021-01-10 14:44:38 INFO  DashboardController:142 - Name: Testing
+Type: Employee
+Username: testing
+Password: **********
+Email: testtest@gmail.com
+2021-01-10 14:47:12 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/home
+2021-01-10 14:47:12 INFO  LoginController:55 - getHomePage() Retrieving home page
+2021-01-10 14:47:12 INFO  LoginController:64 - Name: Testing
+Type: Employee
+Username: testing
+Password: **********
+Email: testtest@gmail.com
+2021-01-10 14:47:12 INFO  LoginController:65 - Employee
+2021-01-10 14:47:12 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/dashboard
+2021-01-10 14:47:12 INFO  DashboardController:43 - testing
+2021-01-10 14:47:12 INFO  DashboardController:47 - Am a Employee
+2021-01-10 14:47:12 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/api/getUser
+2021-01-10 14:47:12 INFO  DashboardController:135 - Inside getUser()
+2021-01-10 14:47:12 INFO  DashboardController:137 - getUser session
+2021-01-10 14:47:12 INFO  DashboardController:142 - Name: Testing
+Type: Employee
+Username: testing
+Password: **********
+Email: testtest@gmail.com
+2021-01-10 14:47:26 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/home
+2021-01-10 14:47:26 INFO  LoginController:55 - getHomePage() Retrieving home page
+2021-01-10 14:47:26 INFO  LoginController:59 - Not logged in
+2021-01-10 14:47:27 INFO  RequestHelper:71 - In Post/ExpReimburse/expr/api/login
+2021-01-10 14:47:27 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/home
+2021-01-10 14:47:27 INFO  LoginController:55 - getHomePage() Retrieving home page
+2021-01-10 14:47:27 INFO  LoginController:59 - Not logged in
+2021-01-10 14:47:27 INFO  LoginController:34 - Name: Testing
+Type: Employee
+Username: testing
+Password: **********
+Email: testtest@gmail.com
+2021-01-10 14:47:28 INFO  RequestHelper:71 - In Post/ExpReimburse/expr/api/login
+2021-01-10 14:47:28 INFO  LoginController:34 - Name: Testing
+Type: Employee
+Username: testing
+Password: **********
+Email: testtest@gmail.com
+2021-01-10 14:47:28 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/home
+2021-01-10 14:47:28 INFO  LoginController:55 - getHomePage() Retrieving home page
+2021-01-10 14:47:28 INFO  LoginController:64 - Name: Testing
+Type: Employee
+Username: testing
+Password: **********
+Email: testtest@gmail.com
+2021-01-10 14:47:28 INFO  LoginController:65 - Employee
+2021-01-10 14:47:28 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/dashboard
+2021-01-10 14:47:28 INFO  DashboardController:43 - testing
+2021-01-10 14:47:28 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/home
+2021-01-10 14:47:28 INFO  LoginController:55 - getHomePage() Retrieving home page
+2021-01-10 14:47:28 INFO  DashboardController:47 - Am a Employee
+2021-01-10 14:47:28 INFO  LoginController:64 - Name: Testing
+Type: Employee
+Username: testing
+Password: **********
+Email: testtest@gmail.com
+2021-01-10 14:47:28 INFO  LoginController:65 - Employee
+2021-01-10 14:47:28 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/dashboard
+2021-01-10 14:47:28 INFO  DashboardController:43 - testing
+2021-01-10 14:47:28 INFO  DashboardController:47 - Am a Employee
+2021-01-10 14:47:29 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/api/getUser
+2021-01-10 14:47:29 INFO  DashboardController:135 - Inside getUser()
+2021-01-10 14:47:29 INFO  DashboardController:137 - getUser session
+2021-01-10 14:47:29 INFO  DashboardController:142 - Name: Testing
+Type: Employee
+Username: testing
+Password: **********
+Email: testtest@gmail.com
+2021-01-10 14:47:37 INFO  RequestHelper:21 - In Get/ExpReimburse/expr
+2021-01-10 14:47:37 INFO  LoginController:55 - getHomePage() Retrieving home page
+2021-01-10 14:47:37 INFO  LoginController:64 - Name: Testing
+Type: Employee
+Username: testing
+Password: **********
+Email: testtest@gmail.com
+2021-01-10 14:47:37 INFO  LoginController:65 - Employee
+2021-01-10 14:47:37 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/dashboard
+2021-01-10 14:47:37 INFO  DashboardController:43 - testing
+2021-01-10 14:47:37 INFO  DashboardController:47 - Am a Employee
+2021-01-10 14:47:37 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/api/getUser
+2021-01-10 14:47:37 INFO  DashboardController:135 - Inside getUser()
+2021-01-10 14:47:37 INFO  DashboardController:137 - getUser session
+2021-01-10 14:47:37 INFO  DashboardController:142 - Name: Testing
+Type: Employee
+Username: testing
+Password: **********
+Email: testtest@gmail.com
+2021-01-10 14:48:08 INFO  RequestHelper:21 - In Get/ExpReimburse/expr
+2021-01-10 14:48:08 INFO  LoginController:55 - getHomePage() Retrieving home page
+2021-01-10 14:48:08 INFO  LoginController:59 - Not logged in
+2021-01-10 14:48:10 INFO  RequestHelper:71 - In Post/ExpReimburse/expr/api/login
+2021-01-10 14:48:10 INFO  RequestHelper:21 - In Get/ExpReimburse/expr
+2021-01-10 14:48:10 INFO  LoginController:55 - getHomePage() Retrieving home page
+2021-01-10 14:48:10 INFO  LoginController:59 - Not logged in
+2021-01-10 14:48:10 INFO  LoginController:34 - Name: Testing
+Type: Employee
+Username: testing
+Password: **********
+Email: testtest@gmail.com
+2021-01-10 14:48:11 INFO  RequestHelper:71 - In Post/ExpReimburse/expr/api/login
+2021-01-10 14:48:11 INFO  LoginController:34 - Name: Testing
+Type: Employee
+Username: testing
+Password: **********
+Email: testtest@gmail.com
+2021-01-10 14:48:11 INFO  RequestHelper:21 - In Get/ExpReimburse/expr
+2021-01-10 14:48:11 INFO  LoginController:55 - getHomePage() Retrieving home page
+2021-01-10 14:48:11 INFO  LoginController:64 - Name: Testing
+Type: Employee
+Username: testing
+Password: **********
+Email: testtest@gmail.com
+2021-01-10 14:48:11 INFO  LoginController:65 - Employee
+2021-01-10 14:48:11 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/dashboard
+2021-01-10 14:48:11 INFO  DashboardController:43 - testing
+2021-01-10 14:48:11 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/home
+2021-01-10 14:48:11 INFO  LoginController:55 - getHomePage() Retrieving home page
+2021-01-10 14:48:11 INFO  DashboardController:47 - Am a Employee
+2021-01-10 14:48:11 INFO  LoginController:64 - Name: Testing
+Type: Employee
+Username: testing
+Password: **********
+Email: testtest@gmail.com
+2021-01-10 14:48:11 INFO  LoginController:65 - Employee
+2021-01-10 14:48:11 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/dashboard
+2021-01-10 14:48:11 INFO  DashboardController:43 - testing
+2021-01-10 14:48:11 INFO  DashboardController:47 - Am a Employee
+2021-01-10 14:48:12 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/api/getUser
+2021-01-10 14:48:12 INFO  DashboardController:135 - Inside getUser()
+2021-01-10 14:48:12 INFO  DashboardController:137 - getUser session
+2021-01-10 14:48:12 INFO  DashboardController:142 - Name: Testing
+Type: Employee
+Username: testing
+Password: **********
+Email: testtest@gmail.com
+2021-01-10 14:48:17 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/CreateTicket
+2021-01-10 14:48:17 INFO  DashboardController:83 - Make Ticket
+2021-01-10 14:48:17 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/CreateTicket
+2021-01-10 14:48:17 INFO  DashboardController:83 - Make Ticket
+2021-01-10 14:48:41 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/CreateTicket
+2021-01-10 14:48:41 INFO  DashboardController:83 - Make Ticket
+2021-01-10 14:50:02 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/
+2021-01-10 15:58:20 INFO  RequestHelper:21 - In Get/ExpReimburse/expr
+2021-01-10 15:58:20 INFO  LoginController:55 - getHomePage() Retrieving home page
+2021-01-10 15:58:20 INFO  LoginController:59 - Not logged in
+2021-01-10 15:58:21 INFO  RequestHelper:71 - In Post/ExpReimburse/expr/api/login
+2021-01-10 15:58:21 INFO  RequestHelper:21 - In Get/ExpReimburse/expr
+2021-01-10 15:58:21 INFO  LoginController:55 - getHomePage() Retrieving home page
+2021-01-10 15:58:21 INFO  LoginController:59 - Not logged in
+2021-01-10 16:02:56 INFO  RequestHelper:71 - In Post/ExpReimburse/expr/api/login
+2021-01-10 16:05:14 INFO  RequestHelper:21 - In Get/ExpReimburse/expr
+2021-01-10 16:05:14 INFO  RequestHelper:71 - In Post/ExpReimburse/expr/api/login
+2021-01-10 16:05:14 INFO  LoginController:55 - getHomePage() Retrieving home page
+2021-01-10 16:05:14 INFO  LoginController:59 - Not logged in
+2021-01-10 16:05:15 INFO  RequestHelper:71 - In Post/ExpReimburse/expr/api/login
+2021-01-10 16:05:15 INFO  RequestHelper:21 - In Get/ExpReimburse/expr
+2021-01-10 16:05:15 INFO  LoginController:55 - getHomePage() Retrieving home page
+2021-01-10 16:05:15 INFO  LoginController:59 - Not logged in
+2021-01-10 16:07:36 INFO  RequestHelper:21 - In Get/ExpReimburse/expr
+2021-01-10 16:07:36 INFO  RequestHelper:71 - In Post/ExpReimburse/expr/api/login
+2021-01-10 16:07:36 INFO  LoginController:55 - getHomePage() Retrieving home page
+2021-01-10 16:07:36 INFO  LoginController:59 - Not logged in
+2021-01-10 16:09:01 INFO  RequestHelper:21 - In Get/ExpReimburse/expr
+2021-01-10 16:09:01 INFO  LoginController:55 - getHomePage() Retrieving home page
+2021-01-10 16:09:01 INFO  LoginController:59 - Not logged in
+2021-01-10 16:09:27 INFO  RequestHelper:71 - In Post/ExpReimburse/expr/api/login
+2021-01-10 16:09:27 INFO  RequestHelper:21 - In Get/ExpReimburse/expr
+2021-01-10 16:09:27 INFO  LoginController:55 - getHomePage() Retrieving home page
+2021-01-10 16:09:27 INFO  LoginController:59 - Not logged in
+2021-01-10 16:09:42 INFO  RequestHelper:71 - In Post/ExpReimburse/expr/api/login
+2021-01-10 16:09:42 INFO  RequestHelper:21 - In Get/ExpReimburse/expr
+2021-01-10 16:09:42 INFO  LoginController:55 - getHomePage() Retrieving home page
+2021-01-10 16:09:42 INFO  LoginController:59 - Not logged in
+2021-01-10 16:18:06 INFO  RequestHelper:21 - In Get/ExpReimburse/expr
+2021-01-10 16:18:06 INFO  RequestHelper:71 - In Post/ExpReimburse/expr/api/login
+2021-01-10 16:18:06 INFO  LoginController:55 - getHomePage() Retrieving home page
+2021-01-10 16:18:06 INFO  LoginController:59 - Not logged in
+2021-01-10 16:18:21 INFO  RequestHelper:71 - In Post/ExpReimburse/expr/api/login
+2021-01-10 16:21:29 INFO  RequestHelper:71 - In Post/ExpReimburse/expr/api/login
+2021-01-10 16:24:01 INFO  RequestHelper:71 - In Post/ExpReimburse/expr/api/login
+2021-01-10 16:26:03 INFO  RequestHelper:71 - In Post/ExpReimburse/expr/api/login
+2021-01-10 16:26:03 WARN  LoginController:30 - No data, drop
+2021-01-10 16:26:06 INFO  RequestHelper:71 - In Post/ExpReimburse/expr/api/login
+2021-01-10 16:26:06 WARN  LoginController:30 - No data, drop
+2021-01-10 16:26:20 INFO  RequestHelper:71 - In Post/ExpReimburse/expr/api/login
+2021-01-10 16:26:20 WARN  LoginController:30 - No data, drop
+2021-01-10 16:26:20 INFO  RequestHelper:21 - In Get/ExpReimburse/expr
+2021-01-10 16:26:20 INFO  LoginController:61 - getHomePage() Retrieving home page
+2021-01-10 16:26:20 INFO  LoginController:65 - Not logged in
+2021-01-10 16:26:28 INFO  RequestHelper:71 - In Post/ExpReimburse/expr/api/login
+2021-01-10 16:26:28 WARN  LoginController:30 - No data, drop
+2021-01-10 16:26:28 INFO  RequestHelper:21 - In Get/ExpReimburse/expr
+2021-01-10 16:26:28 INFO  LoginController:61 - getHomePage() Retrieving home page
+2021-01-10 16:26:28 INFO  LoginController:65 - Not logged in

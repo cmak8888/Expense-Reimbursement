@@ -9,7 +9,9 @@ import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
 
 import org.apache.log4j.Logger;
+import org.json.JSONObject;
 
+import com.fasterxml.jackson.databind.ObjectMapper;
 import com.revature.models.User;
 import com.revature.services.UserService;
 
@@ -23,23 +25,31 @@ public class LoginController {
 		if(req.getMethod().equals("POST")) {
 			
 			//Grab information via a form 
-			//if(UserService.verifyUser(req.getParameter("username"), req.getParameter("password"))) {
+			ObjectMapper om = new ObjectMapper();
+			
+			if(req.getParameter("username") == null || req.getParameter("password") == null) {
+				log.warn("No data, drop");
+				return;
+			}
+			if(UserService.verifyUser(req.getParameter("username"), req.getParameter("password"))) {
 				System.out.println("adding username now!");
 				//if username matches the masterUsere we will define a session 
 					HttpSession sesh = req.getSession();
 					sesh.setAttribute("MasterAccess", true);
-					//sesh.setAttribute("User", UserService.getUser(req.getParameter("username")));
-					sesh.setAttribute("User", UserService.masterUser);
+					sesh.setAttribute("User", UserService.getUser(req.getParameter("username")));
+//					sesh.setAttribute("User", UserService.masterUser);
 					log.info(sesh.getAttribute("User").toString());
 					
 					//we will redirect to the homecontroller research http session to redirect to either dashboard!
-					resp.sendRedirect("http://localhost:8080/ExpReimburse/expr/home");
+					JSONObject jObc = new JSONObject();
+					jObc.put("url", "http://localhost:8080/ExpReimburse/expr/home");
+					resp.getWriter().write(jObc.toString());
 					return;
-//			}else {
-//				resp.setStatus(403);
-//				resp.sendRedirect("http://localhost:8080/ExpReimburse/404");
-//			}
-//			
+			}else {
+				resp.setStatus(403);
+				resp.sendRedirect("http://localhost:8080/ExpReimburse/404");
+			}
+			
 		}else {
 			resp.setStatus(405);
 			log.warn("Error 405");
