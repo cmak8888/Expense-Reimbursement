@@ -4,10 +4,11 @@
     <meta charset="ISO-8859-1">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="/ExpReimburse/css/form.css" type="text/css" />
-    <link rel="stylesheet" href="css/dashboard.css" type="text/css" />
+    <link rel="stylesheet" href="/ExpReimburse/css/dashboard.css" type="text/css" />
     <title>Show Ticket</title>
 </head>
 <body>
+  <div class="grid">
     <header class="header">
         <i class="fas fa-bars header__menu"></i>
         <div class="header__search">
@@ -28,6 +29,7 @@
           </div>
         </div>
       </header>
+      <main class="main">
     <div class="container">
       <div class="row" id="buttons"></div>
       <div class="row">
@@ -47,6 +49,11 @@
         <div id="amount" class="col-75"></div>
     </div>
     </div>
+  </main>
+  <footer class="footer">
+    <p><span class="footer__copyright">&copy;</span> 2021 Revature</p>
+  </footer>
+</div>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="/ExpReimburse/js/viewTicket.js"></script>
 </body>

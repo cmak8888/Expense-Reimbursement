@@ -8,6 +8,7 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
 import com.revature.controllers.RequestHelper;
+import com.revature.exceptions.Exception403;
 import com.revature.exceptions.Exception404;
 import com.revature.exceptions.Exception405;
 
@@ -34,7 +35,7 @@ public class MasterServlet extends HttpServlet {
 		
 		try {
 			RequestHelper.processGet(request, response);
-		} catch (Exception405 e) {
+		} catch (Exception405 | Exception403 | Exception404 e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}

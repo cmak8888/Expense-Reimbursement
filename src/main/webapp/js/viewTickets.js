@@ -8,27 +8,44 @@ let filter = {
   ticket_type: "all"
     
 }
+let usertype = null;
 let ticket_table = document.querySelector('#ticketList');
 window.onload = function(){
     getTickets();
+    getUserType();
 }
 
 function DOMManipulation(data) {
   ticket_table.innerHTML = "";
   for(let i = 0; i < data.length; i++){
+    let approval = "";
+    if (data[i].approved) {
+      approval = "Approved";
+    } else {
+      approval = "Rejected";
+    }
     let tr = document.createElement("tr"); 
     tr.innerHTML =`
         <td>${data[i].name}</td>
         <td>${data[i].title}</th>
         <td>${data[i].ticketType}</td>
-        <td>${data[i].approved}</td>
+        <td id="approval">${approval}</td>
         <td>$${data[i].amount}</td>
-        <td>${data[i].timeStamp}</td>
-        <td><input type="button" value="View" onclick="viewTicket(${data[i].ticket_id})"/></td>
-    `;
+        <td>${data[i].timeStamp}</td>`;
+    if(usertype === "Manager") {
+      tr.innerHTML = tr.innerHTML + `<td><img src="/ExpReimburse/images/check.jpg" height="50px" width="50px" onclick="approveTicket(${data[i].id})"/><img src="/ExpReimburse/images/x.png" height="50px" width="50px" onclick="rejectTicket(${data[i].id})"/></td>`;
+      }
     // tr.onclick = viewTicket(data[i].ticketid);
     ticket_table.appendChild(tr); 
+    // document.location.reload();
 }
+}
+
+function DomManipulation2(data) {
+  usertype = data.usertype;
+  if(usertype === "Employee") {
+    document.getElementById("approvesection").style.display="none";
+  }
 }
 
 function viewTicket(id) {
@@ -45,6 +62,49 @@ function viewTicket(id) {
   let viewTicketURL = "http://localhost:8080/ExpReimburse/expr/ViewTicket";
   //let loginURL = endPoints[postLogin];
   xhttp.open("GET", viewTicketURL + "?ticketid=" + id);
+  xhttp.send();
+}
+
+function approveTicket(id) {
+  let xhttp = new XMLHttpRequest();
+  xhttp.onreadystatechange = function() {
+    if(xhttp.readyState == 4 && xhttp.status == 200){
+        // document.location.reload();
+        console.log("Success");
+        alert("Successfully Approved.");
+        document.location.reload();
+    } else {
+        console.log("error");
+    }
+  }
+  let approveURL = "http://localhost:8080/ExpReimburse/expr/api/accept";
+  // let logoutURL = endPoints[getLogout];
+
+  xhttp.open("PUT", approveURL + "?ticketid=" + id);
+  xhttp.send();
+}
+
+function getUserType() {
+  fetch("http://localhost:8080/ExpReimburse/expr/api/getUserType")
+   .then(resp => resp.json()).then(data => DomManipulation2(data)).catch(alert)
+}
+
+function rejectTicket(id) {
+  let xhttp = new XMLHttpRequest();
+  xhttp.onreadystatechange = function() {
+    if(xhttp.readyState == 4 && xhttp.status == 200){
+        // document.location.reload();
+        console.log("Success");
+        alert("Successfully Rejected.");
+        document.location.reload();
+    } else {
+        console.log("error");
+    }
+  }
+  let approveURL = "http://localhost:8080/ExpReimburse/expr/api/reject";
+  // let logoutURL = endPoints[getLogout];
+
+  xhttp.open("PUT", approveURL + "?ticketid=" + id);
   xhttp.send();
 }
 
@@ -81,51 +141,54 @@ function rejectedTickets() {
 
 function filterList() {
   let data = []
-  if(filter.approved) {
-    for(let i = 0; i < tickets.length; i++) {
-      if(tickets[i].approved === true) {
-        data.push(tickets[i]);
-      }
-    }
-  } else if(filter.rejected) {
-    if(tickets[i].approved === false) {
-      data.push(tickets[i]);
-    }
-  } else if(!filter.approved && !filter.rejected && ticket_type === "all") {
-    data = tickets;
-  }
+  let data2 = []
   switch(filter.ticket_type) {
     case("Lodging"):
     for(let i = 0; i < tickets.length; i++) {
       if(tickets[i].ticketType === "LODGING") {
-        data.push(tickets[i]);
+        data2.push(tickets[i]);
       }
     }
       break;
       case("Travel"):
     for(let i = 0; i < tickets.length; i++) {
       if(tickets[i].ticketType === "TRAVEL") {
-        data.push(tickets[i]);
+        data2.push(tickets[i]);
       }
     }
       break;
       case("Food"):
     for(let i = 0; i < tickets.length; i++) {
       if(tickets[i].ticketType === "FOOD") {
-        data.push(tickets[i]);
+        data2.push(tickets[i]);
       }
     }
       break;
       case("Other"):
     for(let i = 0; i < tickets.length; i++) {
       if(tickets[i].ticketType === "OTHER") {
-        data.push(tickets[i]);
+        data2.push(tickets[i]);
       }
     }
       break;
     default:
-      data = tickets;
+     data2 = tickets;
   }
+  if(filter.approved && filter.rejected) {
+    data = data2;
+  } else if(filter.approved) {
+    for(let i = 0; i < data2.length; i++) {
+      if(data2[i].approved == true) {
+        data.push(tickets[i]);
+      }
+    }
+  } else if(filter.rejected) {
+    for(let i = 0; i < data2.length; i++) {
+      if(data2[i].approved == false) {
+        data.push(tickets[i]);
+      }
+   }
+  } 
   DOMManipulation(data);
 }
 

@@ -17,6 +17,7 @@ import org.springframework.mail.MailException;
 
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
+import com.revature.exceptions.Exception403;
 import com.revature.exceptions.Exception405;
 import com.revature.models.Ticket;
 import com.revature.models.User;
@@ -38,7 +39,7 @@ public class DashboardController {
 	
 	public static void getDashboardPage(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {JSONObject username = new JSONObject();
 		HttpSession sesh = req.getSession();
-		if(sesh.getAttribute("User") == null) {
+		if(sesh == null) {
 			resp.setStatus(405);
 			resp.sendRedirect("http://localhost:8080/ExpReimburse/expr");
 			return;
@@ -68,20 +69,35 @@ public class DashboardController {
 	
 	public static void viewTicketPage(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
 		HttpSession sesh = req.getSession();
-		if(sesh.getAttribute("User") == null) {
+		if(sesh == null) {
+			
 			resp.sendRedirect("http://localhost:8080/ExpReimburse/expr");
 			return;
+		}
+		if(req.getParameter("ticketid") != null) {
+			sesh.setAttribute("ticketid", req.getParameter("ticketid"));
+			log.info(req.getParameter("ticketid"));
 		}
 		RequestDispatcher redis = req.getRequestDispatcher("/ShowTicket.html");
 		redis.forward(req, resp);
 	}
 	
 	public static void viewTicketsPage(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+		HttpSession sesh = req.getSession();
+		if(sesh == null) {
+			resp.sendRedirect("http://localhost:8080/ExpReimburse/expr");
+			return;
+		}
 		RequestDispatcher redis = req.getRequestDispatcher("/ViewTickets.html");
 		redis.forward(req, resp);
 	}
 	
 	public static void submitTicketPage(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+		HttpSession sesh = req.getSession();
+		if(sesh == null) {
+			resp.sendRedirect("http://localhost:8080/ExpReimburse/expr");
+			return;
+		}
 		log.info("Make Ticket");
 		RequestDispatcher redis = req.getRequestDispatcher("/TicketForm.html");
 		redis.forward(req, resp);
@@ -94,16 +110,16 @@ public class DashboardController {
 			if(req.getMethod().equals("GET")) {
 				HttpSession sesh = req.getSession();
 				if(sesh.getAttribute("ticketid") != null ) {
-					JSONObject jTicket = new JSONObject(); 
 					Ticket ticket = null; 
 					resp.setContentType("application/json"); 
 					ticket = TicketService.getTicket((int)sesh.getAttribute("ticketid"));
-					jTicket = new JSONObject(ticket);
-					
-					resp.getWriter().write(jTicket.toString());
+					log.info(ticket.toString());
+					ObjectMapper om = new ObjectMapper();
+					resp.getWriter().write(om.writeValueAsString(ticket));
 				} else if(sesh.getAttribute("ticket") != null ) {
 					Ticket ticket = (Ticket)sesh.getAttribute("ticket"); 
 					ObjectMapper om = new ObjectMapper();
+					log.info(ticket.toString());
 					resp.getWriter().write(om.writeValueAsString(ticket));
 				} else {
 					resp.setStatus(405);
@@ -134,7 +150,7 @@ public class DashboardController {
 			
 			ObjectMapper om = new ObjectMapper();
 			tickets = TicketService.getTicketByUser(((User) sesh.getAttribute("User")).getId());
-			log.info(tickets.toString());		
+//			log.info(tickets.toString());		
 			
 			resp.getWriter().write(om.writeValueAsString(tickets));
 		} else if(((User) sesh.getAttribute("User")).getUserType().equals("Manager")) {
@@ -153,7 +169,7 @@ public class DashboardController {
 		}
 	}
 	
-	public static void getUser(HttpServletRequest req, HttpServletResponse resp) throws IOException, Exception405 {
+	public static void getUser(HttpServletRequest req, HttpServletResponse resp) throws IOException, Exception405, Exception403 {
 		log.info("Inside getUser()");
 		if(req.getSession(false) != null) {
 			log.info("getUser session");
@@ -167,11 +183,11 @@ public class DashboardController {
 				resp.getWriter().write(userObject.toString());
 			} else {
 				resp.setStatus(403);
-				throw new Exception405(resp, "Cannot get User");
+				throw new Exception403(resp, "Cannot get User");
 			}
 		} else {
 			resp.setStatus(403);
-			throw new Exception405(resp, "Cannot get User Session");
+			throw new Exception403(resp, "Cannot get User Session");
 		}
 	}
 	
@@ -281,10 +297,12 @@ public class DashboardController {
 	public static void acceptTicket(HttpServletRequest req, HttpServletResponse resp) {
 		if(req.getSession(false) != null) {
 			HttpSession sesh = req.getSession();
-			if(sesh.getAttribute("ticketid") != null) {
-				TicketService.acceptTicket((int) (sesh.getAttribute("ticketid")));
-				postEmail(TicketService.getUserWithTicketId(Integer.parseInt(req.getParameter("id"))), "Your ticket " + req.getParameter("id") + " has been approved.");
+			if(sesh.getAttribute("ticketid") != null || req.getParameter("ticketid") != null) {
+				log.info("ticketid" + req.getParameter("ticketid"));
+				TicketService.acceptTicket(Integer.parseInt(req.getParameter("ticketid")));
+//				postEmail(TicketService.getUserWithTicketId(Integer.parseInt(req.getParameter("ticketid"))), "Your ticket " + req.getParameter("ticketid") + " has been approved.");
 			} else {
+				log.warn("403");
 				resp.setStatus(403);
 			}
 		}
@@ -294,9 +312,10 @@ public class DashboardController {
 	public static void rejectTicket(HttpServletRequest req, HttpServletResponse resp) {
 		if(req.getSession(false) != null) {
 			HttpSession sesh = req.getSession();
-			if(sesh.getAttribute("ticketid") != null) {
-				TicketService.rejectTicket((int) (sesh.getAttribute("ticketid")));
-				postEmail(TicketService.getUserWithTicketId(Integer.parseInt(req.getParameter("id"))), "Your ticket " + req.getParameter("id") + " has been rejected.");
+			if(sesh.getAttribute("ticketid") != null || req.getParameter("ticketid") != null) {
+				log.info("ticketid" + req.getParameter("ticketid"));
+				TicketService.rejectTicket(Integer.parseInt(req.getParameter("ticketid")));
+//				postEmail(TicketService.getUserWithTicketId(Integer.parseInt(req.getParameter("ticketid"))), "Your ticket " + req.getParameter("ticketid") + " has been rejected.");
 			} else {
 				resp.setStatus(403);
 			}

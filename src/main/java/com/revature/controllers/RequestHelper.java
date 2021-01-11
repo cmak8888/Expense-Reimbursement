@@ -9,6 +9,8 @@ import javax.servlet.http.HttpServletResponse;
 
 import org.apache.log4j.Logger;
 
+import com.revature.exceptions.Exception403;
+import com.revature.exceptions.Exception404;
 import com.revature.exceptions.Exception405;
 
 
@@ -16,7 +18,7 @@ public class RequestHelper {
     public final static Logger log = Logger.getLogger(RequestHelper.class);
     
 	public static void processGet(HttpServletRequest req, HttpServletResponse resp)
-			throws ServletException, IOException, Exception405 {
+			throws ServletException, IOException, Exception405, Exception403, Exception404 {
 		String endpoint = req.getRequestURI();
 		log.info("In Get" + endpoint);
 		switch(endpoint) {

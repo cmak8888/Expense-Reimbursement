@@ -15,10 +15,6 @@
         <div class="header__avatar">
           <div class="dropdown">
             <ul class="dropdown__list">
-              <li class="dropdown__list-item">
-                <span class="dropdown__icon"><i class="far fa-user"></i></span>
-                <span class="dropdown__title">my profile</span>
-              </li>
               <li id="logOutSubmit" class="dropdown__list-item">
                 <span class="dropdown__icon"><i class="fas fa-sign-out-alt"></i></span>
                 <span class="dropdown__title">log out</span>
@@ -27,7 +23,6 @@
           </div>
         </div>
       </header>
-    <main>
         <div class="container">
           <div class="row row-1">
             <div class="col">
@@ -35,7 +30,7 @@
                     <div class="card-body">
                     <h5 class="card-title">TicketList</h5>
                     <h5>Filter options</h5>
-                    <input type="checkbox" name="approved" id="approved" onclick="approvedTickets()"/>Approved <input type="checkbox" name="rejected" id="rejected" onclick="rejectedTickets()"/> Rejected
+                    <input type="checkbox" name="approved" id="approved" onclick="approvedTickets()" checked/> Approved <input type="checkbox" name="rejected" id="rejected" onclick="rejectedTickets()" checked/> Rejected
                     <select id="ticket_type" name="ticket_type" onchange="changetickettype()">
                       <option value="all">All</option>
                       <option value="Lodging">Lodging</option>
@@ -44,26 +39,25 @@
                       <option value="Other">Other</option>
                     </select>
                     <table id="respTable">
-                    <thead>
-                      <tr>
-                        <th>Name</th>
-                        <th>Title</th>
-                        <th>Ticket Type</th>
-                        <th>Approved</th>
-                        <th>Amount</th>
-                        <th>Date Created</th>
-                        <th>View</th>
-                      </tr>
-                    </thead>
-                    <tbody id="ticketList">
-                    </tbody>
+                      <thead>
+                        <tr>
+                          <th>Name</th>
+                          <th>Title</th>
+                          <th>Ticket Type</th>
+                          <th>Approved</th>
+                          <th>Amount</th>
+                          <th>Date Created</th>
+                          <th id="approvesection">Approve</th>
+                        </tr>
+                      </thead>
+                      <tbody id="ticketList">
+                      </tbody>
                      </table>
-                     </div>
+                    </div>
                   </div>
                 </div>
               </div>
         </div>
-      </main>
       <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
       <script src="/ExpReimburse/js/ViewTickets.js"></script>
       <script src="/ExpReimburse/js/dashboardJQuery.js"></script>
