@@ -32,6 +32,8 @@ function logout() {
 function login() {
     console.log("Login");
     let xhttp = new XMLHttpRequest();
+    
+    
     xhttp.onreadystatechange = function() {
         if(xhttp.readyState == 4 && xhttp.status == 200){
             data = JSON.parse(xhttp.responseText);
@@ -43,17 +45,20 @@ function login() {
     }
     let loginURL = "http://localhost:8080/ExpReimburse/expr/api/login";
     //let loginURL = endPoints[postLogin];
-    xhttp.open("POST", loginURL);
-    xhttp.setRequestHeader("Content-type", "application/json");
-    let data = {
-        'username': document.getElementById("username").value,
-        'password': document.getElementById("password").value
+    // xhttp.setRequestHeader("Content-type", "application/json");
+    console.log(document.getElementById("username").value);
+    console.log(document.getElementById("pass").value);
+    let data2 = {
+        username: document.getElementById("username").value,
+        password: document.getElementById("pass").value
     }
-    if(!data.username || !data.password) {
+    if(!data2.username || !data2.password) {
         console.log("no input");
         return
     }
-    xhttp.send(JSON.stringify(data));
+    console.log(data2.username);
+    xhttp.open("POST", loginURL);
+    xhttp.send(JSON.stringify(data2));
 }
 
 // function getEndPoints() {

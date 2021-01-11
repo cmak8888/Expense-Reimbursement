@@ -38,13 +38,13 @@ public class UserHandler implements UserDao {
 	public User getUser(int id) {
 		// TODO Auto-generated method stub
 		User user = null;
-		String sql = "SELECT user_id, concat_ws(' ', first_name, last_name) as name, username, password, user_type, email from exp_users WHERE user_id = ?;";
+		String sql = "SELECT user_id, concat_ws(' ', first_name, last_name) as name, username, password, user_type, email, timestamp from exp_users WHERE user_id = ?;";
 		try(Connection conn = Connector.getConnection()) {
 			PreparedStatement ps = conn.prepareStatement(sql);
 			ps.setInt(1, id);
 			ResultSet rs = ps.executeQuery();
 			if(rs.next()) {
-				user = new User(rs.getInt("user_id"), rs.getString("name"), rs.getString("username"), rs.getString("password"), rs.getString("user_type"), rs.getString("email"), rs.getString("timestamp"));
+				user = new User(rs.getInt("user_id"), rs.getString("name"), rs.getString("user_type"), rs.getString("username"), rs.getString("password"),  rs.getString("email"), rs.getString("timestamp"));
 			}
 		} catch(SQLException e) {
 			e.printStackTrace();
@@ -56,13 +56,13 @@ public class UserHandler implements UserDao {
 	public User getUser(String username) {
 		// TODO Auto-generated method stub
 		User user = null;
-		String sql = "SELECT user_id, concat_ws(' ', first_name, last_name) as name, username, password, user_type, email from exp_users WHERE username = ?;";
+		String sql = "SELECT user_id, concat_ws(' ', first_name, last_name) as name, username, password, user_type, email, timestamp from exp_users WHERE username = ?;";
 		try(Connection conn = Connector.getConnection()) {
 			PreparedStatement ps = conn.prepareStatement(sql);
 			ps.setString(1, username);
 			ResultSet rs = ps.executeQuery();
 			if(rs.next()) {
-				user = new User(rs.getInt("user_id"), rs.getString("name"), rs.getString("username"), rs.getString("password"), rs.getString("user_type"), rs.getString("email"), rs.getString("timestamp"));
+				user = new User(rs.getInt("user_id"), rs.getString("name"), rs.getString("user_type"), rs.getString("username"), rs.getString("password"), rs.getString("email"), rs.getString("timestamp"));
 			}
 		} catch(SQLException e) {
 			e.printStackTrace();
@@ -79,7 +79,7 @@ public class UserHandler implements UserDao {
 			Statement s = conn.createStatement();
 			ResultSet rs = s.executeQuery(sql);
 			while(rs.next()) {
-				users.add(new User(rs.getInt("user_id"), rs.getString("name"), rs.getString("username"), rs.getString("password"), rs.getString("user_type"), rs.getString("email"), rs.getString("timestamp")));
+				users.add(new User(rs.getInt("user_id"), rs.getString("name"), rs.getString("user_type"), rs.getString("username"), rs.getString("password"), rs.getString("email"), rs.getString("timestamp")));
 			}
 		} catch(SQLException e) {
 			e.printStackTrace();
@@ -90,7 +90,7 @@ public class UserHandler implements UserDao {
 	@Override
 	public boolean verifyUser(String username, String password) {
 		// TODO Auto-generated method stub
-		String sql = "select * from exp_users where 'username' = ? and 'password' = ?;";
+		String sql = "select * from exp_users where username = ? and password = ?;";
 		try(Connection conn = Connector.getConnection()) {
 			PreparedStatement cs = conn.prepareStatement(sql);
 			cs.setString(1, username);

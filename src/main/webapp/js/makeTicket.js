@@ -1,6 +1,6 @@
 window.onload = function() {
     document.getElementById("submitTicket").addEventListener('click', submitTicket);
-    document.getElemendById("logOutSubmit").addEventListener('click', logout);
+    document.getElementById("logOutSubmit").addEventListener('click', logout);
     document.getElementById("home").addEventListener('click', goHome);
 }
 

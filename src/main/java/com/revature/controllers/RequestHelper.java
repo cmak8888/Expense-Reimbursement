@@ -60,7 +60,8 @@ public class RequestHelper {
 			SpecialController.getEndpoints(req,resp);
 			break;
 		default:
-			PageNotFound.error(req,resp);
+			resp.setStatus(404);
+			resp.sendRedirect("http://localhost:8080/ExpReimburse/expr/home");			
 		}
 	}
 	
@@ -86,7 +87,8 @@ public class RequestHelper {
 			DashboardController.sendEmailWithAttachment(req,resp);
 			break;			
 		default:
-			PageNotFound.error(req,resp);
+			resp.setStatus(404);
+			resp.sendRedirect("http://localhost:8080/ExpReimburse/expr/home");
 		}
 	}
 	
@@ -103,7 +105,8 @@ public class RequestHelper {
 			break;
 			
 		default:
-			PageNotFound.error(req,resp);
+			resp.setStatus(404);
+			resp.sendRedirect("http://localhost:8080/ExpReimburse/expr/home");
 		}
 	}
 	
@@ -125,6 +128,7 @@ public class RequestHelper {
 			DashboardController.removeAllTickets(req,resp);
 			break;
 		default: 
+			resp.setStatus(404);
 		}
 	}
 }

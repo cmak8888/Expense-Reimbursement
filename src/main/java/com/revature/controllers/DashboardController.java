@@ -37,6 +37,7 @@ public class DashboardController {
 	public static void getDashboardPage(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {JSONObject username = new JSONObject();
 		HttpSession sesh = req.getSession();
 		if(sesh.getAttribute("User") == null) {
+			resp.setStatus(405);
 			resp.sendRedirect("http://localhost:8080/ExpReimburse/expr");
 			return;
 		}
@@ -56,7 +57,7 @@ public class DashboardController {
 		} else {
 			log.warn("Invalid user type");
 			resp.sendRedirect("http://localhost:8080/ExpReimburse/expr/404");
-			resp.setStatus(404);
+			resp.setStatus(405);
 			return;
 		}
 		

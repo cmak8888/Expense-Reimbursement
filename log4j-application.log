@@ -2606,3 +2606,1684 @@ Email: testtest@gmail.com
 2021-01-10 16:26:28 INFO  RequestHelper:21 - In Get/ExpReimburse/expr
 2021-01-10 16:26:28 INFO  LoginController:61 - getHomePage() Retrieving home page
 2021-01-10 16:26:28 INFO  LoginController:65 - Not logged in
+2021-01-10 16:41:06 INFO  RequestHelper:71 - In Post/ExpReimburse/expr/api/login
+2021-01-10 16:42:00 INFO  RequestHelper:71 - In Post/ExpReimburse/expr/api/login
+2021-01-10 16:43:06 INFO  RequestHelper:71 - In Post/ExpReimburse/expr/api/login
+2021-01-10 16:43:55 INFO  RequestHelper:71 - In Post/ExpReimburse/expr/api/login
+2021-01-10 16:44:18 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/api/login
+2021-01-10 16:46:12 INFO  RequestHelper:71 - In Post/ExpReimburse/expr/api/login
+2021-01-10 16:46:35 INFO  RequestHelper:71 - In Post/ExpReimburse/expr/api/login
+2021-01-10 16:46:53 INFO  RequestHelper:71 - In Post/ExpReimburse/expr/api/login
+2021-01-10 16:49:55 INFO  RequestHelper:71 - In Post/ExpReimburse/expr/api/login
+2021-01-10 16:49:55 INFO  LoginController:30 - {}
+2021-01-10 16:50:45 INFO  RequestHelper:71 - In Post/ExpReimburse/expr/api/login
+2021-01-10 16:50:45 INFO  LoginController:30 - {}
+2021-01-10 16:51:21 INFO  RequestHelper:71 - In Post/ExpReimburse/expr/api/login
+2021-01-10 16:51:21 INFO  LoginController:30 - org.apache.catalina.connector.CoyoteReader@5f0ee76c
+2021-01-10 16:51:21 INFO  LoginController:31 - {}
+2021-01-10 16:57:47 INFO  RequestHelper:21 - In Get/ExpReimburse/expr
+2021-01-10 16:57:47 INFO  LoginController:67 - getHomePage() Retrieving home page
+2021-01-10 16:57:47 INFO  LoginController:71 - Not logged in
+2021-01-10 16:58:03 INFO  RequestHelper:72 - In Post/ExpReimburse/expr/api/login
+2021-01-10 16:59:34 INFO  RequestHelper:72 - In Post/ExpReimburse/expr/api/login
+2021-01-10 17:08:05 INFO  RequestHelper:72 - In Post/ExpReimburse/expr/api/login
+2021-01-10 17:08:05 INFO  RequestHelper:21 - In Get/ExpReimburse/expr
+2021-01-10 17:08:05 INFO  LoginController:65 - getHomePage() Retrieving home page
+2021-01-10 17:08:05 WARN  LoginController:34 - No data, drop
+2021-01-10 17:08:05 INFO  LoginController:69 - Not logged in
+2021-01-10 17:09:20 INFO  RequestHelper:72 - In Post/ExpReimburse/expr/api/login
+2021-01-10 17:09:20 WARN  LoginController:34 - No data, drop
+2021-01-10 17:09:39 INFO  RequestHelper:72 - In Post/ExpReimburse/expr/api/login
+2021-01-10 17:10:30 INFO  RequestHelper:72 - In Post/ExpReimburse/expr/api/login
+2021-01-10 17:11:40 INFO  RequestHelper:72 - In Post/ExpReimburse/expr/api/login
+2021-01-10 17:12:25 INFO  RequestHelper:72 - In Post/ExpReimburse/expr/api/login
+2021-01-10 17:12:25 WARN  LoginController:34 - No data, drop
+2021-01-10 17:14:55 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/api/getUser
+2021-01-10 17:14:55 INFO  DashboardController:139 - Inside getUser()
+2021-01-10 17:14:55 WARN  ExpReimburse:33 - Error 405 Cannot get User Session
+2021-01-10 17:14:59 INFO  RequestHelper:72 - In Post/ExpReimburse/expr/api/login
+2021-01-10 17:19:15 INFO  RequestHelper:72 - In Post/ExpReimburse/expr/api/login
+2021-01-10 17:19:32 INFO  RequestHelper:72 - In Post/ExpReimburse/expr/api/login
+2021-01-10 17:19:46 INFO  RequestHelper:72 - In Post/ExpReimburse/expr/api/login
+2021-01-10 17:20:02 INFO  RequestHelper:72 - In Post/ExpReimburse/expr/api/login
+2021-01-10 17:20:02 WARN  LoginController:34 - No data, drop
+2021-01-10 17:20:02 INFO  RequestHelper:21 - In Get/ExpReimburse/expr
+2021-01-10 17:20:02 INFO  LoginController:65 - getHomePage() Retrieving home page
+2021-01-10 17:20:02 INFO  LoginController:69 - Not logged in
+2021-01-10 17:25:57 INFO  RequestHelper:72 - In Post/ExpReimburse/expr/api/login
+2021-01-10 17:25:57 INFO  LoginController:30 - jsmith
+2021-01-10 17:26:30 INFO  RequestHelper:72 - In Post/ExpReimburse/expr/api/login
+2021-01-10 17:26:30 INFO  LoginController:30 - 
+2021-01-10 17:26:30 WARN  LoginController:34 - No data, drop
+2021-01-10 17:26:30 INFO  RequestHelper:21 - In Get/ExpReimburse/expr
+2021-01-10 17:26:30 INFO  LoginController:65 - getHomePage() Retrieving home page
+2021-01-10 17:26:30 INFO  LoginController:69 - Not logged in
+2021-01-10 17:26:45 INFO  RequestHelper:72 - In Post/ExpReimburse/expr/api/login
+2021-01-10 17:26:45 INFO  LoginController:30 - 
+2021-01-10 17:26:45 WARN  LoginController:34 - No data, drop
+2021-01-10 17:28:03 INFO  RequestHelper:21 - In Get/ExpReimburse/expr
+2021-01-10 17:28:03 INFO  LoginController:65 - getHomePage() Retrieving home page
+2021-01-10 17:28:03 INFO  LoginController:69 - Not logged in
+2021-01-10 17:28:28 INFO  RequestHelper:72 - In Post/ExpReimburse/expr/api/login
+2021-01-10 17:28:28 INFO  RequestHelper:21 - In Get/ExpReimburse/expr
+2021-01-10 17:28:28 INFO  LoginController:65 - getHomePage() Retrieving home page
+2021-01-10 17:28:28 INFO  LoginController:30 - 
+2021-01-10 17:28:28 WARN  LoginController:34 - No data, drop
+2021-01-10 17:28:28 INFO  LoginController:69 - Not logged in
+2021-01-10 17:29:41 INFO  RequestHelper:72 - In Post/ExpReimburse/expr/api/login
+2021-01-10 17:29:41 INFO  RequestHelper:21 - In Get/ExpReimburse/expr
+2021-01-10 17:29:41 INFO  LoginController:65 - getHomePage() Retrieving home page
+2021-01-10 17:29:41 INFO  LoginController:30 - 
+2021-01-10 17:29:41 WARN  LoginController:34 - No data, drop
+2021-01-10 17:29:41 INFO  LoginController:69 - Not logged in
+2021-01-10 17:31:28 INFO  RequestHelper:21 - In Get/ExpReimburse/expr
+2021-01-10 17:31:28 INFO  LoginController:65 - getHomePage() Retrieving home page
+2021-01-10 17:31:28 INFO  LoginController:69 - Not logged in
+2021-01-10 17:31:34 INFO  RequestHelper:72 - In Post/ExpReimburse/expr/api/login
+2021-01-10 17:31:34 INFO  LoginController:30 - 
+2021-01-10 17:31:34 WARN  LoginController:34 - No data, drop
+2021-01-10 17:31:34 INFO  RequestHelper:21 - In Get/ExpReimburse/expr
+2021-01-10 17:31:34 INFO  LoginController:65 - getHomePage() Retrieving home page
+2021-01-10 17:31:34 INFO  LoginController:69 - Not logged in
+2021-01-10 17:32:20 INFO  RequestHelper:72 - In Post/ExpReimburse/expr/api/login
+2021-01-10 17:32:20 INFO  LoginController:30 - 
+2021-01-10 17:32:20 WARN  LoginController:34 - No data, drop
+2021-01-10 17:32:24 INFO  RequestHelper:72 - In Post/ExpReimburse/expr/api/login
+2021-01-10 17:32:24 INFO  LoginController:30 - 
+2021-01-10 17:32:24 WARN  LoginController:34 - No data, drop
+2021-01-10 17:32:44 INFO  RequestHelper:21 - In Get/ExpReimburse/expr
+2021-01-10 17:32:44 INFO  LoginController:65 - getHomePage() Retrieving home page
+2021-01-10 17:32:44 INFO  LoginController:69 - Not logged in
+2021-01-10 17:32:47 INFO  RequestHelper:72 - In Post/ExpReimburse/expr/api/login
+2021-01-10 17:32:47 INFO  LoginController:30 - 
+2021-01-10 17:32:47 WARN  LoginController:34 - No data, drop
+2021-01-10 17:33:47 INFO  RequestHelper:21 - In Get/ExpReimburse/expr
+2021-01-10 17:33:47 INFO  LoginController:65 - getHomePage() Retrieving home page
+2021-01-10 17:33:47 INFO  LoginController:69 - Not logged in
+2021-01-10 17:34:25 INFO  RequestHelper:72 - In Post/ExpReimburse/expr/api/login
+2021-01-10 17:34:25 INFO  RequestHelper:21 - In Get/ExpReimburse/expr
+2021-01-10 17:34:25 INFO  LoginController:65 - getHomePage() Retrieving home page
+2021-01-10 17:34:25 INFO  LoginController:30 - 
+2021-01-10 17:34:25 WARN  LoginController:34 - No data, drop
+2021-01-10 17:34:25 INFO  LoginController:69 - Not logged in
+2021-01-10 17:34:42 INFO  RequestHelper:21 - In Get/ExpReimburse/expr
+2021-01-10 17:34:42 INFO  LoginController:65 - getHomePage() Retrieving home page
+2021-01-10 17:34:42 INFO  LoginController:69 - Not logged in
+2021-01-10 17:36:03 INFO  RequestHelper:21 - In Get/ExpReimburse/expr
+2021-01-10 17:36:03 INFO  LoginController:65 - getHomePage() Retrieving home page
+2021-01-10 17:36:03 INFO  LoginController:69 - Not logged in
+2021-01-10 17:37:10 INFO  RequestHelper:21 - In Get/ExpReimburse/expr
+2021-01-10 17:37:10 INFO  LoginController:65 - getHomePage() Retrieving home page
+2021-01-10 17:37:10 INFO  LoginController:69 - Not logged in
+2021-01-10 17:37:44 INFO  RequestHelper:21 - In Get/ExpReimburse/expr
+2021-01-10 17:37:44 INFO  LoginController:65 - getHomePage() Retrieving home page
+2021-01-10 17:37:44 INFO  LoginController:69 - Not logged in
+2021-01-10 17:37:51 INFO  RequestHelper:72 - In Post/ExpReimburse/expr/api/login
+2021-01-10 17:37:51 INFO  LoginController:30 - 
+2021-01-10 17:37:51 WARN  LoginController:34 - No data, drop
+2021-01-10 17:38:56 INFO  RequestHelper:72 - In Post/ExpReimburse/expr/api/login
+2021-01-10 17:38:56 INFO  LoginController:30 - 
+2021-01-10 17:38:56 WARN  LoginController:34 - No data, drop
+2021-01-10 17:38:58 INFO  RequestHelper:21 - In Get/ExpReimburse/expr
+2021-01-10 17:38:58 INFO  LoginController:65 - getHomePage() Retrieving home page
+2021-01-10 17:38:58 INFO  LoginController:69 - Not logged in
+2021-01-10 17:39:03 INFO  RequestHelper:72 - In Post/ExpReimburse/expr/api/login
+2021-01-10 17:39:03 INFO  LoginController:30 - 
+2021-01-10 17:39:03 WARN  LoginController:34 - No data, drop
+2021-01-10 17:40:20 INFO  RequestHelper:72 - In Post/ExpReimburse/expr/api/login
+2021-01-10 17:40:20 INFO  LoginController:30 - 
+2021-01-10 17:40:20 WARN  LoginController:34 - No data, drop
+2021-01-10 17:40:22 INFO  RequestHelper:72 - In Post/ExpReimburse/expr/api/login
+2021-01-10 17:40:22 INFO  LoginController:30 - 
+2021-01-10 17:40:22 WARN  LoginController:34 - No data, drop
+2021-01-10 17:40:25 INFO  RequestHelper:72 - In Post/ExpReimburse/expr/api/login
+2021-01-10 17:40:25 INFO  LoginController:30 - 
+2021-01-10 17:40:25 WARN  LoginController:34 - No data, drop
+2021-01-10 17:40:27 INFO  RequestHelper:72 - In Post/ExpReimburse/expr/api/login
+2021-01-10 17:40:27 INFO  LoginController:30 - 
+2021-01-10 17:40:27 WARN  LoginController:34 - No data, drop
+2021-01-10 17:40:28 INFO  RequestHelper:72 - In Post/ExpReimburse/expr/api/login
+2021-01-10 17:40:28 INFO  LoginController:30 - 
+2021-01-10 17:40:28 WARN  LoginController:34 - No data, drop
+2021-01-10 17:40:29 INFO  RequestHelper:72 - In Post/ExpReimburse/expr/api/login
+2021-01-10 17:40:29 INFO  LoginController:30 - 
+2021-01-10 17:40:29 WARN  LoginController:34 - No data, drop
+2021-01-10 17:40:30 INFO  RequestHelper:72 - In Post/ExpReimburse/expr/api/login
+2021-01-10 17:40:30 INFO  LoginController:30 - 
+2021-01-10 17:40:30 WARN  LoginController:34 - No data, drop
+2021-01-10 17:41:29 INFO  RequestHelper:72 - In Post/ExpReimburse/expr/api/login
+2021-01-10 17:41:29 INFO  LoginController:30 - jsmith
+2021-01-10 17:47:40 INFO  RequestHelper:21 - In Get/ExpReimburse/expr
+2021-01-10 17:47:40 INFO  LoginController:72 - getHomePage() Retrieving home page
+2021-01-10 17:47:40 INFO  LoginController:76 - Not logged in
+2021-01-10 17:47:59 INFO  RequestHelper:21 - In Get/ExpReimburse/expr
+2021-01-10 17:47:59 INFO  LoginController:72 - getHomePage() Retrieving home page
+2021-01-10 17:47:59 INFO  LoginController:76 - Not logged in
+2021-01-10 17:49:34 INFO  RequestHelper:21 - In Get/ExpReimburse/expr
+2021-01-10 17:49:34 INFO  LoginController:72 - getHomePage() Retrieving home page
+2021-01-10 17:49:34 INFO  LoginController:76 - Not logged in
+2021-01-10 17:49:38 INFO  RequestHelper:72 - In Post/ExpReimburse/expr/api/login
+2021-01-10 17:49:38 INFO  LoginController:30 - 
+2021-01-10 17:49:38 WARN  LoginController:34 - No data, drop
+2021-01-10 17:49:38 INFO  RequestHelper:72 - In Post/ExpReimburse/expr/api/login
+2021-01-10 17:49:38 INFO  LoginController:30 - 
+2021-01-10 17:49:38 WARN  LoginController:34 - No data, drop
+2021-01-10 17:50:22 INFO  RequestHelper:21 - In Get/ExpReimburse/expr
+2021-01-10 17:50:22 INFO  LoginController:72 - getHomePage() Retrieving home page
+2021-01-10 17:50:22 INFO  LoginController:76 - Not logged in
+2021-01-10 17:50:26 INFO  RequestHelper:72 - In Post/ExpReimburse/expr/api/login
+2021-01-10 17:50:26 INFO  LoginController:30 - 
+2021-01-10 17:50:26 INFO  RequestHelper:72 - In Post/ExpReimburse/expr/api/login
+2021-01-10 17:50:26 WARN  LoginController:34 - No data, drop
+2021-01-10 17:50:26 INFO  LoginController:30 - 
+2021-01-10 17:50:26 WARN  LoginController:34 - No data, drop
+2021-01-10 17:50:51 INFO  RequestHelper:21 - In Get/ExpReimburse/expr
+2021-01-10 17:50:51 INFO  LoginController:72 - getHomePage() Retrieving home page
+2021-01-10 17:50:51 INFO  LoginController:76 - Not logged in
+2021-01-10 17:50:56 INFO  RequestHelper:72 - In Post/ExpReimburse/expr/api/login
+2021-01-10 17:50:56 INFO  LoginController:30 - 
+2021-01-10 17:50:56 WARN  LoginController:34 - No data, drop
+2021-01-10 17:50:56 INFO  RequestHelper:72 - In Post/ExpReimburse/expr/api/login
+2021-01-10 17:50:56 INFO  LoginController:30 - 
+2021-01-10 17:50:56 WARN  LoginController:34 - No data, drop
+2021-01-10 17:51:24 INFO  RequestHelper:21 - In Get/ExpReimburse/expr
+2021-01-10 17:51:24 INFO  LoginController:72 - getHomePage() Retrieving home page
+2021-01-10 17:51:24 INFO  LoginController:76 - Not logged in
+2021-01-10 17:51:28 INFO  RequestHelper:72 - In Post/ExpReimburse/expr/api/login
+2021-01-10 17:51:28 INFO  LoginController:30 - 
+2021-01-10 17:51:28 WARN  LoginController:34 - No data, drop
+2021-01-10 17:51:28 INFO  RequestHelper:72 - In Post/ExpReimburse/expr/api/login
+2021-01-10 17:51:28 INFO  LoginController:30 - 
+2021-01-10 17:51:28 WARN  LoginController:34 - No data, drop
+2021-01-10 17:51:46 INFO  RequestHelper:21 - In Get/ExpReimburse/expr
+2021-01-10 17:51:46 INFO  LoginController:72 - getHomePage() Retrieving home page
+2021-01-10 17:51:46 INFO  LoginController:76 - Not logged in
+2021-01-10 17:51:49 INFO  RequestHelper:21 - In Get/ExpReimburse/expr
+2021-01-10 17:51:49 INFO  LoginController:72 - getHomePage() Retrieving home page
+2021-01-10 17:51:49 INFO  LoginController:76 - Not logged in
+2021-01-10 17:51:52 INFO  RequestHelper:72 - In Post/ExpReimburse/expr/api/login
+2021-01-10 17:51:52 INFO  LoginController:30 - 
+2021-01-10 17:51:52 WARN  LoginController:34 - No data, drop
+2021-01-10 17:51:52 INFO  RequestHelper:72 - In Post/ExpReimburse/expr/api/login
+2021-01-10 17:51:52 INFO  LoginController:30 - 
+2021-01-10 17:51:52 WARN  LoginController:34 - No data, drop
+2021-01-10 17:53:48 INFO  RequestHelper:72 - In Post/ExpReimburse/expr/api/login
+2021-01-10 17:53:48 INFO  LoginController:30 - 
+2021-01-10 17:53:48 INFO  RequestHelper:72 - In Post/ExpReimburse/expr/api/login
+2021-01-10 17:53:48 WARN  LoginController:34 - No data, drop
+2021-01-10 17:53:48 INFO  LoginController:30 - 
+2021-01-10 17:53:48 WARN  LoginController:34 - No data, drop
+2021-01-10 17:53:50 INFO  RequestHelper:21 - In Get/ExpReimburse/expr
+2021-01-10 17:53:50 INFO  LoginController:72 - getHomePage() Retrieving home page
+2021-01-10 17:53:50 INFO  LoginController:76 - Not logged in
+2021-01-10 17:53:51 INFO  RequestHelper:21 - In Get/ExpReimburse/expr
+2021-01-10 17:53:51 INFO  LoginController:72 - getHomePage() Retrieving home page
+2021-01-10 17:53:51 INFO  LoginController:76 - Not logged in
+2021-01-10 17:53:56 INFO  RequestHelper:72 - In Post/ExpReimburse/expr/api/login
+2021-01-10 17:53:56 INFO  LoginController:30 - 
+2021-01-10 17:53:56 WARN  LoginController:34 - No data, drop
+2021-01-10 17:53:56 INFO  RequestHelper:72 - In Post/ExpReimburse/expr/api/login
+2021-01-10 17:53:56 INFO  LoginController:30 - 
+2021-01-10 17:53:56 WARN  LoginController:34 - No data, drop
+2021-01-10 17:54:23 INFO  RequestHelper:21 - In Get/ExpReimburse/expr
+2021-01-10 17:54:23 INFO  LoginController:72 - getHomePage() Retrieving home page
+2021-01-10 17:54:23 INFO  LoginController:76 - Not logged in
+2021-01-10 17:54:26 INFO  RequestHelper:72 - In Post/ExpReimburse/expr/api/login
+2021-01-10 17:54:26 INFO  LoginController:30 - 
+2021-01-10 17:54:26 WARN  LoginController:34 - No data, drop
+2021-01-10 17:54:26 INFO  RequestHelper:72 - In Post/ExpReimburse/expr/api/login
+2021-01-10 17:54:26 INFO  LoginController:30 - 
+2021-01-10 17:54:26 WARN  LoginController:34 - No data, drop
+2021-01-10 17:54:59 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/api/login
+2021-01-10 17:54:59 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/home
+2021-01-10 17:54:59 INFO  LoginController:72 - getHomePage() Retrieving home page
+2021-01-10 17:54:59 INFO  LoginController:76 - Not logged in
+2021-01-10 17:57:15 INFO  RequestHelper:21 - In Get/ExpReimburse/expr
+2021-01-10 17:57:15 INFO  LoginController:72 - getHomePage() Retrieving home page
+2021-01-10 17:57:15 INFO  LoginController:76 - Not logged in
+2021-01-10 17:57:19 INFO  RequestHelper:72 - In Post/ExpReimburse/expr/api/login
+2021-01-10 17:57:19 INFO  LoginController:30 - 
+2021-01-10 17:57:19 WARN  LoginController:34 - No data, drop
+2021-01-10 17:57:19 INFO  RequestHelper:72 - In Post/ExpReimburse/expr/api/login
+2021-01-10 17:57:19 INFO  LoginController:30 - 
+2021-01-10 17:57:19 WARN  LoginController:34 - No data, drop
+2021-01-10 18:03:34 INFO  RequestHelper:21 - In Get/ExpReimburse/expr
+2021-01-10 18:03:34 INFO  LoginController:72 - getHomePage() Retrieving home page
+2021-01-10 18:03:34 INFO  LoginController:76 - Not logged in
+2021-01-10 18:03:39 INFO  RequestHelper:72 - In Post/ExpReimburse/expr/api/login
+2021-01-10 18:03:39 INFO  LoginController:30 - 
+2021-01-10 18:03:39 WARN  LoginController:34 - No data, drop
+2021-01-10 18:03:44 INFO  RequestHelper:21 - In Get/ExpReimburse/expr
+2021-01-10 18:03:44 INFO  LoginController:72 - getHomePage() Retrieving home page
+2021-01-10 18:03:44 INFO  LoginController:76 - Not logged in
+2021-01-10 18:05:28 INFO  RequestHelper:72 - In Post/ExpReimburse/expr/api/login
+2021-01-10 18:05:28 INFO  LoginController:30 - 
+2021-01-10 18:05:28 WARN  LoginController:34 - No data, drop
+2021-01-10 18:08:32 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/
+2021-01-10 18:08:32 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/home
+2021-01-10 18:08:32 INFO  LoginController:72 - getHomePage() Retrieving home page
+2021-01-10 18:08:32 INFO  LoginController:76 - Not logged in
+2021-01-10 18:09:25 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/home
+2021-01-10 18:09:25 INFO  LoginController:74 - getHomePage() Retrieving home page
+2021-01-10 18:09:25 INFO  LoginController:78 - Not logged in
+2021-01-10 18:09:29 INFO  RequestHelper:72 - In Post/ExpReimburse/expr/api/login
+2021-01-10 18:09:29 INFO  LoginController:30 - test
+2021-01-10 18:09:38 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/home
+2021-01-10 18:09:38 INFO  LoginController:74 - getHomePage() Retrieving home page
+2021-01-10 18:09:38 INFO  LoginController:78 - Not logged in
+2021-01-10 18:10:12 INFO  RequestHelper:72 - In Post/ExpReimburse/expr/api/login
+2021-01-10 18:10:12 INFO  LoginController:30 - test
+2021-01-10 18:14:22 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/home
+2021-01-10 18:14:22 INFO  LoginController:73 - getHomePage() Retrieving home page
+2021-01-10 18:14:22 INFO  LoginController:77 - Not logged in
+2021-01-10 18:14:24 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/home
+2021-01-10 18:14:24 INFO  LoginController:73 - getHomePage() Retrieving home page
+2021-01-10 18:14:24 INFO  LoginController:77 - Not logged in
+2021-01-10 18:14:30 INFO  RequestHelper:72 - In Post/ExpReimburse/expr/api/login
+2021-01-10 18:14:30 INFO  LoginController:30 - Test
+2021-01-10 18:14:31 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/home
+2021-01-10 18:14:31 INFO  LoginController:73 - getHomePage() Retrieving home page
+2021-01-10 18:14:31 INFO  LoginController:77 - Not logged in
+2021-01-10 18:14:45 INFO  RequestHelper:72 - In Post/ExpReimburse/expr/api/login
+2021-01-10 18:14:45 INFO  LoginController:30 - test
+2021-01-10 18:14:45 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/home
+2021-01-10 18:14:45 INFO  LoginController:73 - getHomePage() Retrieving home page
+2021-01-10 18:14:45 INFO  LoginController:77 - Not logged in
+2021-01-10 18:16:10 INFO  RequestHelper:72 - In Post/ExpReimburse/expr/api/login
+2021-01-10 18:16:10 INFO  LoginController:30 - jsmith
+2021-01-10 18:16:11 WARN  LoginController:55 - Error 403: Invalid User
+2021-01-10 18:16:11 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/home
+2021-01-10 18:16:11 INFO  LoginController:74 - getHomePage() Retrieving home page
+2021-01-10 18:16:11 INFO  LoginController:78 - Not logged in
+2021-01-10 18:16:57 INFO  RequestHelper:72 - In Post/ExpReimburse/expr/api/login
+2021-01-10 18:16:57 INFO  LoginController:30 - jsmith
+2021-01-10 18:16:58 WARN  LoginController:55 - Error 403: Invalid User
+2021-01-10 18:16:58 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/home
+2021-01-10 18:16:58 INFO  LoginController:74 - getHomePage() Retrieving home page
+2021-01-10 18:16:58 INFO  LoginController:78 - Not logged in
+2021-01-10 18:17:50 INFO  RequestHelper:72 - In Post/ExpReimburse/expr/api/login
+2021-01-10 18:17:50 INFO  LoginController:30 - jsmith
+2021-01-10 18:20:04 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/home
+2021-01-10 18:20:04 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/home
+2021-01-10 18:20:04 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/home
+2021-01-10 18:20:04 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/home
+2021-01-10 18:20:04 INFO  LoginController:74 - getHomePage() Retrieving home page
+2021-01-10 18:20:04 INFO  LoginController:74 - getHomePage() Retrieving home page
+2021-01-10 18:20:04 INFO  LoginController:74 - getHomePage() Retrieving home page
+2021-01-10 18:20:04 INFO  LoginController:74 - getHomePage() Retrieving home page
+2021-01-10 18:20:04 INFO  LoginController:78 - Not logged in
+2021-01-10 18:20:04 INFO  LoginController:78 - Not logged in
+2021-01-10 18:20:04 INFO  LoginController:78 - Not logged in
+2021-01-10 18:20:04 INFO  LoginController:78 - Not logged in
+2021-01-10 18:20:07 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/home
+2021-01-10 18:20:07 INFO  LoginController:74 - getHomePage() Retrieving home page
+2021-01-10 18:20:07 INFO  LoginController:78 - Not logged in
+2021-01-10 18:20:14 INFO  RequestHelper:72 - In Post/ExpReimburse/expr/api/login
+2021-01-10 18:20:14 INFO  LoginController:30 - jsmith
+2021-01-10 18:20:16 INFO  LoginController:45 - Name: John Smith
+Type: jsmith
+Username: pass123
+Password: ********
+Email: jsmithysmith@mail.com
+2021-01-10 18:20:16 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/home
+2021-01-10 18:20:16 INFO  LoginController:74 - getHomePage() Retrieving home page
+2021-01-10 18:20:16 INFO  LoginController:83 - Name: John Smith
+Type: jsmith
+Username: pass123
+Password: ********
+Email: jsmithysmith@mail.com
+2021-01-10 18:20:16 INFO  LoginController:84 - jsmith
+2021-01-10 18:20:16 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/dashboard
+2021-01-10 18:20:16 INFO  DashboardController:43 - pass123
+2021-01-10 18:20:16 WARN  DashboardController:57 - Invalid user type
+2021-01-10 18:20:16 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/404
+2021-01-10 18:20:16 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/home
+2021-01-10 18:20:16 INFO  LoginController:74 - getHomePage() Retrieving home page
+2021-01-10 18:20:16 INFO  LoginController:83 - Name: John Smith
+Type: jsmith
+Username: pass123
+Password: ********
+Email: jsmithysmith@mail.com
+2021-01-10 18:20:16 INFO  LoginController:84 - jsmith
+2021-01-10 18:20:16 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/dashboard
+2021-01-10 18:20:16 INFO  DashboardController:43 - pass123
+2021-01-10 18:20:16 WARN  DashboardController:57 - Invalid user type
+2021-01-10 18:20:16 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/404
+2021-01-10 18:20:16 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/home
+2021-01-10 18:20:16 INFO  LoginController:74 - getHomePage() Retrieving home page
+2021-01-10 18:20:16 INFO  LoginController:83 - Name: John Smith
+Type: jsmith
+Username: pass123
+Password: ********
+Email: jsmithysmith@mail.com
+2021-01-10 18:20:16 INFO  LoginController:84 - jsmith
+2021-01-10 18:20:16 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/dashboard
+2021-01-10 18:20:16 INFO  DashboardController:43 - pass123
+2021-01-10 18:20:16 WARN  DashboardController:57 - Invalid user type
+2021-01-10 18:20:16 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/404
+2021-01-10 18:20:16 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/home
+2021-01-10 18:20:16 INFO  LoginController:74 - getHomePage() Retrieving home page
+2021-01-10 18:20:16 INFO  LoginController:83 - Name: John Smith
+Type: jsmith
+Username: pass123
+Password: ********
+Email: jsmithysmith@mail.com
+2021-01-10 18:20:16 INFO  LoginController:84 - jsmith
+2021-01-10 18:20:16 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/dashboard
+2021-01-10 18:20:16 INFO  DashboardController:43 - pass123
+2021-01-10 18:20:16 WARN  DashboardController:57 - Invalid user type
+2021-01-10 18:20:16 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/404
+2021-01-10 18:20:16 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/home
+2021-01-10 18:20:16 INFO  LoginController:74 - getHomePage() Retrieving home page
+2021-01-10 18:20:16 INFO  LoginController:83 - Name: John Smith
+Type: jsmith
+Username: pass123
+Password: ********
+Email: jsmithysmith@mail.com
+2021-01-10 18:20:16 INFO  LoginController:84 - jsmith
+2021-01-10 18:20:16 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/dashboard
+2021-01-10 18:20:16 INFO  DashboardController:43 - pass123
+2021-01-10 18:20:16 WARN  DashboardController:57 - Invalid user type
+2021-01-10 18:20:16 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/404
+2021-01-10 18:20:16 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/home
+2021-01-10 18:20:16 INFO  LoginController:74 - getHomePage() Retrieving home page
+2021-01-10 18:20:16 INFO  LoginController:83 - Name: John Smith
+Type: jsmith
+Username: pass123
+Password: ********
+Email: jsmithysmith@mail.com
+2021-01-10 18:20:16 INFO  LoginController:84 - jsmith
+2021-01-10 18:20:16 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/dashboard
+2021-01-10 18:20:16 INFO  DashboardController:43 - pass123
+2021-01-10 18:20:16 WARN  DashboardController:57 - Invalid user type
+2021-01-10 18:20:16 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/404
+2021-01-10 18:20:16 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/home
+2021-01-10 18:20:16 INFO  LoginController:74 - getHomePage() Retrieving home page
+2021-01-10 18:20:16 INFO  LoginController:83 - Name: John Smith
+Type: jsmith
+Username: pass123
+Password: ********
+Email: jsmithysmith@mail.com
+2021-01-10 18:20:16 INFO  LoginController:84 - jsmith
+2021-01-10 18:20:16 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/dashboard
+2021-01-10 18:20:16 INFO  DashboardController:43 - pass123
+2021-01-10 18:20:16 WARN  DashboardController:57 - Invalid user type
+2021-01-10 18:20:16 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/404
+2021-01-10 18:20:16 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/home
+2021-01-10 18:20:16 INFO  LoginController:74 - getHomePage() Retrieving home page
+2021-01-10 18:20:16 INFO  LoginController:83 - Name: John Smith
+Type: jsmith
+Username: pass123
+Password: ********
+Email: jsmithysmith@mail.com
+2021-01-10 18:20:16 INFO  LoginController:84 - jsmith
+2021-01-10 18:20:16 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/dashboard
+2021-01-10 18:20:16 INFO  DashboardController:43 - pass123
+2021-01-10 18:20:16 WARN  DashboardController:57 - Invalid user type
+2021-01-10 18:20:16 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/404
+2021-01-10 18:20:16 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/home
+2021-01-10 18:20:16 INFO  LoginController:74 - getHomePage() Retrieving home page
+2021-01-10 18:20:16 INFO  LoginController:83 - Name: John Smith
+Type: jsmith
+Username: pass123
+Password: ********
+Email: jsmithysmith@mail.com
+2021-01-10 18:20:16 INFO  LoginController:84 - jsmith
+2021-01-10 18:20:16 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/dashboard
+2021-01-10 18:20:16 INFO  DashboardController:43 - pass123
+2021-01-10 18:20:16 WARN  DashboardController:57 - Invalid user type
+2021-01-10 18:20:16 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/404
+2021-01-10 18:20:16 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/home
+2021-01-10 18:20:16 INFO  LoginController:74 - getHomePage() Retrieving home page
+2021-01-10 18:20:16 INFO  LoginController:83 - Name: John Smith
+Type: jsmith
+Username: pass123
+Password: ********
+Email: jsmithysmith@mail.com
+2021-01-10 18:20:16 INFO  LoginController:84 - jsmith
+2021-01-10 18:20:16 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/dashboard
+2021-01-10 18:20:16 INFO  DashboardController:43 - pass123
+2021-01-10 18:20:16 WARN  DashboardController:57 - Invalid user type
+2021-01-10 18:20:17 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/home
+2021-01-10 18:20:17 INFO  LoginController:74 - getHomePage() Retrieving home page
+2021-01-10 18:20:17 INFO  LoginController:83 - Name: John Smith
+Type: jsmith
+Username: pass123
+Password: ********
+Email: jsmithysmith@mail.com
+2021-01-10 18:20:17 INFO  LoginController:84 - jsmith
+2021-01-10 18:20:17 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/dashboard
+2021-01-10 18:20:17 INFO  DashboardController:43 - pass123
+2021-01-10 18:20:17 WARN  DashboardController:57 - Invalid user type
+2021-01-10 18:20:17 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/404
+2021-01-10 18:20:17 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/home
+2021-01-10 18:20:17 INFO  LoginController:74 - getHomePage() Retrieving home page
+2021-01-10 18:20:17 INFO  LoginController:83 - Name: John Smith
+Type: jsmith
+Username: pass123
+Password: ********
+Email: jsmithysmith@mail.com
+2021-01-10 18:20:17 INFO  LoginController:84 - jsmith
+2021-01-10 18:20:17 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/dashboard
+2021-01-10 18:20:17 INFO  DashboardController:43 - pass123
+2021-01-10 18:20:17 WARN  DashboardController:57 - Invalid user type
+2021-01-10 18:20:17 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/404
+2021-01-10 18:20:17 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/home
+2021-01-10 18:20:17 INFO  LoginController:74 - getHomePage() Retrieving home page
+2021-01-10 18:20:17 INFO  LoginController:83 - Name: John Smith
+Type: jsmith
+Username: pass123
+Password: ********
+Email: jsmithysmith@mail.com
+2021-01-10 18:20:17 INFO  LoginController:84 - jsmith
+2021-01-10 18:20:17 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/dashboard
+2021-01-10 18:20:17 INFO  DashboardController:43 - pass123
+2021-01-10 18:20:17 WARN  DashboardController:57 - Invalid user type
+2021-01-10 18:20:17 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/404
+2021-01-10 18:20:17 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/home
+2021-01-10 18:20:17 INFO  LoginController:74 - getHomePage() Retrieving home page
+2021-01-10 18:20:17 INFO  LoginController:83 - Name: John Smith
+Type: jsmith
+Username: pass123
+Password: ********
+Email: jsmithysmith@mail.com
+2021-01-10 18:20:17 INFO  LoginController:84 - jsmith
+2021-01-10 18:20:17 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/dashboard
+2021-01-10 18:20:17 INFO  DashboardController:43 - pass123
+2021-01-10 18:20:17 WARN  DashboardController:57 - Invalid user type
+2021-01-10 18:20:17 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/404
+2021-01-10 18:20:17 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/home
+2021-01-10 18:20:17 INFO  LoginController:74 - getHomePage() Retrieving home page
+2021-01-10 18:20:17 INFO  LoginController:83 - Name: John Smith
+Type: jsmith
+Username: pass123
+Password: ********
+Email: jsmithysmith@mail.com
+2021-01-10 18:20:17 INFO  LoginController:84 - jsmith
+2021-01-10 18:20:17 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/dashboard
+2021-01-10 18:20:17 INFO  DashboardController:43 - pass123
+2021-01-10 18:20:17 WARN  DashboardController:57 - Invalid user type
+2021-01-10 18:20:17 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/404
+2021-01-10 18:20:17 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/home
+2021-01-10 18:20:17 INFO  LoginController:74 - getHomePage() Retrieving home page
+2021-01-10 18:20:17 INFO  LoginController:83 - Name: John Smith
+Type: jsmith
+Username: pass123
+Password: ********
+Email: jsmithysmith@mail.com
+2021-01-10 18:20:17 INFO  LoginController:84 - jsmith
+2021-01-10 18:20:17 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/dashboard
+2021-01-10 18:20:17 INFO  DashboardController:43 - pass123
+2021-01-10 18:20:17 WARN  DashboardController:57 - Invalid user type
+2021-01-10 18:20:17 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/404
+2021-01-10 18:20:17 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/home
+2021-01-10 18:20:17 INFO  LoginController:74 - getHomePage() Retrieving home page
+2021-01-10 18:20:17 INFO  LoginController:83 - Name: John Smith
+Type: jsmith
+Username: pass123
+Password: ********
+Email: jsmithysmith@mail.com
+2021-01-10 18:20:17 INFO  LoginController:84 - jsmith
+2021-01-10 18:20:17 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/dashboard
+2021-01-10 18:20:17 INFO  DashboardController:43 - pass123
+2021-01-10 18:20:17 WARN  DashboardController:57 - Invalid user type
+2021-01-10 18:20:17 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/404
+2021-01-10 18:20:17 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/home
+2021-01-10 18:20:17 INFO  LoginController:74 - getHomePage() Retrieving home page
+2021-01-10 18:20:17 INFO  LoginController:83 - Name: John Smith
+Type: jsmith
+Username: pass123
+Password: ********
+Email: jsmithysmith@mail.com
+2021-01-10 18:20:17 INFO  LoginController:84 - jsmith
+2021-01-10 18:20:17 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/dashboard
+2021-01-10 18:20:17 INFO  DashboardController:43 - pass123
+2021-01-10 18:20:17 WARN  DashboardController:57 - Invalid user type
+2021-01-10 18:20:17 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/404
+2021-01-10 18:20:17 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/home
+2021-01-10 18:20:17 INFO  LoginController:74 - getHomePage() Retrieving home page
+2021-01-10 18:20:17 INFO  LoginController:83 - Name: John Smith
+Type: jsmith
+Username: pass123
+Password: ********
+Email: jsmithysmith@mail.com
+2021-01-10 18:20:17 INFO  LoginController:84 - jsmith
+2021-01-10 18:20:17 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/dashboard
+2021-01-10 18:20:17 INFO  DashboardController:43 - pass123
+2021-01-10 18:20:17 WARN  DashboardController:57 - Invalid user type
+2021-01-10 18:20:17 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/404
+2021-01-10 18:20:17 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/home
+2021-01-10 18:20:17 INFO  LoginController:74 - getHomePage() Retrieving home page
+2021-01-10 18:20:17 INFO  LoginController:83 - Name: John Smith
+Type: jsmith
+Username: pass123
+Password: ********
+Email: jsmithysmith@mail.com
+2021-01-10 18:20:17 INFO  LoginController:84 - jsmith
+2021-01-10 18:20:17 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/dashboard
+2021-01-10 18:20:17 INFO  DashboardController:43 - pass123
+2021-01-10 18:20:17 WARN  DashboardController:57 - Invalid user type
+2021-01-10 18:20:17 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/404
+2021-01-10 18:20:22 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/404
+2021-01-10 18:20:22 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/home
+2021-01-10 18:20:22 INFO  LoginController:74 - getHomePage() Retrieving home page
+2021-01-10 18:20:22 INFO  LoginController:83 - Name: John Smith
+Type: jsmith
+Username: pass123
+Password: ********
+Email: jsmithysmith@mail.com
+2021-01-10 18:20:22 INFO  LoginController:84 - jsmith
+2021-01-10 18:20:22 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/dashboard
+2021-01-10 18:20:22 INFO  DashboardController:43 - pass123
+2021-01-10 18:20:22 WARN  DashboardController:57 - Invalid user type
+2021-01-10 18:20:22 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/404
+2021-01-10 18:20:22 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/home
+2021-01-10 18:20:22 INFO  LoginController:74 - getHomePage() Retrieving home page
+2021-01-10 18:20:22 INFO  LoginController:83 - Name: John Smith
+Type: jsmith
+Username: pass123
+Password: ********
+Email: jsmithysmith@mail.com
+2021-01-10 18:20:22 INFO  LoginController:84 - jsmith
+2021-01-10 18:20:22 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/dashboard
+2021-01-10 18:20:22 INFO  DashboardController:43 - pass123
+2021-01-10 18:20:22 WARN  DashboardController:57 - Invalid user type
+2021-01-10 18:20:22 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/404
+2021-01-10 18:20:22 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/home
+2021-01-10 18:20:22 INFO  LoginController:74 - getHomePage() Retrieving home page
+2021-01-10 18:20:22 INFO  LoginController:83 - Name: John Smith
+Type: jsmith
+Username: pass123
+Password: ********
+Email: jsmithysmith@mail.com
+2021-01-10 18:20:22 INFO  LoginController:84 - jsmith
+2021-01-10 18:20:22 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/dashboard
+2021-01-10 18:20:22 INFO  DashboardController:43 - pass123
+2021-01-10 18:20:22 WARN  DashboardController:57 - Invalid user type
+2021-01-10 18:20:22 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/404
+2021-01-10 18:20:22 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/home
+2021-01-10 18:20:22 INFO  LoginController:74 - getHomePage() Retrieving home page
+2021-01-10 18:20:22 INFO  LoginController:83 - Name: John Smith
+Type: jsmith
+Username: pass123
+Password: ********
+Email: jsmithysmith@mail.com
+2021-01-10 18:20:22 INFO  LoginController:84 - jsmith
+2021-01-10 18:20:22 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/dashboard
+2021-01-10 18:20:22 INFO  DashboardController:43 - pass123
+2021-01-10 18:20:22 WARN  DashboardController:57 - Invalid user type
+2021-01-10 18:20:22 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/404
+2021-01-10 18:20:22 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/home
+2021-01-10 18:20:22 INFO  LoginController:74 - getHomePage() Retrieving home page
+2021-01-10 18:20:22 INFO  LoginController:83 - Name: John Smith
+Type: jsmith
+Username: pass123
+Password: ********
+Email: jsmithysmith@mail.com
+2021-01-10 18:20:22 INFO  LoginController:84 - jsmith
+2021-01-10 18:20:22 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/dashboard
+2021-01-10 18:20:22 INFO  DashboardController:43 - pass123
+2021-01-10 18:20:22 WARN  DashboardController:57 - Invalid user type
+2021-01-10 18:20:22 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/404
+2021-01-10 18:20:22 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/home
+2021-01-10 18:20:22 INFO  LoginController:74 - getHomePage() Retrieving home page
+2021-01-10 18:20:22 INFO  LoginController:83 - Name: John Smith
+Type: jsmith
+Username: pass123
+Password: ********
+Email: jsmithysmith@mail.com
+2021-01-10 18:20:22 INFO  LoginController:84 - jsmith
+2021-01-10 18:20:22 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/dashboard
+2021-01-10 18:20:22 INFO  DashboardController:43 - pass123
+2021-01-10 18:20:22 WARN  DashboardController:57 - Invalid user type
+2021-01-10 18:20:22 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/404
+2021-01-10 18:20:22 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/home
+2021-01-10 18:20:22 INFO  LoginController:74 - getHomePage() Retrieving home page
+2021-01-10 18:20:22 INFO  LoginController:83 - Name: John Smith
+Type: jsmith
+Username: pass123
+Password: ********
+Email: jsmithysmith@mail.com
+2021-01-10 18:20:22 INFO  LoginController:84 - jsmith
+2021-01-10 18:20:22 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/dashboard
+2021-01-10 18:20:22 INFO  DashboardController:43 - pass123
+2021-01-10 18:20:22 WARN  DashboardController:57 - Invalid user type
+2021-01-10 18:20:22 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/404
+2021-01-10 18:20:22 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/home
+2021-01-10 18:20:22 INFO  LoginController:74 - getHomePage() Retrieving home page
+2021-01-10 18:20:22 INFO  LoginController:83 - Name: John Smith
+Type: jsmith
+Username: pass123
+Password: ********
+Email: jsmithysmith@mail.com
+2021-01-10 18:20:22 INFO  LoginController:84 - jsmith
+2021-01-10 18:20:22 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/dashboard
+2021-01-10 18:20:22 INFO  DashboardController:43 - pass123
+2021-01-10 18:20:22 WARN  DashboardController:57 - Invalid user type
+2021-01-10 18:20:22 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/404
+2021-01-10 18:20:22 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/home
+2021-01-10 18:20:22 INFO  LoginController:74 - getHomePage() Retrieving home page
+2021-01-10 18:20:22 INFO  LoginController:83 - Name: John Smith
+Type: jsmith
+Username: pass123
+Password: ********
+Email: jsmithysmith@mail.com
+2021-01-10 18:20:22 INFO  LoginController:84 - jsmith
+2021-01-10 18:20:22 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/dashboard
+2021-01-10 18:20:22 INFO  DashboardController:43 - pass123
+2021-01-10 18:20:22 WARN  DashboardController:57 - Invalid user type
+2021-01-10 18:20:22 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/404
+2021-01-10 18:20:22 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/home
+2021-01-10 18:20:22 INFO  LoginController:74 - getHomePage() Retrieving home page
+2021-01-10 18:20:22 INFO  LoginController:83 - Name: John Smith
+Type: jsmith
+Username: pass123
+Password: ********
+Email: jsmithysmith@mail.com
+2021-01-10 18:20:22 INFO  LoginController:84 - jsmith
+2021-01-10 18:20:22 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/dashboard
+2021-01-10 18:20:22 INFO  DashboardController:43 - pass123
+2021-01-10 18:20:22 WARN  DashboardController:57 - Invalid user type
+2021-01-10 18:20:33 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/home
+2021-01-10 18:20:33 INFO  LoginController:74 - getHomePage() Retrieving home page
+2021-01-10 18:20:33 INFO  LoginController:83 - Name: John Smith
+Type: jsmith
+Username: pass123
+Password: ********
+Email: jsmithysmith@mail.com
+2021-01-10 18:20:33 INFO  LoginController:84 - jsmith
+2021-01-10 18:20:33 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/dashboard
+2021-01-10 18:20:33 INFO  DashboardController:43 - pass123
+2021-01-10 18:20:33 WARN  DashboardController:57 - Invalid user type
+2021-01-10 18:20:33 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/404
+2021-01-10 18:20:33 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/home
+2021-01-10 18:20:33 INFO  LoginController:74 - getHomePage() Retrieving home page
+2021-01-10 18:20:33 INFO  LoginController:83 - Name: John Smith
+Type: jsmith
+Username: pass123
+Password: ********
+Email: jsmithysmith@mail.com
+2021-01-10 18:20:33 INFO  LoginController:84 - jsmith
+2021-01-10 18:20:33 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/dashboard
+2021-01-10 18:20:33 INFO  DashboardController:43 - pass123
+2021-01-10 18:20:33 WARN  DashboardController:57 - Invalid user type
+2021-01-10 18:20:33 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/404
+2021-01-10 18:20:33 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/home
+2021-01-10 18:20:33 INFO  LoginController:74 - getHomePage() Retrieving home page
+2021-01-10 18:20:33 INFO  LoginController:83 - Name: John Smith
+Type: jsmith
+Username: pass123
+Password: ********
+Email: jsmithysmith@mail.com
+2021-01-10 18:20:33 INFO  LoginController:84 - jsmith
+2021-01-10 18:20:33 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/dashboard
+2021-01-10 18:20:33 INFO  DashboardController:43 - pass123
+2021-01-10 18:20:33 WARN  DashboardController:57 - Invalid user type
+2021-01-10 18:20:33 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/404
+2021-01-10 18:20:33 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/home
+2021-01-10 18:20:33 INFO  LoginController:74 - getHomePage() Retrieving home page
+2021-01-10 18:20:33 INFO  LoginController:83 - Name: John Smith
+Type: jsmith
+Username: pass123
+Password: ********
+Email: jsmithysmith@mail.com
+2021-01-10 18:20:33 INFO  LoginController:84 - jsmith
+2021-01-10 18:20:33 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/dashboard
+2021-01-10 18:20:33 INFO  DashboardController:43 - pass123
+2021-01-10 18:20:33 WARN  DashboardController:57 - Invalid user type
+2021-01-10 18:20:33 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/404
+2021-01-10 18:20:33 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/home
+2021-01-10 18:20:33 INFO  LoginController:74 - getHomePage() Retrieving home page
+2021-01-10 18:20:33 INFO  LoginController:83 - Name: John Smith
+Type: jsmith
+Username: pass123
+Password: ********
+Email: jsmithysmith@mail.com
+2021-01-10 18:20:33 INFO  LoginController:84 - jsmith
+2021-01-10 18:20:33 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/dashboard
+2021-01-10 18:20:33 INFO  DashboardController:43 - pass123
+2021-01-10 18:20:33 WARN  DashboardController:57 - Invalid user type
+2021-01-10 18:20:33 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/404
+2021-01-10 18:20:33 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/home
+2021-01-10 18:20:33 INFO  LoginController:74 - getHomePage() Retrieving home page
+2021-01-10 18:20:33 INFO  LoginController:83 - Name: John Smith
+Type: jsmith
+Username: pass123
+Password: ********
+Email: jsmithysmith@mail.com
+2021-01-10 18:20:33 INFO  LoginController:84 - jsmith
+2021-01-10 18:20:33 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/dashboard
+2021-01-10 18:20:33 INFO  DashboardController:43 - pass123
+2021-01-10 18:20:33 WARN  DashboardController:57 - Invalid user type
+2021-01-10 18:20:33 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/404
+2021-01-10 18:20:33 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/home
+2021-01-10 18:20:33 INFO  LoginController:74 - getHomePage() Retrieving home page
+2021-01-10 18:20:33 INFO  LoginController:83 - Name: John Smith
+Type: jsmith
+Username: pass123
+Password: ********
+Email: jsmithysmith@mail.com
+2021-01-10 18:20:33 INFO  LoginController:84 - jsmith
+2021-01-10 18:20:33 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/dashboard
+2021-01-10 18:20:33 INFO  DashboardController:43 - pass123
+2021-01-10 18:20:33 WARN  DashboardController:57 - Invalid user type
+2021-01-10 18:20:33 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/404
+2021-01-10 18:20:33 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/home
+2021-01-10 18:20:33 INFO  LoginController:74 - getHomePage() Retrieving home page
+2021-01-10 18:20:33 INFO  LoginController:83 - Name: John Smith
+Type: jsmith
+Username: pass123
+Password: ********
+Email: jsmithysmith@mail.com
+2021-01-10 18:20:33 INFO  LoginController:84 - jsmith
+2021-01-10 18:20:33 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/dashboard
+2021-01-10 18:20:33 INFO  DashboardController:43 - pass123
+2021-01-10 18:20:33 WARN  DashboardController:57 - Invalid user type
+2021-01-10 18:20:33 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/404
+2021-01-10 18:20:33 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/home
+2021-01-10 18:20:33 INFO  LoginController:74 - getHomePage() Retrieving home page
+2021-01-10 18:20:33 INFO  LoginController:83 - Name: John Smith
+Type: jsmith
+Username: pass123
+Password: ********
+Email: jsmithysmith@mail.com
+2021-01-10 18:20:33 INFO  LoginController:84 - jsmith
+2021-01-10 18:20:33 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/dashboard
+2021-01-10 18:20:33 INFO  DashboardController:43 - pass123
+2021-01-10 18:20:33 WARN  DashboardController:57 - Invalid user type
+2021-01-10 18:20:33 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/404
+2021-01-10 18:20:33 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/home
+2021-01-10 18:20:33 INFO  LoginController:74 - getHomePage() Retrieving home page
+2021-01-10 18:20:33 INFO  LoginController:83 - Name: John Smith
+Type: jsmith
+Username: pass123
+Password: ********
+Email: jsmithysmith@mail.com
+2021-01-10 18:20:33 INFO  LoginController:84 - jsmith
+2021-01-10 18:20:33 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/dashboard
+2021-01-10 18:20:33 INFO  DashboardController:43 - pass123
+2021-01-10 18:20:33 WARN  DashboardController:57 - Invalid user type
+2021-01-10 18:20:33 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/404
+2021-01-10 18:20:37 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/
+2021-01-10 18:20:37 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/home
+2021-01-10 18:20:37 INFO  LoginController:74 - getHomePage() Retrieving home page
+2021-01-10 18:20:37 INFO  LoginController:83 - Name: John Smith
+Type: jsmith
+Username: pass123
+Password: ********
+Email: jsmithysmith@mail.com
+2021-01-10 18:20:37 INFO  LoginController:84 - jsmith
+2021-01-10 18:20:37 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/dashboard
+2021-01-10 18:20:37 INFO  DashboardController:43 - pass123
+2021-01-10 18:20:37 WARN  DashboardController:57 - Invalid user type
+2021-01-10 18:20:38 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/404
+2021-01-10 18:20:38 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/home
+2021-01-10 18:20:38 INFO  LoginController:74 - getHomePage() Retrieving home page
+2021-01-10 18:20:38 INFO  LoginController:83 - Name: John Smith
+Type: jsmith
+Username: pass123
+Password: ********
+Email: jsmithysmith@mail.com
+2021-01-10 18:20:38 INFO  LoginController:84 - jsmith
+2021-01-10 18:20:38 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/dashboard
+2021-01-10 18:20:38 INFO  DashboardController:43 - pass123
+2021-01-10 18:20:38 WARN  DashboardController:57 - Invalid user type
+2021-01-10 18:20:38 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/404
+2021-01-10 18:20:38 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/home
+2021-01-10 18:20:38 INFO  LoginController:74 - getHomePage() Retrieving home page
+2021-01-10 18:20:38 INFO  LoginController:83 - Name: John Smith
+Type: jsmith
+Username: pass123
+Password: ********
+Email: jsmithysmith@mail.com
+2021-01-10 18:20:38 INFO  LoginController:84 - jsmith
+2021-01-10 18:20:38 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/dashboard
+2021-01-10 18:20:38 INFO  DashboardController:43 - pass123
+2021-01-10 18:20:38 WARN  DashboardController:57 - Invalid user type
+2021-01-10 18:20:38 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/404
+2021-01-10 18:20:38 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/home
+2021-01-10 18:20:38 INFO  LoginController:74 - getHomePage() Retrieving home page
+2021-01-10 18:20:38 INFO  LoginController:83 - Name: John Smith
+Type: jsmith
+Username: pass123
+Password: ********
+Email: jsmithysmith@mail.com
+2021-01-10 18:20:38 INFO  LoginController:84 - jsmith
+2021-01-10 18:20:38 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/dashboard
+2021-01-10 18:20:38 INFO  DashboardController:43 - pass123
+2021-01-10 18:20:38 WARN  DashboardController:57 - Invalid user type
+2021-01-10 18:20:38 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/404
+2021-01-10 18:20:38 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/home
+2021-01-10 18:20:38 INFO  LoginController:74 - getHomePage() Retrieving home page
+2021-01-10 18:20:38 INFO  LoginController:83 - Name: John Smith
+Type: jsmith
+Username: pass123
+Password: ********
+Email: jsmithysmith@mail.com
+2021-01-10 18:20:38 INFO  LoginController:84 - jsmith
+2021-01-10 18:20:38 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/dashboard
+2021-01-10 18:20:38 INFO  DashboardController:43 - pass123
+2021-01-10 18:20:38 WARN  DashboardController:57 - Invalid user type
+2021-01-10 18:20:38 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/404
+2021-01-10 18:20:38 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/home
+2021-01-10 18:20:38 INFO  LoginController:74 - getHomePage() Retrieving home page
+2021-01-10 18:20:38 INFO  LoginController:83 - Name: John Smith
+Type: jsmith
+Username: pass123
+Password: ********
+Email: jsmithysmith@mail.com
+2021-01-10 18:20:38 INFO  LoginController:84 - jsmith
+2021-01-10 18:20:38 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/dashboard
+2021-01-10 18:20:38 INFO  DashboardController:43 - pass123
+2021-01-10 18:20:38 WARN  DashboardController:57 - Invalid user type
+2021-01-10 18:20:38 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/404
+2021-01-10 18:20:38 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/home
+2021-01-10 18:20:38 INFO  LoginController:74 - getHomePage() Retrieving home page
+2021-01-10 18:20:38 INFO  LoginController:83 - Name: John Smith
+Type: jsmith
+Username: pass123
+Password: ********
+Email: jsmithysmith@mail.com
+2021-01-10 18:20:38 INFO  LoginController:84 - jsmith
+2021-01-10 18:20:38 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/dashboard
+2021-01-10 18:20:38 INFO  DashboardController:43 - pass123
+2021-01-10 18:20:38 WARN  DashboardController:57 - Invalid user type
+2021-01-10 18:20:38 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/404
+2021-01-10 18:20:38 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/home
+2021-01-10 18:20:38 INFO  LoginController:74 - getHomePage() Retrieving home page
+2021-01-10 18:20:38 INFO  LoginController:83 - Name: John Smith
+Type: jsmith
+Username: pass123
+Password: ********
+Email: jsmithysmith@mail.com
+2021-01-10 18:20:38 INFO  LoginController:84 - jsmith
+2021-01-10 18:20:38 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/dashboard
+2021-01-10 18:20:38 INFO  DashboardController:43 - pass123
+2021-01-10 18:20:38 WARN  DashboardController:57 - Invalid user type
+2021-01-10 18:20:38 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/404
+2021-01-10 18:20:38 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/home
+2021-01-10 18:20:38 INFO  LoginController:74 - getHomePage() Retrieving home page
+2021-01-10 18:20:38 INFO  LoginController:83 - Name: John Smith
+Type: jsmith
+Username: pass123
+Password: ********
+Email: jsmithysmith@mail.com
+2021-01-10 18:20:38 INFO  LoginController:84 - jsmith
+2021-01-10 18:20:38 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/dashboard
+2021-01-10 18:20:38 INFO  DashboardController:43 - pass123
+2021-01-10 18:20:38 WARN  DashboardController:57 - Invalid user type
+2021-01-10 18:20:38 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/404
+2021-01-10 18:20:38 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/home
+2021-01-10 18:20:38 INFO  LoginController:74 - getHomePage() Retrieving home page
+2021-01-10 18:20:38 INFO  LoginController:83 - Name: John Smith
+Type: jsmith
+Username: pass123
+Password: ********
+Email: jsmithysmith@mail.com
+2021-01-10 18:20:38 INFO  LoginController:84 - jsmith
+2021-01-10 18:20:38 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/dashboard
+2021-01-10 18:20:38 INFO  DashboardController:43 - pass123
+2021-01-10 18:20:38 WARN  DashboardController:57 - Invalid user type
+2021-01-10 18:20:39 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/home
+2021-01-10 18:20:39 INFO  LoginController:74 - getHomePage() Retrieving home page
+2021-01-10 18:20:39 INFO  LoginController:83 - Name: John Smith
+Type: jsmith
+Username: pass123
+Password: ********
+Email: jsmithysmith@mail.com
+2021-01-10 18:20:39 INFO  LoginController:84 - jsmith
+2021-01-10 18:20:39 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/dashboard
+2021-01-10 18:20:39 INFO  DashboardController:43 - pass123
+2021-01-10 18:20:39 WARN  DashboardController:57 - Invalid user type
+2021-01-10 18:20:39 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/404
+2021-01-10 18:20:39 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/home
+2021-01-10 18:20:39 INFO  LoginController:74 - getHomePage() Retrieving home page
+2021-01-10 18:20:39 INFO  LoginController:83 - Name: John Smith
+Type: jsmith
+Username: pass123
+Password: ********
+Email: jsmithysmith@mail.com
+2021-01-10 18:20:39 INFO  LoginController:84 - jsmith
+2021-01-10 18:20:39 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/dashboard
+2021-01-10 18:20:39 INFO  DashboardController:43 - pass123
+2021-01-10 18:20:39 WARN  DashboardController:57 - Invalid user type
+2021-01-10 18:20:39 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/404
+2021-01-10 18:20:39 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/home
+2021-01-10 18:20:39 INFO  LoginController:74 - getHomePage() Retrieving home page
+2021-01-10 18:20:39 INFO  LoginController:83 - Name: John Smith
+Type: jsmith
+Username: pass123
+Password: ********
+Email: jsmithysmith@mail.com
+2021-01-10 18:20:39 INFO  LoginController:84 - jsmith
+2021-01-10 18:20:39 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/dashboard
+2021-01-10 18:20:39 INFO  DashboardController:43 - pass123
+2021-01-10 18:20:39 WARN  DashboardController:57 - Invalid user type
+2021-01-10 18:20:39 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/404
+2021-01-10 18:20:39 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/home
+2021-01-10 18:20:39 INFO  LoginController:74 - getHomePage() Retrieving home page
+2021-01-10 18:20:39 INFO  LoginController:83 - Name: John Smith
+Type: jsmith
+Username: pass123
+Password: ********
+Email: jsmithysmith@mail.com
+2021-01-10 18:20:39 INFO  LoginController:84 - jsmith
+2021-01-10 18:20:39 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/dashboard
+2021-01-10 18:20:39 INFO  DashboardController:43 - pass123
+2021-01-10 18:20:39 WARN  DashboardController:57 - Invalid user type
+2021-01-10 18:20:39 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/404
+2021-01-10 18:20:39 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/home
+2021-01-10 18:20:39 INFO  LoginController:74 - getHomePage() Retrieving home page
+2021-01-10 18:20:39 INFO  LoginController:83 - Name: John Smith
+Type: jsmith
+Username: pass123
+Password: ********
+Email: jsmithysmith@mail.com
+2021-01-10 18:20:39 INFO  LoginController:84 - jsmith
+2021-01-10 18:20:39 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/dashboard
+2021-01-10 18:20:39 INFO  DashboardController:43 - pass123
+2021-01-10 18:20:39 WARN  DashboardController:57 - Invalid user type
+2021-01-10 18:20:39 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/404
+2021-01-10 18:20:39 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/home
+2021-01-10 18:20:39 INFO  LoginController:74 - getHomePage() Retrieving home page
+2021-01-10 18:20:39 INFO  LoginController:83 - Name: John Smith
+Type: jsmith
+Username: pass123
+Password: ********
+Email: jsmithysmith@mail.com
+2021-01-10 18:20:39 INFO  LoginController:84 - jsmith
+2021-01-10 18:20:39 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/dashboard
+2021-01-10 18:20:39 INFO  DashboardController:43 - pass123
+2021-01-10 18:20:39 WARN  DashboardController:57 - Invalid user type
+2021-01-10 18:20:39 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/404
+2021-01-10 18:20:39 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/home
+2021-01-10 18:20:39 INFO  LoginController:74 - getHomePage() Retrieving home page
+2021-01-10 18:20:39 INFO  LoginController:83 - Name: John Smith
+Type: jsmith
+Username: pass123
+Password: ********
+Email: jsmithysmith@mail.com
+2021-01-10 18:20:39 INFO  LoginController:84 - jsmith
+2021-01-10 18:20:39 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/dashboard
+2021-01-10 18:20:39 INFO  DashboardController:43 - pass123
+2021-01-10 18:20:39 WARN  DashboardController:57 - Invalid user type
+2021-01-10 18:20:39 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/404
+2021-01-10 18:20:39 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/home
+2021-01-10 18:20:39 INFO  LoginController:74 - getHomePage() Retrieving home page
+2021-01-10 18:20:39 INFO  LoginController:83 - Name: John Smith
+Type: jsmith
+Username: pass123
+Password: ********
+Email: jsmithysmith@mail.com
+2021-01-10 18:20:39 INFO  LoginController:84 - jsmith
+2021-01-10 18:20:39 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/dashboard
+2021-01-10 18:20:39 INFO  DashboardController:43 - pass123
+2021-01-10 18:20:39 WARN  DashboardController:57 - Invalid user type
+2021-01-10 18:20:39 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/404
+2021-01-10 18:20:39 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/home
+2021-01-10 18:20:39 INFO  LoginController:74 - getHomePage() Retrieving home page
+2021-01-10 18:20:39 INFO  LoginController:83 - Name: John Smith
+Type: jsmith
+Username: pass123
+Password: ********
+Email: jsmithysmith@mail.com
+2021-01-10 18:20:39 INFO  LoginController:84 - jsmith
+2021-01-10 18:20:39 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/dashboard
+2021-01-10 18:20:39 INFO  DashboardController:43 - pass123
+2021-01-10 18:20:39 WARN  DashboardController:57 - Invalid user type
+2021-01-10 18:20:39 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/404
+2021-01-10 18:20:39 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/home
+2021-01-10 18:20:39 INFO  LoginController:74 - getHomePage() Retrieving home page
+2021-01-10 18:20:39 INFO  LoginController:83 - Name: John Smith
+Type: jsmith
+Username: pass123
+Password: ********
+Email: jsmithysmith@mail.com
+2021-01-10 18:20:39 INFO  LoginController:84 - jsmith
+2021-01-10 18:20:39 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/dashboard
+2021-01-10 18:20:39 INFO  DashboardController:43 - pass123
+2021-01-10 18:20:39 WARN  DashboardController:57 - Invalid user type
+2021-01-10 18:20:39 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/404
+2021-01-10 18:20:44 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/404
+2021-01-10 18:20:44 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/home
+2021-01-10 18:20:44 INFO  LoginController:74 - getHomePage() Retrieving home page
+2021-01-10 18:20:44 INFO  LoginController:83 - Name: John Smith
+Type: jsmith
+Username: pass123
+Password: ********
+Email: jsmithysmith@mail.com
+2021-01-10 18:20:44 INFO  LoginController:84 - jsmith
+2021-01-10 18:20:44 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/dashboard
+2021-01-10 18:20:44 INFO  DashboardController:43 - pass123
+2021-01-10 18:20:44 WARN  DashboardController:57 - Invalid user type
+2021-01-10 18:20:44 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/404
+2021-01-10 18:20:44 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/home
+2021-01-10 18:20:44 INFO  LoginController:74 - getHomePage() Retrieving home page
+2021-01-10 18:20:44 INFO  LoginController:83 - Name: John Smith
+Type: jsmith
+Username: pass123
+Password: ********
+Email: jsmithysmith@mail.com
+2021-01-10 18:20:44 INFO  LoginController:84 - jsmith
+2021-01-10 18:20:44 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/dashboard
+2021-01-10 18:20:44 INFO  DashboardController:43 - pass123
+2021-01-10 18:20:44 WARN  DashboardController:57 - Invalid user type
+2021-01-10 18:20:44 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/404
+2021-01-10 18:20:44 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/home
+2021-01-10 18:20:44 INFO  LoginController:74 - getHomePage() Retrieving home page
+2021-01-10 18:20:44 INFO  LoginController:83 - Name: John Smith
+Type: jsmith
+Username: pass123
+Password: ********
+Email: jsmithysmith@mail.com
+2021-01-10 18:20:44 INFO  LoginController:84 - jsmith
+2021-01-10 18:20:44 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/dashboard
+2021-01-10 18:20:44 INFO  DashboardController:43 - pass123
+2021-01-10 18:20:44 WARN  DashboardController:57 - Invalid user type
+2021-01-10 18:20:44 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/404
+2021-01-10 18:20:44 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/home
+2021-01-10 18:20:44 INFO  LoginController:74 - getHomePage() Retrieving home page
+2021-01-10 18:20:44 INFO  LoginController:83 - Name: John Smith
+Type: jsmith
+Username: pass123
+Password: ********
+Email: jsmithysmith@mail.com
+2021-01-10 18:20:44 INFO  LoginController:84 - jsmith
+2021-01-10 18:20:44 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/dashboard
+2021-01-10 18:20:44 INFO  DashboardController:43 - pass123
+2021-01-10 18:20:44 WARN  DashboardController:57 - Invalid user type
+2021-01-10 18:20:44 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/404
+2021-01-10 18:20:44 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/home
+2021-01-10 18:20:44 INFO  LoginController:74 - getHomePage() Retrieving home page
+2021-01-10 18:20:44 INFO  LoginController:83 - Name: John Smith
+Type: jsmith
+Username: pass123
+Password: ********
+Email: jsmithysmith@mail.com
+2021-01-10 18:20:44 INFO  LoginController:84 - jsmith
+2021-01-10 18:20:44 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/dashboard
+2021-01-10 18:20:44 INFO  DashboardController:43 - pass123
+2021-01-10 18:20:44 WARN  DashboardController:57 - Invalid user type
+2021-01-10 18:20:44 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/404
+2021-01-10 18:20:44 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/home
+2021-01-10 18:20:44 INFO  LoginController:74 - getHomePage() Retrieving home page
+2021-01-10 18:20:44 INFO  LoginController:83 - Name: John Smith
+Type: jsmith
+Username: pass123
+Password: ********
+Email: jsmithysmith@mail.com
+2021-01-10 18:20:44 INFO  LoginController:84 - jsmith
+2021-01-10 18:20:44 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/dashboard
+2021-01-10 18:20:44 INFO  DashboardController:43 - pass123
+2021-01-10 18:20:44 WARN  DashboardController:57 - Invalid user type
+2021-01-10 18:20:44 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/404
+2021-01-10 18:20:44 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/home
+2021-01-10 18:20:44 INFO  LoginController:74 - getHomePage() Retrieving home page
+2021-01-10 18:20:44 INFO  LoginController:83 - Name: John Smith
+Type: jsmith
+Username: pass123
+Password: ********
+Email: jsmithysmith@mail.com
+2021-01-10 18:20:44 INFO  LoginController:84 - jsmith
+2021-01-10 18:20:44 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/dashboard
+2021-01-10 18:20:44 INFO  DashboardController:43 - pass123
+2021-01-10 18:20:44 WARN  DashboardController:57 - Invalid user type
+2021-01-10 18:20:44 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/404
+2021-01-10 18:20:44 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/home
+2021-01-10 18:20:44 INFO  LoginController:74 - getHomePage() Retrieving home page
+2021-01-10 18:20:44 INFO  LoginController:83 - Name: John Smith
+Type: jsmith
+Username: pass123
+Password: ********
+Email: jsmithysmith@mail.com
+2021-01-10 18:20:44 INFO  LoginController:84 - jsmith
+2021-01-10 18:20:44 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/dashboard
+2021-01-10 18:20:44 INFO  DashboardController:43 - pass123
+2021-01-10 18:20:44 WARN  DashboardController:57 - Invalid user type
+2021-01-10 18:20:44 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/404
+2021-01-10 18:20:44 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/home
+2021-01-10 18:20:44 INFO  LoginController:74 - getHomePage() Retrieving home page
+2021-01-10 18:20:44 INFO  LoginController:83 - Name: John Smith
+Type: jsmith
+Username: pass123
+Password: ********
+Email: jsmithysmith@mail.com
+2021-01-10 18:20:44 INFO  LoginController:84 - jsmith
+2021-01-10 18:20:44 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/dashboard
+2021-01-10 18:20:44 INFO  DashboardController:43 - pass123
+2021-01-10 18:20:44 WARN  DashboardController:57 - Invalid user type
+2021-01-10 18:20:44 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/404
+2021-01-10 18:20:44 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/home
+2021-01-10 18:20:44 INFO  LoginController:74 - getHomePage() Retrieving home page
+2021-01-10 18:20:44 INFO  LoginController:83 - Name: John Smith
+Type: jsmith
+Username: pass123
+Password: ********
+Email: jsmithysmith@mail.com
+2021-01-10 18:20:44 INFO  LoginController:84 - jsmith
+2021-01-10 18:20:44 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/dashboard
+2021-01-10 18:20:44 INFO  DashboardController:43 - pass123
+2021-01-10 18:20:44 WARN  DashboardController:57 - Invalid user type
+2021-01-10 18:21:56 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/home
+2021-01-10 18:21:56 INFO  LoginController:74 - getHomePage() Retrieving home page
+2021-01-10 18:21:56 INFO  LoginController:78 - Not logged in
+2021-01-10 18:22:05 INFO  RequestHelper:72 - In Post/ExpReimburse/expr/api/login
+2021-01-10 18:22:05 INFO  LoginController:30 - jsmith
+2021-01-10 18:22:06 INFO  LoginController:45 - Name: John Smith
+Type: jsmith
+Username: pass123
+Password: ********
+Email: jsmithysmith@mail.com
+2021-01-10 18:22:06 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/home
+2021-01-10 18:22:06 INFO  LoginController:74 - getHomePage() Retrieving home page
+2021-01-10 18:22:06 INFO  LoginController:83 - Name: John Smith
+Type: jsmith
+Username: pass123
+Password: ********
+Email: jsmithysmith@mail.com
+2021-01-10 18:22:06 INFO  LoginController:84 - jsmith
+2021-01-10 18:22:06 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/dashboard
+2021-01-10 18:22:06 INFO  DashboardController:43 - pass123
+2021-01-10 18:22:06 WARN  DashboardController:57 - Invalid user type
+2021-01-10 18:22:06 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/404
+2021-01-10 18:22:07 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/home
+2021-01-10 18:22:07 INFO  LoginController:74 - getHomePage() Retrieving home page
+2021-01-10 18:22:07 INFO  LoginController:83 - Name: John Smith
+Type: jsmith
+Username: pass123
+Password: ********
+Email: jsmithysmith@mail.com
+2021-01-10 18:22:07 INFO  LoginController:84 - jsmith
+2021-01-10 18:22:07 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/dashboard
+2021-01-10 18:22:07 INFO  DashboardController:43 - pass123
+2021-01-10 18:22:07 WARN  DashboardController:57 - Invalid user type
+2021-01-10 18:22:07 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/404
+2021-01-10 18:22:07 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/home
+2021-01-10 18:22:07 INFO  LoginController:74 - getHomePage() Retrieving home page
+2021-01-10 18:22:07 INFO  LoginController:83 - Name: John Smith
+Type: jsmith
+Username: pass123
+Password: ********
+Email: jsmithysmith@mail.com
+2021-01-10 18:22:07 INFO  LoginController:84 - jsmith
+2021-01-10 18:22:07 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/dashboard
+2021-01-10 18:22:07 INFO  DashboardController:43 - pass123
+2021-01-10 18:22:07 WARN  DashboardController:57 - Invalid user type
+2021-01-10 18:22:07 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/404
+2021-01-10 18:22:07 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/home
+2021-01-10 18:22:07 INFO  LoginController:74 - getHomePage() Retrieving home page
+2021-01-10 18:22:07 INFO  LoginController:83 - Name: John Smith
+Type: jsmith
+Username: pass123
+Password: ********
+Email: jsmithysmith@mail.com
+2021-01-10 18:22:07 INFO  LoginController:84 - jsmith
+2021-01-10 18:22:07 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/dashboard
+2021-01-10 18:22:07 INFO  DashboardController:43 - pass123
+2021-01-10 18:22:07 WARN  DashboardController:57 - Invalid user type
+2021-01-10 18:22:07 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/404
+2021-01-10 18:22:07 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/home
+2021-01-10 18:22:07 INFO  LoginController:74 - getHomePage() Retrieving home page
+2021-01-10 18:22:07 INFO  LoginController:83 - Name: John Smith
+Type: jsmith
+Username: pass123
+Password: ********
+Email: jsmithysmith@mail.com
+2021-01-10 18:22:07 INFO  LoginController:84 - jsmith
+2021-01-10 18:22:07 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/dashboard
+2021-01-10 18:22:07 INFO  DashboardController:43 - pass123
+2021-01-10 18:22:07 WARN  DashboardController:57 - Invalid user type
+2021-01-10 18:22:07 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/404
+2021-01-10 18:22:07 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/home
+2021-01-10 18:22:07 INFO  LoginController:74 - getHomePage() Retrieving home page
+2021-01-10 18:22:07 INFO  LoginController:83 - Name: John Smith
+Type: jsmith
+Username: pass123
+Password: ********
+Email: jsmithysmith@mail.com
+2021-01-10 18:22:07 INFO  LoginController:84 - jsmith
+2021-01-10 18:22:07 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/dashboard
+2021-01-10 18:22:07 INFO  DashboardController:43 - pass123
+2021-01-10 18:22:07 WARN  DashboardController:57 - Invalid user type
+2021-01-10 18:22:07 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/404
+2021-01-10 18:22:07 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/home
+2021-01-10 18:22:07 INFO  LoginController:74 - getHomePage() Retrieving home page
+2021-01-10 18:22:07 INFO  LoginController:83 - Name: John Smith
+Type: jsmith
+Username: pass123
+Password: ********
+Email: jsmithysmith@mail.com
+2021-01-10 18:22:07 INFO  LoginController:84 - jsmith
+2021-01-10 18:22:07 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/dashboard
+2021-01-10 18:22:07 INFO  DashboardController:43 - pass123
+2021-01-10 18:22:07 WARN  DashboardController:57 - Invalid user type
+2021-01-10 18:22:07 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/404
+2021-01-10 18:22:07 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/home
+2021-01-10 18:22:07 INFO  LoginController:74 - getHomePage() Retrieving home page
+2021-01-10 18:22:07 INFO  LoginController:83 - Name: John Smith
+Type: jsmith
+Username: pass123
+Password: ********
+Email: jsmithysmith@mail.com
+2021-01-10 18:22:07 INFO  LoginController:84 - jsmith
+2021-01-10 18:22:07 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/dashboard
+2021-01-10 18:22:07 INFO  DashboardController:43 - pass123
+2021-01-10 18:22:07 WARN  DashboardController:57 - Invalid user type
+2021-01-10 18:22:07 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/404
+2021-01-10 18:22:07 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/home
+2021-01-10 18:22:07 INFO  LoginController:74 - getHomePage() Retrieving home page
+2021-01-10 18:22:07 INFO  LoginController:83 - Name: John Smith
+Type: jsmith
+Username: pass123
+Password: ********
+Email: jsmithysmith@mail.com
+2021-01-10 18:22:07 INFO  LoginController:84 - jsmith
+2021-01-10 18:22:07 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/dashboard
+2021-01-10 18:22:07 INFO  DashboardController:43 - pass123
+2021-01-10 18:22:07 WARN  DashboardController:57 - Invalid user type
+2021-01-10 18:22:07 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/404
+2021-01-10 18:22:07 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/home
+2021-01-10 18:22:07 INFO  LoginController:74 - getHomePage() Retrieving home page
+2021-01-10 18:22:07 INFO  LoginController:83 - Name: John Smith
+Type: jsmith
+Username: pass123
+Password: ********
+Email: jsmithysmith@mail.com
+2021-01-10 18:22:07 INFO  LoginController:84 - jsmith
+2021-01-10 18:22:07 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/dashboard
+2021-01-10 18:22:07 INFO  DashboardController:43 - pass123
+2021-01-10 18:22:07 WARN  DashboardController:57 - Invalid user type
+2021-01-10 18:22:08 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/home
+2021-01-10 18:22:08 INFO  LoginController:74 - getHomePage() Retrieving home page
+2021-01-10 18:22:08 INFO  LoginController:83 - Name: John Smith
+Type: jsmith
+Username: pass123
+Password: ********
+Email: jsmithysmith@mail.com
+2021-01-10 18:22:08 INFO  LoginController:84 - jsmith
+2021-01-10 18:22:08 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/dashboard
+2021-01-10 18:22:08 INFO  DashboardController:43 - pass123
+2021-01-10 18:22:08 WARN  DashboardController:57 - Invalid user type
+2021-01-10 18:22:08 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/404
+2021-01-10 18:22:08 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/home
+2021-01-10 18:22:08 INFO  LoginController:74 - getHomePage() Retrieving home page
+2021-01-10 18:22:08 INFO  LoginController:83 - Name: John Smith
+Type: jsmith
+Username: pass123
+Password: ********
+Email: jsmithysmith@mail.com
+2021-01-10 18:22:08 INFO  LoginController:84 - jsmith
+2021-01-10 18:22:08 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/dashboard
+2021-01-10 18:22:08 INFO  DashboardController:43 - pass123
+2021-01-10 18:22:08 WARN  DashboardController:57 - Invalid user type
+2021-01-10 18:22:08 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/404
+2021-01-10 18:22:08 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/home
+2021-01-10 18:22:08 INFO  LoginController:74 - getHomePage() Retrieving home page
+2021-01-10 18:22:08 INFO  LoginController:83 - Name: John Smith
+Type: jsmith
+Username: pass123
+Password: ********
+Email: jsmithysmith@mail.com
+2021-01-10 18:22:08 INFO  LoginController:84 - jsmith
+2021-01-10 18:22:08 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/dashboard
+2021-01-10 18:22:08 INFO  DashboardController:43 - pass123
+2021-01-10 18:22:08 WARN  DashboardController:57 - Invalid user type
+2021-01-10 18:22:08 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/404
+2021-01-10 18:22:08 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/home
+2021-01-10 18:22:08 INFO  LoginController:74 - getHomePage() Retrieving home page
+2021-01-10 18:22:08 INFO  LoginController:83 - Name: John Smith
+Type: jsmith
+Username: pass123
+Password: ********
+Email: jsmithysmith@mail.com
+2021-01-10 18:22:08 INFO  LoginController:84 - jsmith
+2021-01-10 18:22:08 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/dashboard
+2021-01-10 18:22:08 INFO  DashboardController:43 - pass123
+2021-01-10 18:22:08 WARN  DashboardController:57 - Invalid user type
+2021-01-10 18:22:08 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/404
+2021-01-10 18:22:08 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/home
+2021-01-10 18:22:08 INFO  LoginController:74 - getHomePage() Retrieving home page
+2021-01-10 18:22:08 INFO  LoginController:83 - Name: John Smith
+Type: jsmith
+Username: pass123
+Password: ********
+Email: jsmithysmith@mail.com
+2021-01-10 18:22:08 INFO  LoginController:84 - jsmith
+2021-01-10 18:22:08 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/dashboard
+2021-01-10 18:22:08 INFO  DashboardController:43 - pass123
+2021-01-10 18:22:08 WARN  DashboardController:57 - Invalid user type
+2021-01-10 18:22:08 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/404
+2021-01-10 18:22:08 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/home
+2021-01-10 18:22:08 INFO  LoginController:74 - getHomePage() Retrieving home page
+2021-01-10 18:22:08 INFO  LoginController:83 - Name: John Smith
+Type: jsmith
+Username: pass123
+Password: ********
+Email: jsmithysmith@mail.com
+2021-01-10 18:22:08 INFO  LoginController:84 - jsmith
+2021-01-10 18:22:08 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/dashboard
+2021-01-10 18:22:08 INFO  DashboardController:43 - pass123
+2021-01-10 18:22:08 WARN  DashboardController:57 - Invalid user type
+2021-01-10 18:22:08 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/404
+2021-01-10 18:22:08 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/home
+2021-01-10 18:22:08 INFO  LoginController:74 - getHomePage() Retrieving home page
+2021-01-10 18:22:08 INFO  LoginController:83 - Name: John Smith
+Type: jsmith
+Username: pass123
+Password: ********
+Email: jsmithysmith@mail.com
+2021-01-10 18:22:08 INFO  LoginController:84 - jsmith
+2021-01-10 18:22:08 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/dashboard
+2021-01-10 18:22:08 INFO  DashboardController:43 - pass123
+2021-01-10 18:22:08 WARN  DashboardController:57 - Invalid user type
+2021-01-10 18:22:08 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/404
+2021-01-10 18:22:08 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/home
+2021-01-10 18:22:08 INFO  LoginController:74 - getHomePage() Retrieving home page
+2021-01-10 18:22:08 INFO  LoginController:83 - Name: John Smith
+Type: jsmith
+Username: pass123
+Password: ********
+Email: jsmithysmith@mail.com
+2021-01-10 18:22:08 INFO  LoginController:84 - jsmith
+2021-01-10 18:22:08 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/dashboard
+2021-01-10 18:22:08 INFO  DashboardController:43 - pass123
+2021-01-10 18:22:08 WARN  DashboardController:57 - Invalid user type
+2021-01-10 18:22:08 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/404
+2021-01-10 18:22:08 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/home
+2021-01-10 18:22:08 INFO  LoginController:74 - getHomePage() Retrieving home page
+2021-01-10 18:22:08 INFO  LoginController:83 - Name: John Smith
+Type: jsmith
+Username: pass123
+Password: ********
+Email: jsmithysmith@mail.com
+2021-01-10 18:22:08 INFO  LoginController:84 - jsmith
+2021-01-10 18:22:08 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/dashboard
+2021-01-10 18:22:08 INFO  DashboardController:43 - pass123
+2021-01-10 18:22:08 WARN  DashboardController:57 - Invalid user type
+2021-01-10 18:22:08 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/404
+2021-01-10 18:22:08 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/home
+2021-01-10 18:22:08 INFO  LoginController:74 - getHomePage() Retrieving home page
+2021-01-10 18:22:08 INFO  LoginController:83 - Name: John Smith
+Type: jsmith
+Username: pass123
+Password: ********
+Email: jsmithysmith@mail.com
+2021-01-10 18:22:08 INFO  LoginController:84 - jsmith
+2021-01-10 18:22:08 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/dashboard
+2021-01-10 18:22:08 INFO  DashboardController:43 - pass123
+2021-01-10 18:22:08 WARN  DashboardController:57 - Invalid user type
+2021-01-10 18:22:08 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/404
+2021-01-10 18:22:13 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/404
+2021-01-10 18:22:13 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/home
+2021-01-10 18:22:13 INFO  LoginController:74 - getHomePage() Retrieving home page
+2021-01-10 18:22:13 INFO  LoginController:83 - Name: John Smith
+Type: jsmith
+Username: pass123
+Password: ********
+Email: jsmithysmith@mail.com
+2021-01-10 18:22:13 INFO  LoginController:84 - jsmith
+2021-01-10 18:22:13 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/dashboard
+2021-01-10 18:22:13 INFO  DashboardController:43 - pass123
+2021-01-10 18:22:13 WARN  DashboardController:57 - Invalid user type
+2021-01-10 18:22:13 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/404
+2021-01-10 18:22:13 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/home
+2021-01-10 18:22:13 INFO  LoginController:74 - getHomePage() Retrieving home page
+2021-01-10 18:22:13 INFO  LoginController:83 - Name: John Smith
+Type: jsmith
+Username: pass123
+Password: ********
+Email: jsmithysmith@mail.com
+2021-01-10 18:22:13 INFO  LoginController:84 - jsmith
+2021-01-10 18:22:13 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/dashboard
+2021-01-10 18:22:13 INFO  DashboardController:43 - pass123
+2021-01-10 18:22:13 WARN  DashboardController:57 - Invalid user type
+2021-01-10 18:22:13 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/404
+2021-01-10 18:22:13 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/home
+2021-01-10 18:22:13 INFO  LoginController:74 - getHomePage() Retrieving home page
+2021-01-10 18:22:13 INFO  LoginController:83 - Name: John Smith
+Type: jsmith
+Username: pass123
+Password: ********
+Email: jsmithysmith@mail.com
+2021-01-10 18:22:13 INFO  LoginController:84 - jsmith
+2021-01-10 18:22:13 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/dashboard
+2021-01-10 18:22:13 INFO  DashboardController:43 - pass123
+2021-01-10 18:22:13 WARN  DashboardController:57 - Invalid user type
+2021-01-10 18:22:13 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/404
+2021-01-10 18:22:13 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/home
+2021-01-10 18:22:13 INFO  LoginController:74 - getHomePage() Retrieving home page
+2021-01-10 18:22:13 INFO  LoginController:83 - Name: John Smith
+Type: jsmith
+Username: pass123
+Password: ********
+Email: jsmithysmith@mail.com
+2021-01-10 18:22:13 INFO  LoginController:84 - jsmith
+2021-01-10 18:22:13 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/dashboard
+2021-01-10 18:22:13 INFO  DashboardController:43 - pass123
+2021-01-10 18:22:13 WARN  DashboardController:57 - Invalid user type
+2021-01-10 18:22:13 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/404
+2021-01-10 18:22:13 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/home
+2021-01-10 18:22:13 INFO  LoginController:74 - getHomePage() Retrieving home page
+2021-01-10 18:22:13 INFO  LoginController:83 - Name: John Smith
+Type: jsmith
+Username: pass123
+Password: ********
+Email: jsmithysmith@mail.com
+2021-01-10 18:22:13 INFO  LoginController:84 - jsmith
+2021-01-10 18:22:13 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/dashboard
+2021-01-10 18:22:13 INFO  DashboardController:43 - pass123
+2021-01-10 18:22:13 WARN  DashboardController:57 - Invalid user type
+2021-01-10 18:22:13 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/404
+2021-01-10 18:22:13 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/home
+2021-01-10 18:22:13 INFO  LoginController:74 - getHomePage() Retrieving home page
+2021-01-10 18:22:13 INFO  LoginController:83 - Name: John Smith
+Type: jsmith
+Username: pass123
+Password: ********
+Email: jsmithysmith@mail.com
+2021-01-10 18:22:13 INFO  LoginController:84 - jsmith
+2021-01-10 18:22:13 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/dashboard
+2021-01-10 18:22:13 INFO  DashboardController:43 - pass123
+2021-01-10 18:22:13 WARN  DashboardController:57 - Invalid user type
+2021-01-10 18:22:13 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/404
+2021-01-10 18:22:13 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/home
+2021-01-10 18:22:13 INFO  LoginController:74 - getHomePage() Retrieving home page
+2021-01-10 18:22:13 INFO  LoginController:83 - Name: John Smith
+Type: jsmith
+Username: pass123
+Password: ********
+Email: jsmithysmith@mail.com
+2021-01-10 18:22:13 INFO  LoginController:84 - jsmith
+2021-01-10 18:22:13 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/dashboard
+2021-01-10 18:22:13 INFO  DashboardController:43 - pass123
+2021-01-10 18:22:13 WARN  DashboardController:57 - Invalid user type
+2021-01-10 18:22:13 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/404
+2021-01-10 18:22:13 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/home
+2021-01-10 18:22:13 INFO  LoginController:74 - getHomePage() Retrieving home page
+2021-01-10 18:22:13 INFO  LoginController:83 - Name: John Smith
+Type: jsmith
+Username: pass123
+Password: ********
+Email: jsmithysmith@mail.com
+2021-01-10 18:22:13 INFO  LoginController:84 - jsmith
+2021-01-10 18:22:13 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/dashboard
+2021-01-10 18:22:13 INFO  DashboardController:43 - pass123
+2021-01-10 18:22:13 WARN  DashboardController:57 - Invalid user type
+2021-01-10 18:22:13 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/404
+2021-01-10 18:22:13 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/home
+2021-01-10 18:22:13 INFO  LoginController:74 - getHomePage() Retrieving home page
+2021-01-10 18:22:13 INFO  LoginController:83 - Name: John Smith
+Type: jsmith
+Username: pass123
+Password: ********
+Email: jsmithysmith@mail.com
+2021-01-10 18:22:13 INFO  LoginController:84 - jsmith
+2021-01-10 18:22:13 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/dashboard
+2021-01-10 18:22:13 INFO  DashboardController:43 - pass123
+2021-01-10 18:22:13 WARN  DashboardController:57 - Invalid user type
+2021-01-10 18:22:13 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/404
+2021-01-10 18:22:13 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/home
+2021-01-10 18:22:13 INFO  LoginController:74 - getHomePage() Retrieving home page
+2021-01-10 18:22:13 INFO  LoginController:83 - Name: John Smith
+Type: jsmith
+Username: pass123
+Password: ********
+Email: jsmithysmith@mail.com
+2021-01-10 18:22:13 INFO  LoginController:84 - jsmith
+2021-01-10 18:22:13 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/dashboard
+2021-01-10 18:22:13 INFO  DashboardController:43 - pass123
+2021-01-10 18:22:13 WARN  DashboardController:57 - Invalid user type
+2021-01-10 18:22:43 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/home
+2021-01-10 18:22:43 INFO  LoginController:74 - getHomePage() Retrieving home page
+2021-01-10 18:22:43 INFO  LoginController:83 - Name: John Smith
+Type: jsmith
+Username: pass123
+Password: ********
+Email: jsmithysmith@mail.com
+2021-01-10 18:22:43 INFO  LoginController:84 - jsmith
+2021-01-10 18:22:43 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/dashboard
+2021-01-10 18:22:43 INFO  DashboardController:43 - pass123
+2021-01-10 18:22:43 WARN  DashboardController:57 - Invalid user type
+2021-01-10 18:22:43 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/404
+2021-01-10 18:22:43 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/home
+2021-01-10 18:22:43 INFO  LoginController:74 - getHomePage() Retrieving home page
+2021-01-10 18:22:43 INFO  LoginController:83 - Name: John Smith
+Type: jsmith
+Username: pass123
+Password: ********
+Email: jsmithysmith@mail.com
+2021-01-10 18:22:43 INFO  LoginController:84 - jsmith
+2021-01-10 18:22:43 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/dashboard
+2021-01-10 18:22:43 INFO  DashboardController:43 - pass123
+2021-01-10 18:22:43 WARN  DashboardController:57 - Invalid user type
+2021-01-10 18:22:43 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/404
+2021-01-10 18:22:43 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/home
+2021-01-10 18:22:43 INFO  LoginController:74 - getHomePage() Retrieving home page
+2021-01-10 18:22:43 INFO  LoginController:83 - Name: John Smith
+Type: jsmith
+Username: pass123
+Password: ********
+Email: jsmithysmith@mail.com
+2021-01-10 18:22:43 INFO  LoginController:84 - jsmith
+2021-01-10 18:22:43 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/dashboard
+2021-01-10 18:22:43 INFO  DashboardController:43 - pass123
+2021-01-10 18:22:43 WARN  DashboardController:57 - Invalid user type
+2021-01-10 18:22:43 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/404
+2021-01-10 18:22:43 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/home
+2021-01-10 18:22:43 INFO  LoginController:74 - getHomePage() Retrieving home page
+2021-01-10 18:22:43 INFO  LoginController:83 - Name: John Smith
+Type: jsmith
+Username: pass123
+Password: ********
+Email: jsmithysmith@mail.com
+2021-01-10 18:22:43 INFO  LoginController:84 - jsmith
+2021-01-10 18:22:43 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/dashboard
+2021-01-10 18:22:43 INFO  DashboardController:43 - pass123
+2021-01-10 18:22:43 WARN  DashboardController:57 - Invalid user type
+2021-01-10 18:22:43 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/404
+2021-01-10 18:22:43 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/home
+2021-01-10 18:22:43 INFO  LoginController:74 - getHomePage() Retrieving home page
+2021-01-10 18:22:43 INFO  LoginController:83 - Name: John Smith
+Type: jsmith
+Username: pass123
+Password: ********
+Email: jsmithysmith@mail.com
+2021-01-10 18:22:43 INFO  LoginController:84 - jsmith
+2021-01-10 18:22:43 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/dashboard
+2021-01-10 18:22:43 INFO  DashboardController:43 - pass123
+2021-01-10 18:22:43 WARN  DashboardController:57 - Invalid user type
+2021-01-10 18:22:43 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/404
+2021-01-10 18:22:43 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/home
+2021-01-10 18:22:43 INFO  LoginController:74 - getHomePage() Retrieving home page
+2021-01-10 18:22:43 INFO  LoginController:83 - Name: John Smith
+Type: jsmith
+Username: pass123
+Password: ********
+Email: jsmithysmith@mail.com
+2021-01-10 18:22:43 INFO  LoginController:84 - jsmith
+2021-01-10 18:22:43 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/dashboard
+2021-01-10 18:22:43 INFO  DashboardController:43 - pass123
+2021-01-10 18:22:43 WARN  DashboardController:57 - Invalid user type
+2021-01-10 18:22:43 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/404
+2021-01-10 18:22:43 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/home
+2021-01-10 18:22:43 INFO  LoginController:74 - getHomePage() Retrieving home page
+2021-01-10 18:22:43 INFO  LoginController:83 - Name: John Smith
+Type: jsmith
+Username: pass123
+Password: ********
+Email: jsmithysmith@mail.com
+2021-01-10 18:22:43 INFO  LoginController:84 - jsmith
+2021-01-10 18:22:43 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/dashboard
+2021-01-10 18:22:43 INFO  DashboardController:43 - pass123
+2021-01-10 18:22:43 WARN  DashboardController:57 - Invalid user type
+2021-01-10 18:22:43 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/404
+2021-01-10 18:22:43 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/home
+2021-01-10 18:22:43 INFO  LoginController:74 - getHomePage() Retrieving home page
+2021-01-10 18:22:43 INFO  LoginController:83 - Name: John Smith
+Type: jsmith
+Username: pass123
+Password: ********
+Email: jsmithysmith@mail.com
+2021-01-10 18:22:43 INFO  LoginController:84 - jsmith
+2021-01-10 18:22:43 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/dashboard
+2021-01-10 18:22:43 INFO  DashboardController:43 - pass123
+2021-01-10 18:22:43 WARN  DashboardController:57 - Invalid user type
+2021-01-10 18:22:43 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/404
+2021-01-10 18:22:43 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/home
+2021-01-10 18:22:43 INFO  LoginController:74 - getHomePage() Retrieving home page
+2021-01-10 18:22:43 INFO  LoginController:83 - Name: John Smith
+Type: jsmith
+Username: pass123
+Password: ********
+Email: jsmithysmith@mail.com
+2021-01-10 18:22:43 INFO  LoginController:84 - jsmith
+2021-01-10 18:22:43 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/dashboard
+2021-01-10 18:22:43 INFO  DashboardController:43 - pass123
+2021-01-10 18:22:43 WARN  DashboardController:57 - Invalid user type
+2021-01-10 18:22:43 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/404
+2021-01-10 18:22:43 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/home
+2021-01-10 18:22:43 INFO  LoginController:74 - getHomePage() Retrieving home page
+2021-01-10 18:22:43 INFO  LoginController:83 - Name: John Smith
+Type: jsmith
+Username: pass123
+Password: ********
+Email: jsmithysmith@mail.com
+2021-01-10 18:22:43 INFO  LoginController:84 - jsmith
+2021-01-10 18:22:43 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/dashboard
+2021-01-10 18:22:43 INFO  DashboardController:43 - pass123
+2021-01-10 18:22:43 WARN  DashboardController:57 - Invalid user type
+2021-01-10 18:22:43 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/404
+2021-01-10 18:23:43 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/404
+2021-01-10 18:23:43 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/home
+2021-01-10 18:23:43 INFO  LoginController:74 - getHomePage() Retrieving home page
+2021-01-10 18:23:43 INFO  LoginController:78 - Not logged in
+2021-01-10 18:26:00 INFO  RequestHelper:72 - In Post/ExpReimburse/expr/api/login
+2021-01-10 18:26:00 INFO  LoginController:30 - jsmith
+2021-01-10 18:26:01 INFO  LoginController:45 - Name: John Smith
+Type: Employee
+Username: jsmith
+Password: *******
+Email: jsmithysmith@mail.com
+2021-01-10 18:26:01 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/home
+2021-01-10 18:26:01 INFO  LoginController:74 - getHomePage() Retrieving home page
+2021-01-10 18:26:01 INFO  LoginController:83 - Name: John Smith
+Type: Employee
+Username: jsmith
+Password: *******
+Email: jsmithysmith@mail.com
+2021-01-10 18:26:01 INFO  LoginController:84 - Employee
+2021-01-10 18:26:01 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/dashboard
+2021-01-10 18:26:01 INFO  DashboardController:44 - jsmith
+2021-01-10 18:26:01 INFO  DashboardController:48 - Am a Employee
+2021-01-10 18:26:02 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/api/getUser
+2021-01-10 18:26:02 INFO  DashboardController:140 - Inside getUser()
+2021-01-10 18:26:02 INFO  DashboardController:142 - getUser session
+2021-01-10 18:26:02 INFO  DashboardController:147 - Name: John Smith
+Type: Employee
+Username: jsmith
+Password: *******
+Email: jsmithysmith@mail.com
+2021-01-10 18:26:05 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/CreateTicket
+2021-01-10 18:26:05 INFO  DashboardController:84 - Make Ticket
+2021-01-10 18:26:05 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/CreateTicket
+2021-01-10 18:26:05 INFO  DashboardController:84 - Make Ticket

@@ -1,4 +1,4 @@
-package com.revature.service;
+package com.revature.services;
 
 import static org.junit.Assert.*;
 
@@ -9,37 +9,36 @@ import org.mockito.junit.*;
 
 import com.revature.models.User;
 import com.revature.models.Ticket;
+import com.revature.services.UserService;
 
 public class ServiceTests{
 
-	@Rule
-	public MockitoRule rule = MockitoJUnit.rule();
+	@InjectMocks
+	UserService uService = new UserService(); 
+	@InjectMocks
+	User user = new User("Bob", "Employee", "bob123", "bobpass", "bobbybobob@mail.com"); 
 	
-	static UserDao uDao = new UserHandler(); 
-	static TicketsDao tDao = new TicketsHandler(); 
+	@Mock
+	UserDao uDao= new UserHandler(); 
 	
-	@Mock User user;
-	@Mock User user2;
-
 	@Before
-	public void generateUsers() {
-		user = new User("User1", "Employee", "employee1", "pass123", "newemail@mail.com");
-		uDao.addUser(user, "User", "1");
-		
-		user2 = new User("User2", "Manager", "manager1", "pass123", "newmanager@gmail.com");
-		uDao.addUser(user2, "User", "2");
+	public void setup() {
+		MockitoAnnotations.initMocks(this);
 	}
 	
 	@Test
-	public void verifyUserExists() {
+	public void testGetUserByLogin() {
+		when(uDao.getUserByLogin("bob123", "bobpass")).thenReturn(user); 
+		assertNotNull(uDaoImpl.getUserByLogin("bob123", "bobpass")); 
+		verify(uDao).getUserByLogin("bob123", "bobpass"); 
 		
 	}
 	
-	//Resets the data
-	@After
-	public void clearData() {
-		for(User i: users) {
-			uDao.remove_user(i);
-		}
+	@Test
+	public void testPostNewUser() {
+		when(uDao.addUser(user)).thenReturn(user); 
+		assertEquals(user, uDao.addUser(user)); 
+		verify(uDao).addUser(user); 
+		
 	}
 }

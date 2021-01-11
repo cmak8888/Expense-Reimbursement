@@ -8,7 +8,7 @@ import jdk.internal.org.jline.utils.Log;
 
 public class UserService {
 	
-	public static User masterUser = new User(10,"Testing", "Employee", "testing", "testing123","testtest@gmail.com","12345");			//For testing purposes
+//	public static User masterUser = new User(10,"Testing", "Employee", "testing", "testing123","testtest@gmail.com","12345");			//For testing purposes
 	static UserDao uDao = new UserHandler();
 		
 	public static boolean verifyUser(String username, String password) {

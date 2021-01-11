@@ -10,6 +10,7 @@ import javax.servlet.http.HttpSession;
 
 import org.apache.log4j.Logger;
 import org.json.JSONObject;
+import org.json.*;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.revature.models.User;
@@ -19,19 +20,22 @@ public class LoginController {
 
     public final static Logger log = Logger.getLogger(LoginController.class);
     
-	public static void login(HttpServletRequest req, HttpServletResponse resp) throws IOException {
+	public static void login(HttpServletRequest req, HttpServletResponse resp) throws IOException, ServletException {
 
 		System.out.println(req.getMethod());
 		if(req.getMethod().equals("POST")) {
-			
 			//Grab information via a form 
-			ObjectMapper om = new ObjectMapper();
-			
-			if(req.getParameter("username") == null || req.getParameter("password") == null) {
+//			JSONObject info = new JSONObject(req.);
+////			JSONObject jsonObject = new JSONParser().parse(req.getReader()).getAsJsonObject();
+			log.info(req.getParameter("username"));
+			String username = req.getParameter("username");
+			String password = req.getParameter("password");
+			if(username == null || username == null) {
 				log.warn("No data, drop");
+				resp.setStatus(401);
 				return;
 			}
-			if(UserService.verifyUser(req.getParameter("username"), req.getParameter("password"))) {
+			if(UserService.verifyUser(username, password)) {
 				System.out.println("adding username now!");
 				//if username matches the masterUsere we will define a session 
 					HttpSession sesh = req.getSession();
@@ -41,18 +45,26 @@ public class LoginController {
 					log.info(sesh.getAttribute("User").toString());
 					
 					//we will redirect to the homecontroller research http session to redirect to either dashboard!
-					JSONObject jObc = new JSONObject();
-					jObc.put("url", "http://localhost:8080/ExpReimburse/expr/home");
-					resp.getWriter().write(jObc.toString());
+//					JSONObject jObc = new JSONObject();
+//					jObc.put("url", "http://localhost:8080/ExpReimburse/expr/home");
+//					resp.getWriter().write(jObc.toString());
+					resp.sendRedirect("http://localhost:8080/ExpReimburse/expr/home");
 					return;
 			}else {
 				resp.setStatus(403);
-				resp.sendRedirect("http://localhost:8080/ExpReimburse/404");
+				log.warn("Error 403: Invalid User");
+//				JSONObject jObc = new JSONObject();
+//				jObc.put("url", "http://localhost:8080/ExpReimburse/expr/home");
+//				resp.getWriter().write(jObc.toString());
+				resp.sendRedirect("http://localhost:8080/ExpReimburse/expr/home");
 			}
 			
 		}else {
 			resp.setStatus(405);
-			log.warn("Error 405");
+			log.warn("Error 405 Invalid method");
+//			JSONObject jObc = new JSONObject();
+//			jObc.put("url", "http://localhost:8080/ExpReimburse/expr/home");
+//			resp.getWriter().write(jObc.toString());
 			resp.sendRedirect("http://localhost:8080/ExpReimburse/expr/404");
 		}
 		
