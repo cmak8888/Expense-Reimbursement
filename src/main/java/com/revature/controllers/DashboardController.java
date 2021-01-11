@@ -92,13 +92,22 @@ public class DashboardController {
 		if(req.getSession(false) != null) {
 			if(req.getMethod().equals("GET")) {
 				HttpSession sesh = req.getSession();
-				JSONObject jTicket = new JSONObject(); 
-				Ticket ticket = null; 
-				resp.setContentType("application/json"); 
-				ticket = TicketService.getTicket((int)sesh.getAttribute("ticketid"));
-				jTicket = new JSONObject(ticket);
-				
-				resp.getWriter().write(jTicket.toString());
+				if(sesh.getAttribute("ticketid") != null ) {
+					JSONObject jTicket = new JSONObject(); 
+					Ticket ticket = null; 
+					resp.setContentType("application/json"); 
+					ticket = TicketService.getTicket((int)sesh.getAttribute("ticketid"));
+					jTicket = new JSONObject(ticket);
+					
+					resp.getWriter().write(jTicket.toString());
+				} else if(sesh.getAttribute("ticket") != null ) {
+					Ticket ticket = (Ticket)sesh.getAttribute("ticket"); 
+					ObjectMapper om = new ObjectMapper();
+					resp.getWriter().write(om.writeValueAsString(ticket));
+				} else {
+					resp.setStatus(405);
+					throw new Exception405(resp,"No valid format");
+				}
 				
 				
 			} else {
@@ -171,15 +180,21 @@ public class DashboardController {
 		resp.setContentType("application/json");
 		if(sesh != null) {
 			User user = (User)sesh.getAttribute("User");
+//			log.info(req.getReader().toString());
 			ObjectMapper om = new ObjectMapper(); 
-			Ticket ticket = om.readValue(req.getReader(), Ticket.class); 
-			//Ticket ticket = new Ticket(req.getParameter("title"), user, Integer.parseInt(req.getParameter("tickettype")),  req.getParameter("description")/*, req.getParameter("image")*/);
+			Ticket ticket = om.readValue(req.getReader(), com.revature.models.Ticket.class); 
+//			Ticket ticket = new Ticket(req.getParameter("title"), user, Integer.parseInt(req.getParameter("tickettype")),  req.getParameter("description")/*, req.getParameter("image")*/);
 			ticket.setUser(user);
+			ticket.setTimeStamp();
+			ticket.setTicketType(Integer.parseInt(req.getParameter("ticket_type")));
+			log.info(ticket.toString());
 			TicketService.submitTicket(ticket);
-			
+			sesh.setAttribute("ticket", ticket);
+//			resp.sendRedirect("http://localhost:8080/ExpReimburse/expr/TicketComplete");
 			RequestDispatcher redis = req.getRequestDispatcher("/ticketComplete.html");
-			redis.forward(req, resp);
+			redis.forward(req,resp);
 		} else {
+			resp.setStatus(401);
 			resp.sendRedirect("http://localhost:8080/ExpReimburse/expr");
 		}
 	}

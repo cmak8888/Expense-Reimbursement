@@ -52,11 +52,11 @@
                   <label for="tickettype">Ticket Type</label>
                 </div>
                 <div class="col-75">
-                  <select id="tickettype" name="Ticket Type" required>
-                    <option value="1">Lodging</option>
-                    <option value="2">Travel</option>
-                    <option value="3">Food</option>
-                    <option value="4">Other</option>
+                  <select id="ticket_type" name="ticket_type" required>
+                    <option value="0">Lodging</option>
+                    <option value="1">Travel</option>
+                    <option value="2">Food</option>
+                    <option value="3">Other</option>
                   </select>
                 </div>
               </div>
@@ -73,11 +73,11 @@
                   <label for="Amount">Amount</label>
                 </div>
                 <div class="col-75">
-                  <input type="number" id="amount" name="amount" placeholder="0.00" required/>
+                  <input type="" id="amount" name="amount" placeholder="0.00" step="0.01" min="0" required/>
                 </div>
               </div>
               <div class="row">
-                <input id="submitTicket" class="btn btn-primary" type="submit" value="Submit">
+                <input id="postTicket" class="btn btn-primary" type="submit" value="Submit">
               </div>
             </form>
           </div>

@@ -54,6 +54,12 @@ public class Ticket {
 	public int getTicketValue() {
 		return TicketType.getTicketValue(ticketType);
 	}
+	
+
+
+	public void setTicketType(int ticketType) {
+		this.ticketType = TicketType.values()[ticketType];
+	}
 
 	public void setTicketType(TicketType ticketType) {
 		this.ticketType = ticketType;
@@ -71,8 +77,9 @@ public class Ticket {
 		return timeStamp;
 	}
 
-	public void setTimeStamp(String timeStamp) {
-		this.timeStamp = timeStamp;
+	public void setTimeStamp() {
+		Timestamp timestamp = new Timestamp(System.currentTimeMillis());
+		this.timeStamp = sdf.format(timestamp.getTime());
 	}
 
 	public boolean isApproved() {
@@ -97,6 +104,37 @@ public class Ticket {
 
 	public void setImage(byte[] image) {
 		this.image = image;
+	}
+	
+	public Ticket() {
+		Timestamp timestamp = new Timestamp(System.currentTimeMillis());
+		this.timeStamp = sdf.format(timestamp.getTime());		
+	}
+	
+	public Ticket(String title, String description, double amount) {
+		this.title = title;
+		this.description = description;
+		this.setAmount(amount);
+		Timestamp timestamp = new Timestamp(System.currentTimeMillis());
+		this.timeStamp = sdf.format(timestamp.getTime());
+	}
+	
+	public Ticket(String title, String description, int ticket_type, double amount) {
+		this.title = title;
+		this.ticketType = TicketType.values()[ticket_type];
+		this.description = description;
+		this.setAmount(amount);
+		Timestamp timestamp = new Timestamp(System.currentTimeMillis());
+		this.timeStamp = sdf.format(timestamp.getTime());
+	}
+	
+	public Ticket(String title, String description, String ticket_type, double amount) {
+		this.title = title;
+		this.ticketType = TicketType.values()[Integer.parseInt(ticket_type)];
+		this.description = description;
+		this.setAmount(amount);
+		Timestamp timestamp = new Timestamp(System.currentTimeMillis());
+		this.timeStamp = sdf.format(timestamp.getTime());
 	}
 	
 	public Ticket(int id, int user, String title, String description, int ticketType, double amount, boolean approved, String timestamp) {
@@ -153,6 +191,7 @@ public class Ticket {
 		Timestamp timestamp = new Timestamp(System.currentTimeMillis());
 		this.timeStamp = sdf.format(timestamp.getTime());
 	}
+
 	
 	public void saveImage(String imageLocation) throws IOException {
 		ByteArrayOutputStream baos = null;

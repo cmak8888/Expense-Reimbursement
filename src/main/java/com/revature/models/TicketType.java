@@ -21,13 +21,13 @@ public enum TicketType {
 	
 	public static int getTicketValue(TicketType type) {
 		if(type.equals(TicketType.LODGING)) {
-			return 1;
+			return 0;
 		} else if (type.equals(TicketType.TRAVEL)) {
-			return 2;
+			return 1;
 		} else if (type.equals(TicketType.FOOD)) {
-			return 3;
+			return 2;
 		} else if (type.equals(TicketType.OTHER)) {
-			return 4;
+			return 3;
 		}
 		return 0;
 	}

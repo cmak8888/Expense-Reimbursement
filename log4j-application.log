@@ -4287,3 +4287,1425 @@ Email: jsmithysmith@mail.com
 2021-01-10 18:26:05 INFO  DashboardController:84 - Make Ticket
 2021-01-10 18:26:05 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/CreateTicket
 2021-01-10 18:26:05 INFO  DashboardController:84 - Make Ticket
+2021-01-10 19:43:03 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/
+2021-01-10 19:43:03 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/home
+2021-01-10 19:43:03 INFO  LoginController:74 - getHomePage() Retrieving home page
+2021-01-10 19:43:03 INFO  LoginController:78 - Not logged in
+2021-01-10 19:43:14 INFO  RequestHelper:72 - In Post/ExpReimburse/expr/api/login
+2021-01-10 19:43:14 INFO  LoginController:30 - jsmith
+2021-01-10 19:43:16 INFO  LoginController:45 - Name: John Smith
+Type: Employee
+Username: jsmith
+Password: *******
+Email: jsmithysmith@mail.com
+2021-01-10 19:43:16 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/home
+2021-01-10 19:43:16 INFO  LoginController:74 - getHomePage() Retrieving home page
+2021-01-10 19:43:16 INFO  LoginController:83 - Name: John Smith
+Type: Employee
+Username: jsmith
+Password: *******
+Email: jsmithysmith@mail.com
+2021-01-10 19:43:16 INFO  LoginController:84 - Employee
+2021-01-10 19:43:16 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/dashboard
+2021-01-10 19:43:16 INFO  DashboardController:44 - jsmith
+2021-01-10 19:43:16 INFO  DashboardController:48 - Am a Employee
+2021-01-10 19:43:16 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/api/getUser
+2021-01-10 19:43:16 INFO  DashboardController:140 - Inside getUser()
+2021-01-10 19:43:16 INFO  DashboardController:142 - getUser session
+2021-01-10 19:43:16 INFO  DashboardController:147 - Name: John Smith
+Type: Employee
+Username: jsmith
+Password: *******
+Email: jsmithysmith@mail.com
+2021-01-10 19:43:20 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/CreateTicket
+2021-01-10 19:43:20 INFO  DashboardController:84 - Make Ticket
+2021-01-10 19:43:33 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/CreateTicket
+2021-01-10 19:43:33 INFO  DashboardController:84 - Make Ticket
+2021-01-10 19:46:38 INFO  RequestHelper:21 - In Get/ExpReimburse/expr
+2021-01-10 19:46:38 INFO  LoginController:74 - getHomePage() Retrieving home page
+2021-01-10 19:46:38 INFO  LoginController:78 - Not logged in
+2021-01-10 19:47:28 INFO  RequestHelper:72 - In Post/ExpReimburse/expr/api/login
+2021-01-10 19:47:28 INFO  LoginController:30 - jsmith
+2021-01-10 19:47:29 INFO  LoginController:45 - Name: John Smith
+Type: Employee
+Username: jsmith
+Password: *******
+Email: jsmithysmith@mail.com
+2021-01-10 19:47:29 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/home
+2021-01-10 19:47:29 INFO  LoginController:74 - getHomePage() Retrieving home page
+2021-01-10 19:47:29 INFO  LoginController:83 - Name: John Smith
+Type: Employee
+Username: jsmith
+Password: *******
+Email: jsmithysmith@mail.com
+2021-01-10 19:47:29 INFO  LoginController:84 - Employee
+2021-01-10 19:47:29 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/dashboard
+2021-01-10 19:47:29 INFO  DashboardController:44 - jsmith
+2021-01-10 19:47:29 INFO  DashboardController:48 - Am a Employee
+2021-01-10 19:47:30 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/api/getUser
+2021-01-10 19:47:30 INFO  DashboardController:140 - Inside getUser()
+2021-01-10 19:47:30 INFO  DashboardController:142 - getUser session
+2021-01-10 19:47:30 INFO  DashboardController:147 - Name: John Smith
+Type: Employee
+Username: jsmith
+Password: *******
+Email: jsmithysmith@mail.com
+2021-01-10 19:47:33 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/CreateTicket
+2021-01-10 19:47:33 INFO  DashboardController:84 - Make Ticket
+2021-01-10 19:47:33 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/CreateTicket
+2021-01-10 19:47:33 INFO  DashboardController:84 - Make Ticket
+2021-01-10 19:47:45 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/CreateTicket
+2021-01-10 19:47:45 INFO  DashboardController:84 - Make Ticket
+2021-01-10 19:49:49 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/CreateTicket
+2021-01-10 19:49:49 INFO  DashboardController:84 - Make Ticket
+2021-01-10 19:53:01 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/
+2021-01-10 19:53:01 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/home
+2021-01-10 19:53:01 INFO  LoginController:74 - getHomePage() Retrieving home page
+2021-01-10 19:53:01 INFO  LoginController:78 - Not logged in
+2021-01-10 19:53:12 INFO  RequestHelper:76 - In Post/ExpReimburse/expr/api/login
+2021-01-10 19:53:12 INFO  LoginController:30 - jsmith
+2021-01-10 19:53:13 INFO  LoginController:45 - Name: John Smith
+Type: Employee
+Username: jsmith
+Password: *******
+Email: jsmithysmith@mail.com
+2021-01-10 19:53:13 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/home
+2021-01-10 19:53:13 INFO  LoginController:74 - getHomePage() Retrieving home page
+2021-01-10 19:53:13 INFO  LoginController:83 - Name: John Smith
+Type: Employee
+Username: jsmith
+Password: *******
+Email: jsmithysmith@mail.com
+2021-01-10 19:53:13 INFO  LoginController:84 - Employee
+2021-01-10 19:53:13 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/dashboard
+2021-01-10 19:53:13 INFO  DashboardController:44 - jsmith
+2021-01-10 19:53:13 INFO  DashboardController:48 - Am a Employee
+2021-01-10 19:53:14 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/api/getUser
+2021-01-10 19:53:14 INFO  DashboardController:140 - Inside getUser()
+2021-01-10 19:53:14 INFO  DashboardController:142 - getUser session
+2021-01-10 19:53:14 INFO  DashboardController:147 - Name: John Smith
+Type: Employee
+Username: jsmith
+Password: *******
+Email: jsmithysmith@mail.com
+2021-01-10 19:53:16 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/CreateTicket
+2021-01-10 19:53:16 INFO  DashboardController:84 - Make Ticket
+2021-01-10 19:53:16 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/CreateTicket
+2021-01-10 19:53:16 INFO  DashboardController:84 - Make Ticket
+2021-01-10 19:53:25 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/CreateTicket
+2021-01-10 19:53:25 INFO  DashboardController:84 - Make Ticket
+2021-01-10 20:06:49 INFO  RequestHelper:76 - In Post/ExpReimburse/expr/api/login
+2021-01-10 20:06:49 INFO  LoginController:30 - jsmith
+2021-01-10 20:06:50 INFO  LoginController:45 - Name: John Smith
+Type: Employee
+Username: jsmith
+Password: *******
+Email: jsmithysmith@mail.com
+2021-01-10 20:06:50 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/home
+2021-01-10 20:06:50 INFO  LoginController:74 - getHomePage() Retrieving home page
+2021-01-10 20:06:50 INFO  LoginController:83 - Name: John Smith
+Type: Employee
+Username: jsmith
+Password: *******
+Email: jsmithysmith@mail.com
+2021-01-10 20:06:50 INFO  LoginController:84 - Employee
+2021-01-10 20:06:50 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/dashboard
+2021-01-10 20:06:50 INFO  DashboardController:44 - jsmith
+2021-01-10 20:06:50 INFO  DashboardController:48 - Am a Employee
+2021-01-10 20:06:51 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/api/getUser
+2021-01-10 20:06:51 INFO  DashboardController:140 - Inside getUser()
+2021-01-10 20:06:51 INFO  DashboardController:142 - getUser session
+2021-01-10 20:06:51 INFO  DashboardController:147 - Name: John Smith
+Type: Employee
+Username: jsmith
+Password: *******
+Email: jsmithysmith@mail.com
+2021-01-10 20:06:55 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/CreateTicket
+2021-01-10 20:06:55 INFO  DashboardController:84 - Make Ticket
+2021-01-10 20:06:55 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/CreateTicket
+2021-01-10 20:06:55 INFO  DashboardController:84 - Make Ticket
+2021-01-10 20:07:57 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/CreateTicket
+2021-01-10 20:07:57 INFO  DashboardController:84 - Make Ticket
+2021-01-10 20:09:47 INFO  RequestHelper:76 - In Post/ExpReimburse/expr/api/login
+2021-01-10 20:09:47 INFO  LoginController:30 - jsmith
+2021-01-10 20:09:49 INFO  LoginController:45 - Name: John Smith
+Type: Employee
+Username: jsmith
+Password: *******
+Email: jsmithysmith@mail.com
+2021-01-10 20:09:49 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/home
+2021-01-10 20:09:49 INFO  LoginController:74 - getHomePage() Retrieving home page
+2021-01-10 20:09:49 INFO  LoginController:83 - Name: John Smith
+Type: Employee
+Username: jsmith
+Password: *******
+Email: jsmithysmith@mail.com
+2021-01-10 20:09:49 INFO  LoginController:84 - Employee
+2021-01-10 20:09:49 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/dashboard
+2021-01-10 20:09:49 INFO  DashboardController:44 - jsmith
+2021-01-10 20:09:49 INFO  DashboardController:48 - Am a Employee
+2021-01-10 20:09:49 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/api/getUser
+2021-01-10 20:09:49 INFO  DashboardController:140 - Inside getUser()
+2021-01-10 20:09:49 INFO  DashboardController:142 - getUser session
+2021-01-10 20:09:49 INFO  DashboardController:147 - Name: John Smith
+Type: Employee
+Username: jsmith
+Password: *******
+Email: jsmithysmith@mail.com
+2021-01-10 20:09:56 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/CreateTicket
+2021-01-10 20:09:56 INFO  DashboardController:84 - Make Ticket
+2021-01-10 20:09:56 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/CreateTicket
+2021-01-10 20:09:56 INFO  DashboardController:84 - Make Ticket
+2021-01-10 20:10:29 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/CreateTicket
+2021-01-10 20:10:29 INFO  DashboardController:84 - Make Ticket
+2021-01-10 20:13:10 INFO  RequestHelper:21 - In Get/ExpReimburse/expr
+2021-01-10 20:13:10 INFO  LoginController:74 - getHomePage() Retrieving home page
+2021-01-10 20:13:10 INFO  LoginController:78 - Not logged in
+2021-01-10 20:13:18 INFO  RequestHelper:76 - In Post/ExpReimburse/expr/api/login
+2021-01-10 20:13:18 INFO  LoginController:30 - jsmith
+2021-01-10 20:13:19 INFO  LoginController:45 - Name: John Smith
+Type: Employee
+Username: jsmith
+Password: *******
+Email: jsmithysmith@mail.com
+2021-01-10 20:13:19 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/home
+2021-01-10 20:13:19 INFO  LoginController:74 - getHomePage() Retrieving home page
+2021-01-10 20:13:19 INFO  LoginController:83 - Name: John Smith
+Type: Employee
+Username: jsmith
+Password: *******
+Email: jsmithysmith@mail.com
+2021-01-10 20:13:19 INFO  LoginController:84 - Employee
+2021-01-10 20:13:19 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/dashboard
+2021-01-10 20:13:19 INFO  DashboardController:44 - jsmith
+2021-01-10 20:13:19 INFO  DashboardController:48 - Am a Employee
+2021-01-10 20:13:20 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/api/getUser
+2021-01-10 20:13:20 INFO  DashboardController:140 - Inside getUser()
+2021-01-10 20:13:20 INFO  DashboardController:142 - getUser session
+2021-01-10 20:13:20 INFO  DashboardController:147 - Name: John Smith
+Type: Employee
+Username: jsmith
+Password: *******
+Email: jsmithysmith@mail.com
+2021-01-10 20:13:21 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/CreateTicket
+2021-01-10 20:13:21 INFO  DashboardController:84 - Make Ticket
+2021-01-10 20:13:21 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/CreateTicket
+2021-01-10 20:13:21 INFO  DashboardController:84 - Make Ticket
+2021-01-10 20:13:43 INFO  RequestHelper:76 - In Post/ExpReimburse/expr/api/postTicket
+2021-01-10 20:13:43 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/CreateTicket
+2021-01-10 20:13:43 INFO  DashboardController:84 - Make Ticket
+2021-01-10 20:15:26 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/home
+2021-01-10 20:15:26 INFO  LoginController:74 - getHomePage() Retrieving home page
+2021-01-10 20:15:26 INFO  LoginController:78 - Not logged in
+2021-01-10 20:15:33 INFO  RequestHelper:76 - In Post/ExpReimburse/expr/api/login
+2021-01-10 20:15:33 INFO  LoginController:30 - jsmith
+2021-01-10 20:15:34 INFO  LoginController:45 - Name: John Smith
+Type: Employee
+Username: jsmith
+Password: *******
+Email: jsmithysmith@mail.com
+2021-01-10 20:15:34 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/home
+2021-01-10 20:15:34 INFO  LoginController:74 - getHomePage() Retrieving home page
+2021-01-10 20:15:34 INFO  LoginController:83 - Name: John Smith
+Type: Employee
+Username: jsmith
+Password: *******
+Email: jsmithysmith@mail.com
+2021-01-10 20:15:34 INFO  LoginController:84 - Employee
+2021-01-10 20:15:34 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/dashboard
+2021-01-10 20:15:34 INFO  DashboardController:44 - jsmith
+2021-01-10 20:15:34 INFO  DashboardController:48 - Am a Employee
+2021-01-10 20:15:35 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/api/getUser
+2021-01-10 20:15:35 INFO  DashboardController:140 - Inside getUser()
+2021-01-10 20:15:35 INFO  DashboardController:142 - getUser session
+2021-01-10 20:15:35 INFO  DashboardController:147 - Name: John Smith
+Type: Employee
+Username: jsmith
+Password: *******
+Email: jsmithysmith@mail.com
+2021-01-10 20:15:37 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/CreateTicket
+2021-01-10 20:15:37 INFO  DashboardController:84 - Make Ticket
+2021-01-10 20:15:37 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/CreateTicket
+2021-01-10 20:15:37 INFO  DashboardController:84 - Make Ticket
+2021-01-10 20:15:46 INFO  RequestHelper:76 - In Post/ExpReimburse/expr/api/postTicket
+2021-01-10 20:16:00 INFO  RequestHelper:76 - In Post/ExpReimburse/expr/api/postTicket
+2021-01-10 20:16:00 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/CreateTicket
+2021-01-10 20:16:00 INFO  DashboardController:84 - Make Ticket
+2021-01-10 20:18:46 INFO  RequestHelper:76 - In Post/ExpReimburse/expr/api/login
+2021-01-10 20:18:46 INFO  LoginController:30 - jsmith
+2021-01-10 20:18:48 INFO  LoginController:45 - Name: John Smith
+Type: Employee
+Username: jsmith
+Password: *******
+Email: jsmithysmith@mail.com
+2021-01-10 20:18:48 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/home
+2021-01-10 20:18:48 INFO  LoginController:74 - getHomePage() Retrieving home page
+2021-01-10 20:18:48 INFO  LoginController:83 - Name: John Smith
+Type: Employee
+Username: jsmith
+Password: *******
+Email: jsmithysmith@mail.com
+2021-01-10 20:18:48 INFO  LoginController:84 - Employee
+2021-01-10 20:18:48 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/dashboard
+2021-01-10 20:18:48 INFO  DashboardController:44 - jsmith
+2021-01-10 20:18:48 INFO  DashboardController:48 - Am a Employee
+2021-01-10 20:18:48 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/api/getUser
+2021-01-10 20:18:48 INFO  DashboardController:140 - Inside getUser()
+2021-01-10 20:18:48 INFO  DashboardController:142 - getUser session
+2021-01-10 20:18:48 INFO  DashboardController:147 - Name: John Smith
+Type: Employee
+Username: jsmith
+Password: *******
+Email: jsmithysmith@mail.com
+2021-01-10 20:18:51 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/CreateTicket
+2021-01-10 20:18:51 INFO  DashboardController:84 - Make Ticket
+2021-01-10 20:18:58 INFO  RequestHelper:76 - In Post/ExpReimburse/expr/api/postTicket
+2021-01-10 20:18:58 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/CreateTicket
+2021-01-10 20:18:58 INFO  DashboardController:84 - Make Ticket
+2021-01-10 20:21:19 INFO  RequestHelper:76 - In Post/ExpReimburse/expr/api/login
+2021-01-10 20:21:19 INFO  LoginController:30 - jsmith
+2021-01-10 20:21:20 INFO  LoginController:45 - Name: John Smith
+Type: Employee
+Username: jsmith
+Password: *******
+Email: jsmithysmith@mail.com
+2021-01-10 20:21:20 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/home
+2021-01-10 20:21:20 INFO  LoginController:74 - getHomePage() Retrieving home page
+2021-01-10 20:21:20 INFO  LoginController:83 - Name: John Smith
+Type: Employee
+Username: jsmith
+Password: *******
+Email: jsmithysmith@mail.com
+2021-01-10 20:21:20 INFO  LoginController:84 - Employee
+2021-01-10 20:21:20 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/dashboard
+2021-01-10 20:21:20 INFO  DashboardController:44 - jsmith
+2021-01-10 20:21:20 INFO  DashboardController:48 - Am a Employee
+2021-01-10 20:21:21 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/api/getUser
+2021-01-10 20:21:21 INFO  DashboardController:140 - Inside getUser()
+2021-01-10 20:21:21 INFO  DashboardController:142 - getUser session
+2021-01-10 20:21:21 INFO  DashboardController:147 - Name: John Smith
+Type: Employee
+Username: jsmith
+Password: *******
+Email: jsmithysmith@mail.com
+2021-01-10 20:21:29 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/ViewTickets
+2021-01-10 20:21:29 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/css/viewTickets.css
+2021-01-10 20:21:29 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/css/dashboard.css
+2021-01-10 20:21:29 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/js/dashboardJQuery.js
+2021-01-10 20:21:29 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/js/viewTicket.js
+2021-01-10 20:21:33 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/CreateTicket
+2021-01-10 20:21:33 INFO  DashboardController:84 - Make Ticket
+2021-01-10 20:21:46 INFO  RequestHelper:76 - In Post/ExpReimburse/expr/api/postTicket
+2021-01-10 20:21:46 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/CreateTicket
+2021-01-10 20:21:46 INFO  DashboardController:84 - Make Ticket
+2021-01-10 20:22:05 INFO  RequestHelper:76 - In Post/ExpReimburse/expr/api/postTicket
+2021-01-10 20:22:05 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/CreateTicket
+2021-01-10 20:22:05 INFO  DashboardController:84 - Make Ticket
+2021-01-10 20:22:29 INFO  RequestHelper:76 - In Post/ExpReimburse/expr/api/postTicket
+2021-01-10 20:22:29 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/CreateTicket
+2021-01-10 20:22:29 INFO  DashboardController:84 - Make Ticket
+2021-01-10 20:24:14 INFO  RequestHelper:21 - In Get/ExpReimburse/expr
+2021-01-10 20:24:14 INFO  LoginController:74 - getHomePage() Retrieving home page
+2021-01-10 20:24:14 INFO  LoginController:78 - Not logged in
+2021-01-10 20:24:20 INFO  RequestHelper:76 - In Post/ExpReimburse/expr/api/login
+2021-01-10 20:24:20 INFO  LoginController:30 - jsmith
+2021-01-10 20:24:22 INFO  LoginController:45 - Name: John Smith
+Type: Employee
+Username: jsmith
+Password: *******
+Email: jsmithysmith@mail.com
+2021-01-10 20:24:22 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/home
+2021-01-10 20:24:22 INFO  LoginController:74 - getHomePage() Retrieving home page
+2021-01-10 20:24:22 INFO  LoginController:83 - Name: John Smith
+Type: Employee
+Username: jsmith
+Password: *******
+Email: jsmithysmith@mail.com
+2021-01-10 20:24:22 INFO  LoginController:84 - Employee
+2021-01-10 20:24:22 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/dashboard
+2021-01-10 20:24:22 INFO  DashboardController:44 - jsmith
+2021-01-10 20:24:22 INFO  DashboardController:48 - Am a Employee
+2021-01-10 20:24:22 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/api/getUser
+2021-01-10 20:24:22 INFO  DashboardController:140 - Inside getUser()
+2021-01-10 20:24:22 INFO  DashboardController:142 - getUser session
+2021-01-10 20:24:22 INFO  DashboardController:147 - Name: John Smith
+Type: Employee
+Username: jsmith
+Password: *******
+Email: jsmithysmith@mail.com
+2021-01-10 20:24:24 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/CreateTicket
+2021-01-10 20:24:24 INFO  DashboardController:84 - Make Ticket
+2021-01-10 20:24:24 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/CreateTicket
+2021-01-10 20:24:24 INFO  DashboardController:84 - Make Ticket
+2021-01-10 20:24:44 INFO  RequestHelper:76 - In Post/ExpReimburse/expr/api/postTicket
+2021-01-10 20:24:44 INFO  DashboardController:174 - org.apache.catalina.connector.CoyoteReader@732c06b8
+2021-01-10 20:24:44 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/CreateTicket
+2021-01-10 20:24:44 INFO  DashboardController:84 - Make Ticket
+2021-01-10 20:26:58 INFO  RequestHelper:76 - In Post/ExpReimburse/expr/api/login
+2021-01-10 20:26:58 INFO  LoginController:30 - jsmith
+2021-01-10 20:26:59 INFO  LoginController:45 - Name: John Smith
+Type: Employee
+Username: jsmith
+Password: *******
+Email: jsmithysmith@mail.com
+2021-01-10 20:26:59 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/home
+2021-01-10 20:26:59 INFO  LoginController:74 - getHomePage() Retrieving home page
+2021-01-10 20:26:59 INFO  LoginController:83 - Name: John Smith
+Type: Employee
+Username: jsmith
+Password: *******
+Email: jsmithysmith@mail.com
+2021-01-10 20:26:59 INFO  LoginController:84 - Employee
+2021-01-10 20:26:59 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/dashboard
+2021-01-10 20:26:59 INFO  DashboardController:44 - jsmith
+2021-01-10 20:26:59 INFO  DashboardController:48 - Am a Employee
+2021-01-10 20:28:58 INFO  RequestHelper:76 - In Post/ExpReimburse/expr/api/postTicket
+2021-01-10 20:28:58 INFO  DashboardController:174 - org.apache.catalina.connector.CoyoteReader@732c06b8
+2021-01-10 20:29:36 INFO  RequestHelper:76 - In Post/ExpReimburse/expr/api/postTicket
+2021-01-10 20:29:36 INFO  DashboardController:174 - org.apache.catalina.connector.CoyoteReader@732c06b8
+2021-01-10 20:29:53 INFO  RequestHelper:76 - In Post/ExpReimburse/expr/api/postTicket
+2021-01-10 20:29:53 INFO  DashboardController:174 - org.apache.catalina.connector.CoyoteReader@732c06b8
+2021-01-10 20:30:03 INFO  RequestHelper:76 - In Post/ExpReimburse/expr/api/postTicket
+2021-01-10 20:30:03 INFO  DashboardController:174 - org.apache.catalina.connector.CoyoteReader@732c06b8
+2021-01-10 20:30:22 INFO  RequestHelper:76 - In Post/ExpReimburse/expr/api/postTicket
+2021-01-10 20:30:22 INFO  DashboardController:174 - org.apache.catalina.connector.CoyoteReader@732c06b8
+2021-01-10 20:33:54 INFO  RequestHelper:76 - In Post/ExpReimburse/expr/api/postTicket
+2021-01-10 20:33:54 INFO  RequestHelper:21 - In Get/ExpReimburse/expr
+2021-01-10 20:33:54 INFO  LoginController:74 - getHomePage() Retrieving home page
+2021-01-10 20:33:54 INFO  LoginController:78 - Not logged in
+2021-01-10 20:34:01 INFO  RequestHelper:76 - In Post/ExpReimburse/expr/api/login
+2021-01-10 20:34:01 INFO  LoginController:30 - jsmith
+2021-01-10 20:34:03 INFO  LoginController:45 - Name: John Smith
+Type: Employee
+Username: jsmith
+Password: *******
+Email: jsmithysmith@mail.com
+2021-01-10 20:34:03 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/home
+2021-01-10 20:34:03 INFO  LoginController:74 - getHomePage() Retrieving home page
+2021-01-10 20:34:03 INFO  LoginController:83 - Name: John Smith
+Type: Employee
+Username: jsmith
+Password: *******
+Email: jsmithysmith@mail.com
+2021-01-10 20:34:03 INFO  LoginController:84 - Employee
+2021-01-10 20:34:03 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/dashboard
+2021-01-10 20:34:03 INFO  DashboardController:44 - jsmith
+2021-01-10 20:34:03 INFO  DashboardController:48 - Am a Employee
+2021-01-10 20:34:05 INFO  RequestHelper:76 - In Post/ExpReimburse/expr/api/postTicket
+2021-01-10 20:34:05 INFO  DashboardController:174 - org.apache.catalina.connector.CoyoteReader@6b9f30df
+2021-01-10 20:35:05 INFO  RequestHelper:76 - In Post/ExpReimburse/expr/api/postTicket
+2021-01-10 20:36:32 INFO  RequestHelper:76 - In Post/ExpReimburse/expr/api/postTicket
+2021-01-10 20:36:45 INFO  RequestHelper:76 - In Post/ExpReimburse/expr/api/login
+2021-01-10 20:36:45 INFO  LoginController:30 - jsmith
+2021-01-10 20:36:46 INFO  LoginController:45 - Name: John Smith
+Type: Employee
+Username: jsmith
+Password: *******
+Email: jsmithysmith@mail.com
+2021-01-10 20:36:46 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/home
+2021-01-10 20:36:46 INFO  LoginController:74 - getHomePage() Retrieving home page
+2021-01-10 20:36:46 INFO  LoginController:83 - Name: John Smith
+Type: Employee
+Username: jsmith
+Password: *******
+Email: jsmithysmith@mail.com
+2021-01-10 20:36:46 INFO  LoginController:84 - Employee
+2021-01-10 20:36:46 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/dashboard
+2021-01-10 20:36:46 INFO  DashboardController:44 - jsmith
+2021-01-10 20:36:46 INFO  DashboardController:48 - Am a Employee
+2021-01-10 20:36:52 INFO  RequestHelper:76 - In Post/ExpReimburse/expr/api/postTicket
+2021-01-10 20:36:52 INFO  DashboardController:179 - Title: test
+User: John Smith
+TicketType: TRAVEL
+Description: Derp
+Created: null
+2021-01-10 20:36:52 WARN  ExpReimburse:33 - Error, SQL Exception in creating Ticket 0
+2021-01-10 20:36:52 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/TicketComplete
+2021-01-10 20:42:16 INFO  RequestHelper:76 - In Post/ExpReimburse/expr/api/postTicket
+2021-01-10 20:42:16 INFO  RequestHelper:21 - In Get/ExpReimburse/expr
+2021-01-10 20:42:16 INFO  LoginController:74 - getHomePage() Retrieving home page
+2021-01-10 20:42:16 INFO  LoginController:78 - Not logged in
+2021-01-10 20:42:19 INFO  RequestHelper:76 - In Post/ExpReimburse/expr/api/login
+2021-01-10 20:42:19 INFO  LoginController:30 - jsmith
+2021-01-10 20:42:21 INFO  LoginController:45 - Name: John Smith
+Type: Employee
+Username: jsmith
+Password: *******
+Email: jsmithysmith@mail.com
+2021-01-10 20:42:21 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/home
+2021-01-10 20:42:21 INFO  LoginController:74 - getHomePage() Retrieving home page
+2021-01-10 20:42:21 INFO  LoginController:83 - Name: John Smith
+Type: Employee
+Username: jsmith
+Password: *******
+Email: jsmithysmith@mail.com
+2021-01-10 20:42:21 INFO  LoginController:84 - Employee
+2021-01-10 20:42:21 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/dashboard
+2021-01-10 20:42:21 INFO  DashboardController:44 - jsmith
+2021-01-10 20:42:21 INFO  DashboardController:48 - Am a Employee
+2021-01-10 20:42:26 INFO  RequestHelper:76 - In Post/ExpReimburse/expr/api/postTicket
+2021-01-10 20:42:27 INFO  DashboardController:179 - Title: test
+User: John Smith
+TicketType: TRAVEL
+Description: Derp
+Created: null
+2021-01-10 20:42:27 WARN  ExpReimburse:33 - Error, SQL Exception in creating Ticket 0
+2021-01-10 20:42:27 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/TicketComplete
+2021-01-10 20:48:10 INFO  RequestHelper:76 - In Post/ExpReimburse/expr/api/login
+2021-01-10 20:48:10 INFO  LoginController:30 - jsmith
+2021-01-10 20:48:12 INFO  LoginController:45 - Name: John Smith
+Type: Employee
+Username: jsmith
+Password: *******
+Email: jsmithysmith@mail.com
+2021-01-10 20:48:12 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/home
+2021-01-10 20:48:12 INFO  LoginController:74 - getHomePage() Retrieving home page
+2021-01-10 20:48:12 INFO  LoginController:83 - Name: John Smith
+Type: Employee
+Username: jsmith
+Password: *******
+Email: jsmithysmith@mail.com
+2021-01-10 20:48:12 INFO  LoginController:84 - Employee
+2021-01-10 20:48:12 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/dashboard
+2021-01-10 20:48:12 INFO  DashboardController:44 - jsmith
+2021-01-10 20:48:12 INFO  DashboardController:48 - Am a Employee
+2021-01-10 20:48:18 INFO  RequestHelper:76 - In Post/ExpReimburse/expr/api/postTicket
+2021-01-10 20:48:19 INFO  DashboardController:180 - Title: test
+User: John Smith
+TicketType: TRAVEL
+Description: Derp
+Created: 2021.01.10.20.48.19
+2021-01-10 20:48:19 WARN  ExpReimburse:33 - Error, SQL Exception in creating Ticket 0
+2021-01-10 20:48:19 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/TicketComplete
+2021-01-10 20:57:34 INFO  RequestHelper:76 - In Post/ExpReimburse/expr/api/login
+2021-01-10 20:57:34 INFO  LoginController:30 - jsmith
+2021-01-10 20:57:35 INFO  LoginController:45 - Name: John Smith
+Type: Employee
+Username: jsmith
+Password: *******
+Email: jsmithysmith@mail.com
+2021-01-10 20:57:35 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/home
+2021-01-10 20:57:35 INFO  LoginController:74 - getHomePage() Retrieving home page
+2021-01-10 20:57:35 INFO  LoginController:83 - Name: John Smith
+Type: Employee
+Username: jsmith
+Password: *******
+Email: jsmithysmith@mail.com
+2021-01-10 20:57:35 INFO  LoginController:84 - Employee
+2021-01-10 20:57:35 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/dashboard
+2021-01-10 20:57:35 INFO  DashboardController:44 - jsmith
+2021-01-10 20:57:35 INFO  DashboardController:48 - Am a Employee
+2021-01-10 20:57:37 INFO  RequestHelper:76 - In Post/ExpReimburse/expr/api/postTicket
+2021-01-10 20:57:37 INFO  DashboardController:180 - Title: test
+User: John Smith
+TicketType: TRAVEL
+Description: Derp
+Created: 2021.01.10.20.57.37
+2021-01-10 20:57:37 WARN  ExpReimburse:33 - Error, SQL Exception in creating Ticket 0
+2021-01-10 20:57:37 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/TicketComplete
+2021-01-10 21:00:24 INFO  RequestHelper:76 - In Post/ExpReimburse/expr/api/login
+2021-01-10 21:00:24 INFO  LoginController:30 - jsmith
+2021-01-10 21:00:25 INFO  LoginController:45 - Name: John Smith
+Type: Employee
+Username: jsmith
+Password: *******
+Email: jsmithysmith@mail.com
+2021-01-10 21:00:25 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/home
+2021-01-10 21:00:25 INFO  LoginController:74 - getHomePage() Retrieving home page
+2021-01-10 21:00:25 INFO  LoginController:83 - Name: John Smith
+Type: Employee
+Username: jsmith
+Password: *******
+Email: jsmithysmith@mail.com
+2021-01-10 21:00:25 INFO  LoginController:84 - Employee
+2021-01-10 21:00:25 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/dashboard
+2021-01-10 21:00:25 INFO  DashboardController:44 - jsmith
+2021-01-10 21:00:25 INFO  DashboardController:48 - Am a Employee
+2021-01-10 21:00:31 INFO  RequestHelper:76 - In Post/ExpReimburse/expr/api/postTicket
+2021-01-10 21:00:31 INFO  DashboardController:180 - Title: test
+User: John Smith
+TicketType: TRAVEL
+Description: Derp
+Created: 2021.01.10.21.00.31
+2021-01-10 21:00:31 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/TicketComplete
+2021-01-10 21:03:09 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/CreateTicket
+2021-01-10 21:03:09 INFO  DashboardController:84 - Make Ticket
+2021-01-10 21:03:16 INFO  RequestHelper:21 - In Get/ExpReimburse/expr
+2021-01-10 21:03:16 INFO  LoginController:74 - getHomePage() Retrieving home page
+2021-01-10 21:03:16 INFO  LoginController:78 - Not logged in
+2021-01-10 21:03:22 INFO  RequestHelper:76 - In Post/ExpReimburse/expr/api/login
+2021-01-10 21:03:22 INFO  LoginController:30 - jsmith
+2021-01-10 21:03:24 INFO  LoginController:45 - Name: John Smith
+Type: Employee
+Username: jsmith
+Password: *******
+Email: jsmithysmith@mail.com
+2021-01-10 21:03:24 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/home
+2021-01-10 21:03:24 INFO  LoginController:74 - getHomePage() Retrieving home page
+2021-01-10 21:03:24 INFO  LoginController:83 - Name: John Smith
+Type: Employee
+Username: jsmith
+Password: *******
+Email: jsmithysmith@mail.com
+2021-01-10 21:03:24 INFO  LoginController:84 - Employee
+2021-01-10 21:03:24 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/dashboard
+2021-01-10 21:03:24 INFO  DashboardController:44 - jsmith
+2021-01-10 21:03:24 INFO  DashboardController:48 - Am a Employee
+2021-01-10 21:03:25 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/api/getUser
+2021-01-10 21:03:25 INFO  DashboardController:140 - Inside getUser()
+2021-01-10 21:03:25 INFO  DashboardController:142 - getUser session
+2021-01-10 21:03:25 INFO  DashboardController:147 - Name: John Smith
+Type: Employee
+Username: jsmith
+Password: *******
+Email: jsmithysmith@mail.com
+2021-01-10 21:03:27 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/CreateTicket
+2021-01-10 21:03:27 INFO  DashboardController:84 - Make Ticket
+2021-01-10 21:03:27 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/CreateTicket
+2021-01-10 21:03:27 INFO  DashboardController:84 - Make Ticket
+2021-01-10 21:03:40 INFO  RequestHelper:76 - In Post/ExpReimburse/expr/api/postTicket
+2021-01-10 21:03:40 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/CreateTicket
+2021-01-10 21:03:40 INFO  DashboardController:84 - Make Ticket
+2021-01-10 21:05:05 INFO  RequestHelper:76 - In Post/ExpReimburse/expr/api/postTicket
+2021-01-10 21:05:09 INFO  RequestHelper:76 - In Post/ExpReimburse/expr/api/postTicket
+2021-01-10 21:05:09 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/CreateTicket
+2021-01-10 21:05:09 INFO  DashboardController:84 - Make Ticket
+2021-01-10 21:06:17 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/
+2021-01-10 21:06:17 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/home
+2021-01-10 21:06:17 INFO  LoginController:74 - getHomePage() Retrieving home page
+2021-01-10 21:06:17 INFO  LoginController:78 - Not logged in
+2021-01-10 21:06:29 INFO  RequestHelper:76 - In Post/ExpReimburse/expr/api/login
+2021-01-10 21:06:29 INFO  LoginController:30 - jsmith
+2021-01-10 21:06:30 INFO  LoginController:45 - Name: John Smith
+Type: Employee
+Username: jsmith
+Password: *******
+Email: jsmithysmith@mail.com
+2021-01-10 21:06:30 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/home
+2021-01-10 21:06:30 INFO  LoginController:74 - getHomePage() Retrieving home page
+2021-01-10 21:06:30 INFO  LoginController:83 - Name: John Smith
+Type: Employee
+Username: jsmith
+Password: *******
+Email: jsmithysmith@mail.com
+2021-01-10 21:06:30 INFO  LoginController:84 - Employee
+2021-01-10 21:06:30 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/dashboard
+2021-01-10 21:06:30 INFO  DashboardController:44 - jsmith
+2021-01-10 21:06:30 INFO  DashboardController:48 - Am a Employee
+2021-01-10 21:06:31 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/api/getUser
+2021-01-10 21:06:31 INFO  DashboardController:140 - Inside getUser()
+2021-01-10 21:06:31 INFO  DashboardController:142 - getUser session
+2021-01-10 21:06:31 INFO  DashboardController:147 - Name: John Smith
+Type: Employee
+Username: jsmith
+Password: *******
+Email: jsmithysmith@mail.com
+2021-01-10 21:06:35 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/CreateTicket
+2021-01-10 21:06:35 INFO  DashboardController:84 - Make Ticket
+2021-01-10 21:06:35 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/CreateTicket
+2021-01-10 21:06:35 INFO  DashboardController:84 - Make Ticket
+2021-01-10 21:06:44 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/CreateTicket
+2021-01-10 21:06:44 INFO  DashboardController:84 - Make Ticket
+2021-01-10 21:07:24 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/
+2021-01-10 21:07:24 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/home
+2021-01-10 21:07:24 INFO  LoginController:74 - getHomePage() Retrieving home page
+2021-01-10 21:07:24 INFO  LoginController:78 - Not logged in
+2021-01-10 21:07:30 INFO  RequestHelper:76 - In Post/ExpReimburse/expr/api/login
+2021-01-10 21:07:30 INFO  LoginController:30 - jsmith
+2021-01-10 21:07:32 INFO  LoginController:45 - Name: John Smith
+Type: Employee
+Username: jsmith
+Password: *******
+Email: jsmithysmith@mail.com
+2021-01-10 21:07:32 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/home
+2021-01-10 21:07:32 INFO  LoginController:74 - getHomePage() Retrieving home page
+2021-01-10 21:07:32 INFO  LoginController:83 - Name: John Smith
+Type: Employee
+Username: jsmith
+Password: *******
+Email: jsmithysmith@mail.com
+2021-01-10 21:07:32 INFO  LoginController:84 - Employee
+2021-01-10 21:07:32 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/dashboard
+2021-01-10 21:07:32 INFO  DashboardController:44 - jsmith
+2021-01-10 21:07:32 INFO  DashboardController:48 - Am a Employee
+2021-01-10 21:07:33 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/api/getUser
+2021-01-10 21:07:33 INFO  DashboardController:140 - Inside getUser()
+2021-01-10 21:07:33 INFO  DashboardController:142 - getUser session
+2021-01-10 21:07:33 INFO  DashboardController:147 - Name: John Smith
+Type: Employee
+Username: jsmith
+Password: *******
+Email: jsmithysmith@mail.com
+2021-01-10 21:07:37 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/CreateTicket
+2021-01-10 21:07:37 INFO  DashboardController:84 - Make Ticket
+2021-01-10 21:07:37 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/CreateTicket
+2021-01-10 21:07:37 INFO  DashboardController:84 - Make Ticket
+2021-01-10 21:07:47 INFO  RequestHelper:76 - In Post/ExpReimburse/expr/api/postTicket
+2021-01-10 21:07:47 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/CreateTicket
+2021-01-10 21:07:47 INFO  DashboardController:84 - Make Ticket
+2021-01-10 21:08:45 INFO  RequestHelper:21 - In Get/ExpReimburse/expr
+2021-01-10 21:08:45 INFO  LoginController:74 - getHomePage() Retrieving home page
+2021-01-10 21:08:45 INFO  LoginController:78 - Not logged in
+2021-01-10 21:08:52 INFO  RequestHelper:76 - In Post/ExpReimburse/expr/api/login
+2021-01-10 21:08:52 INFO  LoginController:30 - jsmith
+2021-01-10 21:08:54 INFO  LoginController:45 - Name: John Smith
+Type: Employee
+Username: jsmith
+Password: *******
+Email: jsmithysmith@mail.com
+2021-01-10 21:08:54 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/home
+2021-01-10 21:08:54 INFO  LoginController:74 - getHomePage() Retrieving home page
+2021-01-10 21:08:54 INFO  LoginController:83 - Name: John Smith
+Type: Employee
+Username: jsmith
+Password: *******
+Email: jsmithysmith@mail.com
+2021-01-10 21:08:54 INFO  LoginController:84 - Employee
+2021-01-10 21:08:54 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/dashboard
+2021-01-10 21:08:54 INFO  DashboardController:44 - jsmith
+2021-01-10 21:08:54 INFO  DashboardController:48 - Am a Employee
+2021-01-10 21:08:54 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/api/getUser
+2021-01-10 21:08:54 INFO  DashboardController:140 - Inside getUser()
+2021-01-10 21:08:54 INFO  DashboardController:142 - getUser session
+2021-01-10 21:08:54 INFO  DashboardController:147 - Name: John Smith
+Type: Employee
+Username: jsmith
+Password: *******
+Email: jsmithysmith@mail.com
+2021-01-10 21:10:27 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/CreateTicket
+2021-01-10 21:10:27 INFO  DashboardController:84 - Make Ticket
+2021-01-10 21:10:27 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/CreateTicket
+2021-01-10 21:10:27 INFO  DashboardController:84 - Make Ticket
+2021-01-10 21:10:35 INFO  RequestHelper:76 - In Post/ExpReimburse/expr/api/postTicket
+2021-01-10 21:10:35 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/CreateTicket
+2021-01-10 21:10:35 INFO  DashboardController:84 - Make Ticket
+2021-01-10 21:17:59 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/
+2021-01-10 21:17:59 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/home
+2021-01-10 21:17:59 INFO  LoginController:74 - getHomePage() Retrieving home page
+2021-01-10 21:17:59 INFO  LoginController:78 - Not logged in
+2021-01-10 21:18:07 INFO  RequestHelper:76 - In Post/ExpReimburse/expr/api/login
+2021-01-10 21:18:07 INFO  LoginController:30 - johndoe
+2021-01-10 21:18:08 WARN  LoginController:55 - Error 403: Invalid User
+2021-01-10 21:18:08 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/home
+2021-01-10 21:18:08 INFO  LoginController:74 - getHomePage() Retrieving home page
+2021-01-10 21:18:08 INFO  LoginController:78 - Not logged in
+2021-01-10 21:18:36 INFO  RequestHelper:76 - In Post/ExpReimburse/expr/api/login
+2021-01-10 21:18:36 INFO  LoginController:30 - johndoe
+2021-01-10 21:18:37 INFO  LoginController:45 - Name: John Doe
+Type: Manager
+Username: johndoe
+Password: ******
+Email: johndoe@johndoe.net
+2021-01-10 21:18:37 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/home
+2021-01-10 21:18:37 INFO  LoginController:74 - getHomePage() Retrieving home page
+2021-01-10 21:18:37 INFO  LoginController:83 - Name: John Doe
+Type: Manager
+Username: johndoe
+Password: ******
+Email: johndoe@johndoe.net
+2021-01-10 21:18:37 INFO  LoginController:84 - Manager
+2021-01-10 21:18:37 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/dashboard
+2021-01-10 21:18:37 INFO  DashboardController:44 - johndoe
+2021-01-10 21:18:37 INFO  DashboardController:53 - Am a Manager
+2021-01-10 21:18:37 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/app.js
+2021-01-10 21:18:37 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/home
+2021-01-10 21:18:37 INFO  LoginController:74 - getHomePage() Retrieving home page
+2021-01-10 21:18:37 INFO  LoginController:83 - Name: John Doe
+Type: Manager
+Username: johndoe
+Password: ******
+Email: johndoe@johndoe.net
+2021-01-10 21:18:37 INFO  LoginController:84 - Manager
+2021-01-10 21:18:37 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/dashboard
+2021-01-10 21:18:37 INFO  DashboardController:44 - johndoe
+2021-01-10 21:18:37 INFO  DashboardController:53 - Am a Manager
+2021-01-10 21:19:27 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/home
+2021-01-10 21:19:27 INFO  LoginController:74 - getHomePage() Retrieving home page
+2021-01-10 21:19:27 INFO  LoginController:83 - Name: John Doe
+Type: Manager
+Username: johndoe
+Password: ******
+Email: johndoe@johndoe.net
+2021-01-10 21:19:27 INFO  LoginController:84 - Manager
+2021-01-10 21:19:27 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/dashboard
+2021-01-10 21:19:27 INFO  DashboardController:44 - johndoe
+2021-01-10 21:19:27 INFO  DashboardController:53 - Am a Manager
+2021-01-10 21:19:27 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/app.js
+2021-01-10 21:19:27 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/home
+2021-01-10 21:19:27 INFO  LoginController:74 - getHomePage() Retrieving home page
+2021-01-10 21:19:27 INFO  LoginController:83 - Name: John Doe
+Type: Manager
+Username: johndoe
+Password: ******
+Email: johndoe@johndoe.net
+2021-01-10 21:19:27 INFO  LoginController:84 - Manager
+2021-01-10 21:19:27 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/dashboard
+2021-01-10 21:19:27 INFO  DashboardController:44 - johndoe
+2021-01-10 21:19:27 INFO  DashboardController:53 - Am a Manager
+2021-01-10 21:19:29 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/ViewTickets
+2021-01-10 21:21:12 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/CreateTicket
+2021-01-10 21:21:12 INFO  DashboardController:84 - Make Ticket
+2021-01-10 21:21:14 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/CreateTicket
+2021-01-10 21:21:14 INFO  DashboardController:84 - Make Ticket
+2021-01-10 21:22:29 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/home
+2021-01-10 21:22:29 INFO  LoginController:74 - getHomePage() Retrieving home page
+2021-01-10 21:22:29 INFO  LoginController:78 - Not logged in
+2021-01-10 21:22:39 INFO  RequestHelper:76 - In Post/ExpReimburse/expr/api/login
+2021-01-10 21:22:39 INFO  LoginController:30 - jsmith
+2021-01-10 21:22:40 INFO  LoginController:45 - Name: John Smith
+Type: Employee
+Username: jsmith
+Password: *******
+Email: jsmithysmith@mail.com
+2021-01-10 21:22:40 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/home
+2021-01-10 21:22:40 INFO  LoginController:74 - getHomePage() Retrieving home page
+2021-01-10 21:22:40 INFO  LoginController:83 - Name: John Smith
+Type: Employee
+Username: jsmith
+Password: *******
+Email: jsmithysmith@mail.com
+2021-01-10 21:22:40 INFO  LoginController:84 - Employee
+2021-01-10 21:22:40 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/dashboard
+2021-01-10 21:22:40 INFO  DashboardController:44 - jsmith
+2021-01-10 21:22:40 INFO  DashboardController:48 - Am a Employee
+2021-01-10 21:22:41 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/api/getUser
+2021-01-10 21:22:41 INFO  DashboardController:140 - Inside getUser()
+2021-01-10 21:22:41 INFO  DashboardController:142 - getUser session
+2021-01-10 21:22:41 INFO  DashboardController:147 - Name: John Smith
+Type: Employee
+Username: jsmith
+Password: *******
+Email: jsmithysmith@mail.com
+2021-01-10 21:22:51 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/CreateTicket
+2021-01-10 21:22:51 INFO  DashboardController:84 - Make Ticket
+2021-01-10 21:22:51 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/CreateTicket
+2021-01-10 21:22:51 INFO  DashboardController:84 - Make Ticket
+2021-01-10 21:22:58 INFO  RequestHelper:76 - In Post/ExpReimburse/expr/api/postTicket
+2021-01-10 21:22:58 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/CreateTicket
+2021-01-10 21:22:58 INFO  DashboardController:84 - Make Ticket
+2021-01-10 21:22:59 INFO  DashboardController:181 - Title: yres
+User: John Smith
+TicketType: LODGING
+Description: test
+Created: 2021.01.10.21.22.59
+2021-01-10 21:25:25 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/TicketComplete
+2021-01-10 21:25:26 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/app.js
+2021-01-10 21:25:26 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/home
+2021-01-10 21:25:26 INFO  LoginController:74 - getHomePage() Retrieving home page
+2021-01-10 21:25:26 INFO  LoginController:83 - Name: John Smith
+Type: Employee
+Username: jsmith
+Password: *******
+Email: jsmithysmith@mail.com
+2021-01-10 21:25:26 INFO  LoginController:84 - Employee
+2021-01-10 21:25:26 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/dashboard
+2021-01-10 21:25:26 INFO  DashboardController:44 - jsmith
+2021-01-10 21:25:26 INFO  DashboardController:48 - Am a Employee
+2021-01-10 21:25:31 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/dashboard
+2021-01-10 21:25:31 INFO  DashboardController:44 - jsmith
+2021-01-10 21:25:31 INFO  DashboardController:48 - Am a Employee
+2021-01-10 21:25:31 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/api/getUser
+2021-01-10 21:25:31 INFO  DashboardController:140 - Inside getUser()
+2021-01-10 21:25:31 INFO  DashboardController:142 - getUser session
+2021-01-10 21:25:31 INFO  DashboardController:147 - Name: John Smith
+Type: Employee
+Username: jsmith
+Password: *******
+Email: jsmithysmith@mail.com
+2021-01-10 21:27:03 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/ViewTickets
+2021-01-10 21:27:03 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/ViewTickets
+2021-01-10 21:27:03 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/css/viewTickets.css
+2021-01-10 21:27:03 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/css/dashboard.css
+2021-01-10 21:27:03 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/js/dashboardJQuery.js
+2021-01-10 21:27:03 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/js/viewTicket.js
+2021-01-10 21:27:03 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/home
+2021-01-10 21:27:03 INFO  LoginController:74 - getHomePage() Retrieving home page
+2021-01-10 21:27:03 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/home
+2021-01-10 21:27:03 INFO  LoginController:74 - getHomePage() Retrieving home page
+2021-01-10 21:27:03 INFO  LoginController:83 - Name: John Smith
+Type: Employee
+Username: jsmith
+Password: *******
+Email: jsmithysmith@mail.com
+2021-01-10 21:27:03 INFO  LoginController:84 - Employee
+2021-01-10 21:27:03 INFO  LoginController:83 - Name: John Smith
+Type: Employee
+Username: jsmith
+Password: *******
+Email: jsmithysmith@mail.com
+2021-01-10 21:27:03 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/dashboard
+2021-01-10 21:27:03 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/home
+2021-01-10 21:27:03 INFO  DashboardController:44 - jsmith
+2021-01-10 21:27:03 INFO  LoginController:84 - Employee
+2021-01-10 21:27:03 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/home
+2021-01-10 21:27:03 INFO  LoginController:74 - getHomePage() Retrieving home page
+2021-01-10 21:27:03 INFO  DashboardController:48 - Am a Employee
+2021-01-10 21:27:03 INFO  LoginController:74 - getHomePage() Retrieving home page
+2021-01-10 21:27:03 INFO  LoginController:83 - Name: John Smith
+Type: Employee
+Username: jsmith
+Password: *******
+Email: jsmithysmith@mail.com
+2021-01-10 21:27:03 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/dashboard
+2021-01-10 21:27:03 INFO  LoginController:84 - Employee
+2021-01-10 21:27:03 INFO  LoginController:83 - Name: John Smith
+Type: Employee
+Username: jsmith
+Password: *******
+Email: jsmithysmith@mail.com
+2021-01-10 21:27:03 INFO  LoginController:84 - Employee
+2021-01-10 21:27:03 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/dashboard
+2021-01-10 21:27:03 INFO  DashboardController:44 - jsmith
+2021-01-10 21:27:03 INFO  DashboardController:48 - Am a Employee
+2021-01-10 21:27:03 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/dashboard
+2021-01-10 21:27:03 INFO  DashboardController:44 - jsmith
+2021-01-10 21:27:03 INFO  DashboardController:44 - jsmith
+2021-01-10 21:27:03 INFO  DashboardController:48 - Am a Employee
+2021-01-10 21:27:03 INFO  DashboardController:48 - Am a Employee
+2021-01-10 21:30:40 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/
+2021-01-10 21:30:40 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/home
+2021-01-10 21:30:40 INFO  LoginController:74 - getHomePage() Retrieving home page
+2021-01-10 21:30:40 INFO  LoginController:78 - Not logged in
+2021-01-10 21:30:51 INFO  RequestHelper:76 - In Post/ExpReimburse/expr/api/login
+2021-01-10 21:30:51 INFO  LoginController:30 - jsmith
+2021-01-10 21:30:52 INFO  LoginController:45 - Name: John Smith
+Type: Employee
+Username: jsmith
+Password: *******
+Email: jsmithysmith@mail.com
+2021-01-10 21:30:52 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/home
+2021-01-10 21:30:52 INFO  LoginController:74 - getHomePage() Retrieving home page
+2021-01-10 21:30:52 INFO  LoginController:83 - Name: John Smith
+Type: Employee
+Username: jsmith
+Password: *******
+Email: jsmithysmith@mail.com
+2021-01-10 21:30:52 INFO  LoginController:84 - Employee
+2021-01-10 21:30:52 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/dashboard
+2021-01-10 21:30:52 INFO  DashboardController:44 - jsmith
+2021-01-10 21:30:52 INFO  DashboardController:48 - Am a Employee
+2021-01-10 21:30:53 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/api/getUser
+2021-01-10 21:30:53 INFO  DashboardController:140 - Inside getUser()
+2021-01-10 21:30:53 INFO  DashboardController:142 - getUser session
+2021-01-10 21:30:53 INFO  DashboardController:147 - Name: John Smith
+Type: Employee
+Username: jsmith
+Password: *******
+Email: jsmithysmith@mail.com
+2021-01-10 21:30:57 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/CreateTicket
+2021-01-10 21:30:57 INFO  DashboardController:84 - Make Ticket
+2021-01-10 21:30:57 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/CreateTicket
+2021-01-10 21:30:57 INFO  DashboardController:84 - Make Ticket
+2021-01-10 21:31:02 INFO  RequestHelper:76 - In Post/ExpReimburse/expr/api/postTicket
+2021-01-10 21:31:02 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/CreateTicket
+2021-01-10 21:31:02 INFO  DashboardController:84 - Make Ticket
+2021-01-10 21:31:03 INFO  DashboardController:181 - Title: t
+User: John Smith
+TicketType: LODGING
+Description: t
+Created: 2021.01.10.21.31.03
+2021-01-10 21:32:58 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/TicketComplete
+2021-01-10 21:32:58 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/app.js
+2021-01-10 21:32:58 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/home
+2021-01-10 21:32:58 INFO  LoginController:74 - getHomePage() Retrieving home page
+2021-01-10 21:32:58 INFO  LoginController:78 - Not logged in
+2021-01-10 21:33:03 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/dashboard
+2021-01-10 21:33:03 INFO  RequestHelper:21 - In Get/ExpReimburse/expr
+2021-01-10 21:33:03 INFO  LoginController:74 - getHomePage() Retrieving home page
+2021-01-10 21:33:03 INFO  LoginController:78 - Not logged in
+2021-01-10 21:33:13 INFO  RequestHelper:76 - In Post/ExpReimburse/expr/api/login
+2021-01-10 21:33:13 INFO  LoginController:30 - jsmith
+2021-01-10 21:33:14 INFO  LoginController:45 - Name: John Smith
+Type: Employee
+Username: jsmith
+Password: *******
+Email: jsmithysmith@mail.com
+2021-01-10 21:33:14 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/home
+2021-01-10 21:33:14 INFO  LoginController:74 - getHomePage() Retrieving home page
+2021-01-10 21:33:14 INFO  LoginController:83 - Name: John Smith
+Type: Employee
+Username: jsmith
+Password: *******
+Email: jsmithysmith@mail.com
+2021-01-10 21:33:14 INFO  LoginController:84 - Employee
+2021-01-10 21:33:14 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/dashboard
+2021-01-10 21:33:14 INFO  DashboardController:44 - jsmith
+2021-01-10 21:33:14 INFO  DashboardController:48 - Am a Employee
+2021-01-10 21:33:14 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/api/getUser
+2021-01-10 21:33:14 INFO  DashboardController:140 - Inside getUser()
+2021-01-10 21:33:14 INFO  DashboardController:142 - getUser session
+2021-01-10 21:33:14 INFO  DashboardController:147 - Name: John Smith
+Type: Employee
+Username: jsmith
+Password: *******
+Email: jsmithysmith@mail.com
+2021-01-10 21:33:16 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/ViewTickets
+2021-01-10 21:33:16 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/ViewTickets
+2021-01-10 21:33:16 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/js/dashboardJQuery.js
+2021-01-10 21:33:16 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/js/viewTicket.js
+2021-01-10 21:33:16 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/home
+2021-01-10 21:33:16 INFO  LoginController:74 - getHomePage() Retrieving home page
+2021-01-10 21:33:16 INFO  LoginController:83 - Name: John Smith
+Type: Employee
+Username: jsmith
+Password: *******
+Email: jsmithysmith@mail.com
+2021-01-10 21:33:16 INFO  LoginController:84 - Employee
+2021-01-10 21:33:16 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/dashboard
+2021-01-10 21:33:16 INFO  DashboardController:44 - jsmith
+2021-01-10 21:33:16 INFO  DashboardController:48 - Am a Employee
+2021-01-10 21:33:16 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/home
+2021-01-10 21:33:16 INFO  LoginController:74 - getHomePage() Retrieving home page
+2021-01-10 21:33:16 INFO  LoginController:83 - Name: John Smith
+Type: Employee
+Username: jsmith
+Password: *******
+Email: jsmithysmith@mail.com
+2021-01-10 21:33:16 INFO  LoginController:84 - Employee
+2021-01-10 21:33:16 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/dashboard
+2021-01-10 21:33:16 INFO  DashboardController:44 - jsmith
+2021-01-10 21:33:16 INFO  DashboardController:48 - Am a Employee
+2021-01-10 21:39:55 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/ViewTickets
+2021-01-10 21:39:55 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/js/viewTicket.js
+2021-01-10 21:39:55 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/js/dashboardJQuery.js
+2021-01-10 21:39:55 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/home
+2021-01-10 21:39:55 INFO  LoginController:74 - getHomePage() Retrieving home page
+2021-01-10 21:39:55 INFO  LoginController:83 - Name: John Smith
+Type: Employee
+Username: jsmith
+Password: *******
+Email: jsmithysmith@mail.com
+2021-01-10 21:39:55 INFO  LoginController:84 - Employee
+2021-01-10 21:39:55 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/dashboard
+2021-01-10 21:39:55 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/home
+2021-01-10 21:39:55 INFO  LoginController:74 - getHomePage() Retrieving home page
+2021-01-10 21:39:55 INFO  DashboardController:44 - jsmith
+2021-01-10 21:39:55 INFO  LoginController:83 - Name: John Smith
+Type: Employee
+Username: jsmith
+Password: *******
+Email: jsmithysmith@mail.com
+2021-01-10 21:39:55 INFO  LoginController:84 - Employee
+2021-01-10 21:39:55 INFO  DashboardController:48 - Am a Employee
+2021-01-10 21:39:55 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/dashboard
+2021-01-10 21:39:55 INFO  DashboardController:44 - jsmith
+2021-01-10 21:39:55 INFO  DashboardController:48 - Am a Employee
+2021-01-10 21:55:03 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/home
+2021-01-10 21:55:03 INFO  LoginController:74 - getHomePage() Retrieving home page
+2021-01-10 21:55:03 INFO  LoginController:83 - Name: John Smith
+Type: Employee
+Username: jsmith
+Password: *******
+Email: jsmithysmith@mail.com
+2021-01-10 21:55:03 INFO  LoginController:84 - Employee
+2021-01-10 21:55:03 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/dashboard
+2021-01-10 21:55:03 INFO  DashboardController:44 - jsmith
+2021-01-10 21:55:03 INFO  DashboardController:48 - Am a Employee
+2021-01-10 21:55:04 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/api/getUser
+2021-01-10 21:55:04 INFO  DashboardController:140 - Inside getUser()
+2021-01-10 21:55:04 INFO  DashboardController:142 - getUser session
+2021-01-10 21:55:04 INFO  DashboardController:147 - Name: John Smith
+Type: Employee
+Username: jsmith
+Password: *******
+Email: jsmithysmith@mail.com
+2021-01-10 21:55:05 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/CreateTicket
+2021-01-10 21:55:05 INFO  DashboardController:84 - Make Ticket
+2021-01-10 21:55:05 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/CreateTicket
+2021-01-10 21:55:05 INFO  DashboardController:84 - Make Ticket
+2021-01-10 22:20:04 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/
+2021-01-10 22:20:04 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/home
+2021-01-10 22:20:04 INFO  LoginController:74 - getHomePage() Retrieving home page
+2021-01-10 22:20:04 INFO  LoginController:78 - Not logged in
+2021-01-10 22:20:12 INFO  RequestHelper:76 - In Post/ExpReimburse/expr/api/login
+2021-01-10 22:20:12 INFO  LoginController:30 - jsmith
+2021-01-10 22:20:14 INFO  LoginController:45 - Name: John Smith
+Type: Employee
+Username: jsmith
+Password: *******
+Email: jsmithysmith@mail.com
+2021-01-10 22:20:14 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/home
+2021-01-10 22:20:14 INFO  LoginController:74 - getHomePage() Retrieving home page
+2021-01-10 22:20:14 INFO  LoginController:83 - Name: John Smith
+Type: Employee
+Username: jsmith
+Password: *******
+Email: jsmithysmith@mail.com
+2021-01-10 22:20:14 INFO  LoginController:84 - Employee
+2021-01-10 22:20:14 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/dashboard
+2021-01-10 22:20:14 INFO  DashboardController:44 - jsmith
+2021-01-10 22:20:14 INFO  DashboardController:48 - Am a Employee
+2021-01-10 22:20:14 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/api/getUser
+2021-01-10 22:20:14 INFO  DashboardController:149 - Inside getUser()
+2021-01-10 22:20:14 INFO  DashboardController:151 - getUser session
+2021-01-10 22:20:14 INFO  DashboardController:156 - Name: John Smith
+Type: Employee
+Username: jsmith
+Password: *******
+Email: jsmithysmith@mail.com
+2021-01-10 22:20:17 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/api/logout
+2021-01-10 22:20:17 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/home
+2021-01-10 22:20:17 INFO  LoginController:74 - getHomePage() Retrieving home page
+2021-01-10 22:20:17 INFO  LoginController:83 - Name: John Smith
+Type: Employee
+Username: jsmith
+Password: *******
+Email: jsmithysmith@mail.com
+2021-01-10 22:20:17 INFO  LoginController:84 - Employee
+2021-01-10 22:20:17 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/dashboard
+2021-01-10 22:20:17 INFO  DashboardController:44 - jsmith
+2021-01-10 22:20:17 INFO  DashboardController:48 - Am a Employee
+2021-01-10 22:20:17 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/logout
+2021-01-10 22:20:17 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/js/logout.js
+2021-01-10 22:20:17 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/home
+2021-01-10 22:20:17 INFO  LoginController:74 - getHomePage() Retrieving home page
+2021-01-10 22:20:17 INFO  LoginController:83 - Name: John Smith
+Type: Employee
+Username: jsmith
+Password: *******
+Email: jsmithysmith@mail.com
+2021-01-10 22:20:17 INFO  LoginController:84 - Employee
+2021-01-10 22:20:17 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/dashboard
+2021-01-10 22:20:17 INFO  DashboardController:44 - jsmith
+2021-01-10 22:20:17 INFO  DashboardController:48 - Am a Employee
+2021-01-10 22:24:12 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/
+2021-01-10 22:24:12 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/home
+2021-01-10 22:24:12 INFO  LoginController:74 - getHomePage() Retrieving home page
+2021-01-10 22:24:12 INFO  LoginController:78 - Not logged in
+2021-01-10 22:24:18 INFO  RequestHelper:76 - In Post/ExpReimburse/expr/api/login
+2021-01-10 22:24:18 INFO  LoginController:30 - jsmith
+2021-01-10 22:24:20 INFO  LoginController:45 - Name: John Smith
+Type: Employee
+Username: jsmith
+Password: *******
+Email: jsmithysmith@mail.com
+2021-01-10 22:24:20 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/home
+2021-01-10 22:24:20 INFO  LoginController:74 - getHomePage() Retrieving home page
+2021-01-10 22:24:20 INFO  LoginController:83 - Name: John Smith
+Type: Employee
+Username: jsmith
+Password: *******
+Email: jsmithysmith@mail.com
+2021-01-10 22:24:20 INFO  LoginController:84 - Employee
+2021-01-10 22:24:20 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/dashboard
+2021-01-10 22:24:20 INFO  DashboardController:44 - jsmith
+2021-01-10 22:24:20 INFO  DashboardController:48 - Am a Employee
+2021-01-10 22:24:20 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/api/getUser
+2021-01-10 22:24:20 INFO  DashboardController:149 - Inside getUser()
+2021-01-10 22:24:20 INFO  DashboardController:151 - getUser session
+2021-01-10 22:24:20 INFO  DashboardController:156 - Name: John Smith
+Type: Employee
+Username: jsmith
+Password: *******
+Email: jsmithysmith@mail.com
+2021-01-10 22:24:22 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/CreateTicket
+2021-01-10 22:24:22 INFO  DashboardController:84 - Make Ticket
+2021-01-10 22:24:22 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/CreateTicket
+2021-01-10 22:24:22 INFO  DashboardController:84 - Make Ticket
+2021-01-10 22:24:29 INFO  RequestHelper:76 - In Post/ExpReimburse/expr/api/postTicket
+2021-01-10 22:24:29 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/CreateTicket
+2021-01-10 22:24:29 INFO  DashboardController:84 - Make Ticket
+2021-01-10 22:24:30 INFO  DashboardController:190 - Title: rwa
+User: John Smith
+TicketType: LODGING
+Description: test
+Created: 2021.01.10.22.24.30
+2021-01-10 22:25:55 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/
+2021-01-10 22:25:55 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/home
+2021-01-10 22:25:55 INFO  LoginController:74 - getHomePage() Retrieving home page
+2021-01-10 22:25:55 INFO  LoginController:83 - Name: John Smith
+Type: Employee
+Username: jsmith
+Password: *******
+Email: jsmithysmith@mail.com
+2021-01-10 22:25:55 INFO  LoginController:84 - Employee
+2021-01-10 22:25:55 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/dashboard
+2021-01-10 22:25:55 INFO  DashboardController:44 - jsmith
+2021-01-10 22:25:55 INFO  DashboardController:48 - Am a Employee
+2021-01-10 22:25:57 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/
+2021-01-10 22:25:57 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/home
+2021-01-10 22:25:57 INFO  LoginController:74 - getHomePage() Retrieving home page
+2021-01-10 22:25:57 INFO  LoginController:83 - Name: John Smith
+Type: Employee
+Username: jsmith
+Password: *******
+Email: jsmithysmith@mail.com
+2021-01-10 22:25:57 INFO  LoginController:84 - Employee
+2021-01-10 22:25:57 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/dashboard
+2021-01-10 22:25:57 INFO  DashboardController:44 - jsmith
+2021-01-10 22:25:57 INFO  DashboardController:48 - Am a Employee
+2021-01-10 22:25:58 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/
+2021-01-10 22:25:58 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/home
+2021-01-10 22:25:58 INFO  LoginController:74 - getHomePage() Retrieving home page
+2021-01-10 22:25:58 INFO  LoginController:83 - Name: John Smith
+Type: Employee
+Username: jsmith
+Password: *******
+Email: jsmithysmith@mail.com
+2021-01-10 22:25:58 INFO  LoginController:84 - Employee
+2021-01-10 22:25:58 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/dashboard
+2021-01-10 22:25:58 INFO  DashboardController:44 - jsmith
+2021-01-10 22:25:58 INFO  DashboardController:48 - Am a Employee
+2021-01-10 22:25:59 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/CreateTicket
+2021-01-10 22:25:59 INFO  DashboardController:84 - Make Ticket
+2021-01-10 22:26:01 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/
+2021-01-10 22:26:01 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/home
+2021-01-10 22:26:01 INFO  LoginController:74 - getHomePage() Retrieving home page
+2021-01-10 22:26:01 INFO  LoginController:83 - Name: John Smith
+Type: Employee
+Username: jsmith
+Password: *******
+Email: jsmithysmith@mail.com
+2021-01-10 22:26:01 INFO  LoginController:84 - Employee
+2021-01-10 22:26:01 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/dashboard
+2021-01-10 22:26:01 INFO  DashboardController:44 - jsmith
+2021-01-10 22:26:01 INFO  DashboardController:48 - Am a Employee
+2021-01-10 22:26:02 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/
+2021-01-10 22:26:02 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/home
+2021-01-10 22:26:02 INFO  LoginController:74 - getHomePage() Retrieving home page
+2021-01-10 22:26:02 INFO  LoginController:83 - Name: John Smith
+Type: Employee
+Username: jsmith
+Password: *******
+Email: jsmithysmith@mail.com
+2021-01-10 22:26:02 INFO  LoginController:84 - Employee
+2021-01-10 22:26:02 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/dashboard
+2021-01-10 22:26:02 INFO  DashboardController:44 - jsmith
+2021-01-10 22:26:02 INFO  DashboardController:48 - Am a Employee
+2021-01-10 22:26:02 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/
+2021-01-10 22:26:02 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/home
+2021-01-10 22:26:02 INFO  LoginController:74 - getHomePage() Retrieving home page
+2021-01-10 22:26:02 INFO  LoginController:83 - Name: John Smith
+Type: Employee
+Username: jsmith
+Password: *******
+Email: jsmithysmith@mail.com
+2021-01-10 22:26:02 INFO  LoginController:84 - Employee
+2021-01-10 22:26:02 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/dashboard
+2021-01-10 22:26:02 INFO  DashboardController:44 - jsmith
+2021-01-10 22:26:02 INFO  DashboardController:48 - Am a Employee
+2021-01-10 22:26:03 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/
+2021-01-10 22:26:03 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/home
+2021-01-10 22:26:03 INFO  LoginController:74 - getHomePage() Retrieving home page
+2021-01-10 22:26:03 INFO  LoginController:83 - Name: John Smith
+Type: Employee
+Username: jsmith
+Password: *******
+Email: jsmithysmith@mail.com
+2021-01-10 22:26:03 INFO  LoginController:84 - Employee
+2021-01-10 22:26:03 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/dashboard
+2021-01-10 22:26:03 INFO  DashboardController:44 - jsmith
+2021-01-10 22:26:03 INFO  DashboardController:48 - Am a Employee
+2021-01-10 22:26:03 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/
+2021-01-10 22:26:03 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/home
+2021-01-10 22:26:03 INFO  LoginController:74 - getHomePage() Retrieving home page
+2021-01-10 22:26:03 INFO  LoginController:83 - Name: John Smith
+Type: Employee
+Username: jsmith
+Password: *******
+Email: jsmithysmith@mail.com
+2021-01-10 22:26:03 INFO  LoginController:84 - Employee
+2021-01-10 22:26:03 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/dashboard
+2021-01-10 22:26:03 INFO  DashboardController:44 - jsmith
+2021-01-10 22:26:03 INFO  DashboardController:48 - Am a Employee
+2021-01-10 22:26:24 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/TicketComplete
+2021-01-10 22:26:25 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/js/viewTicket.js
+2021-01-10 22:26:25 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/home
+2021-01-10 22:26:25 INFO  LoginController:74 - getHomePage() Retrieving home page
+2021-01-10 22:26:25 INFO  LoginController:83 - Name: John Smith
+Type: Employee
+Username: jsmith
+Password: *******
+Email: jsmithysmith@mail.com
+2021-01-10 22:26:25 INFO  LoginController:84 - Employee
+2021-01-10 22:26:25 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/dashboard
+2021-01-10 22:26:25 INFO  DashboardController:44 - jsmith
+2021-01-10 22:26:25 INFO  DashboardController:48 - Am a Employee
+2021-01-10 22:26:30 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/dashboard
+2021-01-10 22:26:30 INFO  DashboardController:44 - jsmith
+2021-01-10 22:26:30 INFO  DashboardController:48 - Am a Employee
+2021-01-10 22:26:30 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/api/getUser
+2021-01-10 22:26:30 INFO  DashboardController:149 - Inside getUser()
+2021-01-10 22:26:30 INFO  DashboardController:151 - getUser session
+2021-01-10 22:26:30 INFO  DashboardController:156 - Name: John Smith
+Type: Employee
+Username: jsmith
+Password: *******
+Email: jsmithysmith@mail.com
+2021-01-10 22:26:49 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/CreateTicket
+2021-01-10 22:26:49 INFO  DashboardController:84 - Make Ticket
+2021-01-10 22:26:51 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/dashboard
+2021-01-10 22:26:51 INFO  DashboardController:44 - jsmith
+2021-01-10 22:26:51 INFO  DashboardController:48 - Am a Employee
+2021-01-10 22:26:52 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/api/getUser
+2021-01-10 22:26:52 INFO  DashboardController:149 - Inside getUser()
+2021-01-10 22:26:52 INFO  DashboardController:151 - getUser session
+2021-01-10 22:26:52 INFO  DashboardController:156 - Name: John Smith
+Type: Employee
+Username: jsmith
+Password: *******
+Email: jsmithysmith@mail.com
+2021-01-10 22:26:56 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/TicketComplete
+2021-01-10 22:26:56 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/js/viewTicket.js
+2021-01-10 22:26:56 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/home
+2021-01-10 22:26:56 INFO  LoginController:74 - getHomePage() Retrieving home page
+2021-01-10 22:26:56 INFO  LoginController:83 - Name: John Smith
+Type: Employee
+Username: jsmith
+Password: *******
+Email: jsmithysmith@mail.com
+2021-01-10 22:26:56 INFO  LoginController:84 - Employee
+2021-01-10 22:26:56 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/dashboard
+2021-01-10 22:26:56 INFO  DashboardController:44 - jsmith
+2021-01-10 22:26:56 INFO  DashboardController:48 - Am a Employee
+2021-01-10 22:27:02 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/dashboard
+2021-01-10 22:27:02 INFO  DashboardController:44 - jsmith
+2021-01-10 22:27:02 INFO  DashboardController:48 - Am a Employee
+2021-01-10 22:27:02 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/api/getUser
+2021-01-10 22:27:02 INFO  DashboardController:149 - Inside getUser()
+2021-01-10 22:27:02 INFO  DashboardController:151 - getUser session
+2021-01-10 22:27:02 INFO  DashboardController:156 - Name: John Smith
+Type: Employee
+Username: jsmith
+Password: *******
+Email: jsmithysmith@mail.com
+2021-01-10 22:27:20 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/TicketComplete
+2021-01-10 22:27:20 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/js/viewTicket.js
+2021-01-10 22:27:20 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/home
+2021-01-10 22:27:20 INFO  LoginController:74 - getHomePage() Retrieving home page
+2021-01-10 22:27:20 INFO  LoginController:83 - Name: John Smith
+Type: Employee
+Username: jsmith
+Password: *******
+Email: jsmithysmith@mail.com
+2021-01-10 22:27:20 INFO  LoginController:84 - Employee
+2021-01-10 22:27:20 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/dashboard
+2021-01-10 22:27:20 INFO  DashboardController:44 - jsmith
+2021-01-10 22:27:20 INFO  DashboardController:48 - Am a Employee
+2021-01-10 22:27:26 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/dashboard
+2021-01-10 22:27:26 INFO  DashboardController:44 - jsmith
+2021-01-10 22:27:26 INFO  DashboardController:48 - Am a Employee
+2021-01-10 22:27:26 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/api/getUser
+2021-01-10 22:27:26 INFO  DashboardController:149 - Inside getUser()
+2021-01-10 22:27:26 INFO  DashboardController:151 - getUser session
+2021-01-10 22:27:26 INFO  DashboardController:156 - Name: John Smith
+Type: Employee
+Username: jsmith
+Password: *******
+Email: jsmithysmith@mail.com
+2021-01-10 22:28:44 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/TicketComplete
+2021-01-10 22:28:44 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/js/viewTicket.js
+2021-01-10 22:28:44 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/home
+2021-01-10 22:28:44 INFO  LoginController:74 - getHomePage() Retrieving home page
+2021-01-10 22:28:44 INFO  LoginController:83 - Name: John Smith
+Type: Employee
+Username: jsmith
+Password: *******
+Email: jsmithysmith@mail.com
+2021-01-10 22:28:44 INFO  LoginController:84 - Employee
+2021-01-10 22:28:44 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/dashboard
+2021-01-10 22:28:44 INFO  DashboardController:44 - jsmith
+2021-01-10 22:28:44 INFO  DashboardController:48 - Am a Employee
+2021-01-10 22:28:49 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/dashboard
+2021-01-10 22:28:49 INFO  DashboardController:44 - jsmith
+2021-01-10 22:28:49 INFO  DashboardController:48 - Am a Employee
+2021-01-10 22:28:50 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/api/getUser
+2021-01-10 22:28:50 INFO  DashboardController:149 - Inside getUser()
+2021-01-10 22:28:50 INFO  DashboardController:151 - getUser session
+2021-01-10 22:28:50 INFO  DashboardController:156 - Name: John Smith
+Type: Employee
+Username: jsmith
+Password: *******
+Email: jsmithysmith@mail.com
+2021-01-10 22:29:35 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/ViewTickets
+2021-01-10 22:29:35 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/ViewTickets
+2021-01-10 22:29:35 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/js/dashboardJQuery.js
+2021-01-10 22:29:35 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/js/viewTicket.js
+2021-01-10 22:29:35 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/home
+2021-01-10 22:29:35 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/home
+2021-01-10 22:29:35 INFO  LoginController:74 - getHomePage() Retrieving home page
+2021-01-10 22:29:35 INFO  LoginController:83 - Name: John Smith
+Type: Employee
+Username: jsmith
+Password: *******
+Email: jsmithysmith@mail.com
+2021-01-10 22:29:35 INFO  LoginController:84 - Employee
+2021-01-10 22:29:35 INFO  LoginController:74 - getHomePage() Retrieving home page
+2021-01-10 22:29:35 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/dashboard
+2021-01-10 22:29:35 INFO  LoginController:83 - Name: John Smith
+Type: Employee
+Username: jsmith
+Password: *******
+Email: jsmithysmith@mail.com
+2021-01-10 22:29:35 INFO  LoginController:84 - Employee
+2021-01-10 22:29:35 INFO  DashboardController:44 - jsmith
+2021-01-10 22:29:35 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/dashboard
+2021-01-10 22:29:35 INFO  DashboardController:48 - Am a Employee
+2021-01-10 22:29:35 INFO  DashboardController:44 - jsmith
+2021-01-10 22:29:35 INFO  DashboardController:48 - Am a Employee
+2021-01-10 22:31:19 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/
+2021-01-10 22:31:19 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/home
+2021-01-10 22:31:19 INFO  LoginController:74 - getHomePage() Retrieving home page
+2021-01-10 22:31:19 INFO  LoginController:83 - Name: John Smith
+Type: Employee
+Username: jsmith
+Password: *******
+Email: jsmithysmith@mail.com
+2021-01-10 22:31:19 INFO  LoginController:84 - Employee
+2021-01-10 22:31:19 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/dashboard
+2021-01-10 22:31:19 INFO  DashboardController:44 - jsmith
+2021-01-10 22:31:19 INFO  DashboardController:48 - Am a Employee
+2021-01-10 22:31:19 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/api/getUser
+2021-01-10 22:31:19 INFO  DashboardController:149 - Inside getUser()
+2021-01-10 22:31:19 INFO  DashboardController:151 - getUser session
+2021-01-10 22:31:19 INFO  DashboardController:156 - Name: John Smith
+Type: Employee
+Username: jsmith
+Password: *******
+Email: jsmithysmith@mail.com
+2021-01-10 22:31:21 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/CreateTicket
+2021-01-10 22:31:21 INFO  DashboardController:84 - Make Ticket
+2021-01-10 22:31:21 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/CreateTicket
+2021-01-10 22:31:21 INFO  DashboardController:84 - Make Ticket
+2021-01-10 22:31:23 INFO  RequestHelper:76 - In Post/ExpReimburse/expr/api/postTicket
+2021-01-10 22:31:23 INFO  DashboardController:190 - Title: 
+User: John Smith
+TicketType: LODGING
+Description: 
+Created: 2021.01.10.22.31.23
+2021-01-10 22:31:24 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/TicketComplete
+2021-01-10 22:31:24 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/js/viewTicket.js
+2021-01-10 22:31:24 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/home
+2021-01-10 22:31:24 INFO  LoginController:74 - getHomePage() Retrieving home page
+2021-01-10 22:31:24 INFO  LoginController:83 - Name: John Smith
+Type: Employee
+Username: jsmith
+Password: *******
+Email: jsmithysmith@mail.com
+2021-01-10 22:31:24 INFO  LoginController:84 - Employee
+2021-01-10 22:31:24 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/dashboard
+2021-01-10 22:31:24 INFO  DashboardController:44 - jsmith
+2021-01-10 22:31:24 INFO  DashboardController:48 - Am a Employee
+2021-01-10 22:31:29 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/dashboard
+2021-01-10 22:31:29 INFO  DashboardController:44 - jsmith
+2021-01-10 22:31:29 INFO  DashboardController:48 - Am a Employee
+2021-01-10 22:31:30 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/api/getUser
+2021-01-10 22:31:30 INFO  DashboardController:149 - Inside getUser()
+2021-01-10 22:31:30 INFO  DashboardController:151 - getUser session
+2021-01-10 22:31:30 INFO  DashboardController:156 - Name: John Smith
+Type: Employee
+Username: jsmith
+Password: *******
+Email: jsmithysmith@mail.com
+2021-01-10 22:31:43 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/CreateTicket
+2021-01-10 22:31:43 INFO  DashboardController:84 - Make Ticket
+2021-01-10 22:31:43 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/CreateTicket
+2021-01-10 22:31:43 INFO  DashboardController:84 - Make Ticket
+2021-01-10 22:31:55 INFO  RequestHelper:76 - In Post/ExpReimburse/expr/api/postTicket
+2021-01-10 22:31:55 INFO  DashboardController:190 - Title: New Ticket
+User: John Smith
+TicketType: LODGING
+Description: 
+Created: 2021.01.10.22.31.55
+2021-01-10 22:31:55 INFO  RequestHelper:21 - In Get/ExpReimburse/expr/CreateTicket
+2021-01-10 22:31:55 INFO  DashboardController:84 - Make Ticket

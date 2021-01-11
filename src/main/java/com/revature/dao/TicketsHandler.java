@@ -194,7 +194,7 @@ public class TicketsHandler implements TicketsDao {
 
 	public void createTicket(Ticket ticket) {
 		// TODO Auto-generated method stub
-		String sql = "INSERT INTO exp_tickets (user_id, title, type, description, amount, timestamp) VALUES (?,?,?,?,?, ?)";
+		String sql = "INSERT INTO exp_tickets (user_id, title, ticket_type, description, amount, timestamp) VALUES (?,?,?,?,?, ?)";
 		try(Connection conn = Connector.getConnection()) {
 			PreparedStatement ps = conn.prepareStatement(sql);
 			ps.setInt(1, ticket.getUser().getId());

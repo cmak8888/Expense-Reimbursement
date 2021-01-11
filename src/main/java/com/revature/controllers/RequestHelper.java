@@ -41,6 +41,10 @@ public class RequestHelper {
 		case "/ExpReimburse/expr/ViewTickets":
 			DashboardController.viewTicketsPage(req, resp);
 			break;
+		case "/ExpReimburse/expr/TicketComplete":
+			RequestDispatcher redis = req.getRequestDispatcher("/ticketComplete.html");
+			redis.forward(req,resp);
+			break;
 		case "/ExpReimburse/expr/login":
 			LoginController.getLoginPage(req, resp);
 			break;
@@ -77,7 +81,7 @@ public class RequestHelper {
 		case "/ExpReimburse/expr/api/newuser":
 			DashboardController.postUser(req, resp);
 			break;
-		case "/ExpReimburse/expr/api/submitTicket":
+		case "/ExpReimburse/expr/api/postTicket":
 			DashboardController.postTicket(req,resp);
 			break;
 		case "/ExpReimburse/expr/api/sendEmail":

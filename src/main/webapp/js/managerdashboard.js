@@ -1,4 +1,5 @@
 window.onload = function() {
+    getUser();
     // document.getElementById("logOutSubmit").addEventListener('click', logout);
     document.getElementById("newUser").addEventListener('click', createUser);
     document.getElementById("viewTickets").addEventListener('click', viewTicket)
@@ -6,12 +7,30 @@ window.onload = function() {
     document.getElementById("logOutSubmit").addEventListener('click', logout)
 }
 
-function logout() {
+function DomManipulation(data) {
+    let user = data.name;
+    console.log(data);
+    document.getElementById("name").innerHTML = user;
+}
+
+function getUser() {
+    fetch("http://localhost:8080/ExpReimburse/expr/api/getUser")
+    .then(resp => resp.json()).then(data => DomManipulation(data)).catch(alert);
+     // let logoutURL = endPoints[getLogout];
+ }
+
+
+ function logout() {
     console.log("Logout");
     let xhttp = new XMLHttpRequest();
     xhttp.onreadystatechange = function() {
-        document.location.reload();
-
+        if(xhttp.readyState == 4 && xhttp.status == 200){
+            // document.location.reload();
+            console.log("Success");
+            window.location = "http://localhost:8080/ExpReimburse/expr/logout";
+        } else {
+            console.log("error");
+        }
     }
 
     let logoutURL = "http://localhost:8080/ExpReimburse/expr/api/logout";
@@ -21,7 +40,6 @@ function logout() {
     xhttp.send();
 }
 
-
 function createUser() {
     console.log("Logout");
     let xhttp = new XMLHttpRequest();
@@ -29,7 +47,7 @@ function createUser() {
 
     }
 
-    let newTicketURL = "http://localhost:8080/ExpReimburse/expr/CreateTicket";
+    let newTicketURL = "http://localhost:8080/ExpReimburse/expr/CreateUser";
     // let logoutURL = endPoints[getLogout];
 
     xhttp.open("GET", newTicketURL);

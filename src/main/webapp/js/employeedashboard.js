@@ -29,14 +29,12 @@ function logout() {
     let xhttp = new XMLHttpRequest();
     xhttp.onreadystatechange = function() {
         // document.location.reload();
-        xhttp.onreadystatechange = function() {
-            if(xhttp.readyState == 4 && xhttp.status == 200){
-                // document.location.reload();
-                console.log("Success");
-                window.location = "http://localhost:8080/ExpReimburse/expr/logout";
-            } else {
-                console.log("error");
-            }
+        if(xhttp.readyState == 4 && xhttp.status == 200){
+            // document.location.reload();
+            console.log("Success");
+            window.location = "http://localhost:8080/ExpReimburse/expr/logout";
+        } else {
+            console.log("error");
         }
     }
 

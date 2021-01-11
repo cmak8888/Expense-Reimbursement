@@ -14,12 +14,21 @@ window.onload = function() {
 
 }
 
+
 function logout() {
     console.log("Logout");
     let xhttp = new XMLHttpRequest();
     xhttp.onreadystatechange = function() {
-        document.location.reload();
-
+        // document.location.reload();
+        xhttp.onreadystatechange = function() {
+            if(xhttp.readyState == 4 && xhttp.status == 200){
+                // document.location.reload();
+                console.log("Success");
+                window.location = "http://localhost:8080/ExpReimburse/expr/logout";
+            } else {
+                console.log("error");
+            }
+        }
     }
 
     let logoutURL = "http://localhost:8080/ExpReimburse/expr/api/logout";
@@ -28,7 +37,6 @@ function logout() {
     xhttp.open("GET", logoutURL);
     xhttp.send();
 }
-
 function login() {
     console.log("Login");
     let xhttp = new XMLHttpRequest();

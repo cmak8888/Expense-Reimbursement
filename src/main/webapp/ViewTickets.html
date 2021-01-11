@@ -1,8 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="stylesheet" href="css/viewTickets.css" type="text/css" />
-    <link rel="stylesheet" href="css/dashboard.css" type="text/css" />
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/viewTickets.css" type="text/css" />
+    <link rel="stylesheet" href="/css/dashboard.css" type="text/css" />
 </head>
 
 <body>
@@ -27,19 +28,32 @@
         </div>
       </header>
     <main>
-        <div class="table-wrapper" tabindex="0">
-          <table id="respTable">
-          <thead>
-            <tr>
-              <th>Ticket Id</th>
-              <th>Name</th>
-              <th>Ticket Type</th>
-              <th>Approved (g)</th>
-              <th>Date Created</th>
-            </tr>
-          </thead>
-          
-        </table>
+        <div class="container">
+          <div class="row row-1">
+            <div class="col">
+                <div class="card">
+                    <div class="card-body">
+                    <h5 class="card-title">TicketList</h5>
+                    <table id="respTable">
+                    <thead>
+                      <tr>
+                        <th>Ticket Id</th>
+                        <th>Name</th>
+                        <th>Title</th>
+                        <th>Ticket Type</th>
+                        <th>Approved</th>
+                        <th>Amount</th>
+                        <th>Date Created</th>
+                      </tr>
+                    </thead>
+                    <tbody id="ticketList">
+                      
+                    </tbody>
+                     </table>
+                     </div>
+                  </div>
+                </div>
+              </div>
         </div>
       </main>
       <script src="js/dashboardJQuery.js"></script>
