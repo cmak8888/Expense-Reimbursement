@@ -51,6 +51,9 @@ public class RequestHelper {
 		case "/ExpReimburse/expr/logout":
 			LogoutController.getLogOutPage(req, resp);
 			break;
+		case "/ExpReimburse/expr/api/logout":
+			LogoutController.logout(req, resp);
+			break;
 		case "/ExpReimburse/expr/api/viewTicket":
 			DashboardController.getTicket(req, resp);
 			break;
@@ -59,6 +62,9 @@ public class RequestHelper {
 			break;
 		case "/ExpReimburse/expr/api/getUser":
 			DashboardController.getUser(req, resp);
+			break;
+		case "/ExpReimburse/expr/api/getUserType":
+			DashboardController.getUserType(req, resp);
 			break;
 		case "/ExpReimburse/expr/api/endPoints":
 			SpecialController.getEndpoints(req,resp);

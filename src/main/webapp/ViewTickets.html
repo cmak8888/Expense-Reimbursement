@@ -2,8 +2,8 @@
 <html lang="en">
 <head>
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" href="/css/viewTickets.css" type="text/css" />
-    <link rel="stylesheet" href="/css/dashboard.css" type="text/css" />
+    <link rel="stylesheet" href="/ExpReimburse/css/viewTickets.css" type="text/css" />
+    <link rel="stylesheet" href="/ExpReimburse/css/dashboard.css" type="text/css" />
 </head>
 
 <body>
@@ -34,20 +34,28 @@
                 <div class="card">
                     <div class="card-body">
                     <h5 class="card-title">TicketList</h5>
+                    <h5>Filter options</h5>
+                    <input type="checkbox" name="approved" id="approved" onclick="approvedTickets()"/>Approved <input type="checkbox" name="rejected" id="rejected" onclick="rejectedTickets()"/> Rejected
+                    <select id="ticket_type" name="ticket_type" onchange="changetickettype()">
+                      <option value="all">All</option>
+                      <option value="Lodging">Lodging</option>
+                      <option value="Travel">Travel</option>
+                      <option value="Food">Food</option>
+                      <option value="Other">Other</option>
+                    </select>
                     <table id="respTable">
                     <thead>
                       <tr>
-                        <th>Ticket Id</th>
                         <th>Name</th>
                         <th>Title</th>
                         <th>Ticket Type</th>
                         <th>Approved</th>
                         <th>Amount</th>
                         <th>Date Created</th>
+                        <th>View</th>
                       </tr>
                     </thead>
                     <tbody id="ticketList">
-                      
                     </tbody>
                      </table>
                      </div>
@@ -56,7 +64,8 @@
               </div>
         </div>
       </main>
-      <script src="js/dashboardJQuery.js"></script>
-      <script src="js/viewTicket.js"></script>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+      <script src="/ExpReimburse/js/ViewTickets.js"></script>
+      <script src="/ExpReimburse/js/dashboardJQuery.js"></script>
 </body>
 </html>

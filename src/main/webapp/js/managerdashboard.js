@@ -1,7 +1,7 @@
 window.onload = function() {
     getUser();
     // document.getElementById("logOutSubmit").addEventListener('click', logout);
-    document.getElementById("newUser").addEventListener('click', createUser);
+    // document.getElementById("newUser").addEventListener('click', createUser);
     document.getElementById("viewTickets").addEventListener('click', viewTicket)
     document.getElementById("home").addEventListener('click', goHome)
     document.getElementById("logOutSubmit").addEventListener('click', logout)
@@ -60,6 +60,7 @@ function viewTicket() {
     xhttp.onreadystatechange = function() {
         if(xhttp.readyState == 4 && xhttp.status == 200){
             console.log("Success");
+            window.location = "http://localhost:8080/ExpReimburse/expr/ViewTickets";
         } else {
             console.log("error");
         }

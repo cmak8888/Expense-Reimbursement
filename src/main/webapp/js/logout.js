@@ -1,4 +1,4 @@
-window.onload() = function() {
+window.onload = function() {
     document.getElementById("logoutButton").addEventListener('click', function() {
         window.location="http://localhost:8080/ExpReimburse/expr/home";
         let xhttp = new XMLHttpRequest();
@@ -7,7 +7,7 @@ window.onload() = function() {
             if(xhttp.readyState == 4 && xhttp.status == 200){
                 // document.location.reload();
                 console.log("Success");
-                window.location = "http://localhost:8080/ExpReimburse/expr/home";
+                window.location = "http://localhost:8080/ExpReimburse/expr/login";
             } else {
                 console.log("error");
             }
@@ -19,5 +19,4 @@ window.onload() = function() {
         xhttp.open("GET", logoutURL);
         xhttp.send();
     });
-
 };

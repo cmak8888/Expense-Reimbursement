@@ -1,29 +1,32 @@
+/**
+ * 
+ */
 let tickets = {}
 let filter = {
-  approved: false,
-  rejected: false,
+  approved: true,
+  rejected: true,
   ticket_type: "all"
     
 }
 let ticket_table = document.querySelector('#ticketList');
 window.onload = function(){
     getTickets();
-    document.getElementById("approved").addEventListener('click', approvedTickets);
 }
 
 function DOMManipulation(data) {
+  ticket_table.innerHTML = "";
   for(let i = 0; i < data.length; i++){
     let tr = document.createElement("tr"); 
     tr.innerHTML =`
-        <td>${data[i].ticketid}</td>
-        <td>${data[i].title}</th>
         <td>${data[i].name}</td>
+        <td>${data[i].title}</th>
         <td>${data[i].ticketType}</td>
         <td>${data[i].approved}</td>
         <td>$${data[i].amount}</td>
-        <td>$${data[i].timestamp}</td>
+        <td>${data[i].timeStamp}</td>
+        <td><input type="button" value="View" onclick="viewTicket(${data[i].ticket_id})"/></td>
     `;
-    tr.setAttribute(onclick, viewTicket($data[i].ticketid))
+    // tr.onclick = viewTicket(data[i].ticketid);
     ticket_table.appendChild(tr); 
 }
 }
@@ -34,7 +37,7 @@ function viewTicket(id) {
   xhttp.onreadystatechange = function() {
       if(xhttp.readyState == 4 && xhttp.status == 200){
           console.log("Success");
-
+          window.location = "http://localhost:8080/ExpReimburse/expr/ViewTicket";
       } else {
           console.log("error");
       }
@@ -66,14 +69,78 @@ function logout() {
 }
 
 function approvedTickets() {
-    
+    filter.approved = !filter.approved;
+    filterList();
+}
+
+function rejectedTickets() {
+  filter.rejected = !filter.rejected;
+  filterList();
+}
+
+
+function filterList() {
+  let data = []
+  if(filter.approved) {
+    for(let i = 0; i < tickets.length; i++) {
+      if(tickets[i].approved === true) {
+        data.push(tickets[i]);
+      }
+    }
+  } else if(filter.rejected) {
+    if(tickets[i].approved === false) {
+      data.push(tickets[i]);
+    }
+  } else if(!filter.approved && !filter.rejected && ticket_type === "all") {
+    data = tickets;
+  }
+  switch(filter.ticket_type) {
+    case("Lodging"):
+    for(let i = 0; i < tickets.length; i++) {
+      if(tickets[i].ticketType === "LODGING") {
+        data.push(tickets[i]);
+      }
+    }
+      break;
+      case("Travel"):
+    for(let i = 0; i < tickets.length; i++) {
+      if(tickets[i].ticketType === "TRAVEL") {
+        data.push(tickets[i]);
+      }
+    }
+      break;
+      case("Food"):
+    for(let i = 0; i < tickets.length; i++) {
+      if(tickets[i].ticketType === "FOOD") {
+        data.push(tickets[i]);
+      }
+    }
+      break;
+      case("Other"):
+    for(let i = 0; i < tickets.length; i++) {
+      if(tickets[i].ticketType === "OTHER") {
+        data.push(tickets[i]);
+      }
+    }
+      break;
+    default:
+      data = tickets;
+  }
+  DOMManipulation(data);
+}
+
+function changetickettype() {
+  filter.ticket_type = document.getElementById("ticket_type").value;
+  filterList();
 }
 
 function getTickets() {
     let xhttp = new XMLHttpRequest();
     xhttp.onreadystatechange = function() {
         if(xhttp.status == 200 && xhttp.readyState == 4) {
-            
+            let data = JSON.parse(xhttp.responseText);
+            tickets = data;
+            filterList();
         }
     }
 

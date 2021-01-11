@@ -15,6 +15,7 @@ public class Ticket {
 	private int id;
 	private String title;
 	private User user;
+	private String name;
 	private TicketType ticketType;
 	private String description;
 	private byte[] image;
@@ -55,7 +56,9 @@ public class Ticket {
 		return TicketType.getTicketValue(ticketType);
 	}
 	
-
+	public String getName() {
+		return this.name;
+	}
 
 	public void setTicketType(int ticketType) {
 		this.ticketType = TicketType.values()[ticketType];
@@ -146,6 +149,7 @@ public class Ticket {
 		this.setAmount(amount);
 		this.approved = approved;
 		this.timeStamp = timestamp;
+		this.name = this.user.getName();
 	}
 	
 	public Ticket(int id, int user, String title, String description, int ticketType, byte[] image, double amount, boolean approved, String timestamp) {
@@ -158,6 +162,7 @@ public class Ticket {
 		this.setAmount(amount);
 		this.approved = approved;
 		this.timeStamp = timestamp;
+		this.name = this.user.getName();
 	}
 	
 	public Ticket(String title, int user, int ticketType, String description, double amount, byte[] image) {

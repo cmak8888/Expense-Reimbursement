@@ -19,7 +19,7 @@ public class TicketsHandler implements TicketsDao {
 	public Ticket getTicket(int id) {
 		// TODO Auto-generated method stub
 		Ticket ticket = null;
-		String sql = "SELECT * FROM exp_ticket WHERE ticket_id = ?";
+		String sql = "SELECT * FROM exp_tickets WHERE ticket_id = ?";
 		try(Connection conn = Connector.getConnection()) {
 			PreparedStatement ps = conn.prepareStatement(sql);
 			ps.setInt(1, id);
@@ -36,7 +36,7 @@ public class TicketsHandler implements TicketsDao {
 	public List<Ticket> getTickets(boolean approved) {
 		// TODO Auto-generated method stub
 		List<Ticket> tickets = new ArrayList<Ticket>();
-		String sql = "SELECT * FROM exp_ticket WHERE approved = ?";
+		String sql = "SELECT * FROM exp_tickets WHERE approved = ?";
 		try(Connection conn = Connector.getConnection()) {
 			PreparedStatement ps = conn.prepareStatement(sql);
 			ps.setBoolean(1, approved);
@@ -69,7 +69,7 @@ public class TicketsHandler implements TicketsDao {
 	public List<Ticket> getTickets(User user) {
 		// TODO Auto-generated method stub
 		List<Ticket> tickets = new ArrayList<Ticket>();
-		String sql = "SELECT * FROM exp_ticket WHERE user_id = ?";
+		String sql = "SELECT * FROM exp_tickets WHERE user_id = ?";
 		try(Connection conn = Connector.getConnection()) {
 			PreparedStatement ps = conn.prepareStatement(sql);
 			ps.setInt(1, user.getId());
@@ -85,7 +85,7 @@ public class TicketsHandler implements TicketsDao {
 	
 	public List<Ticket> getTickets(int id) {
 		List<Ticket> tickets = new ArrayList<Ticket>();
-		String sql = "SELECT * FROM exp_ticket WHERE user_id = ?";
+		String sql = "SELECT * FROM exp_tickets WHERE user_id = ?";
 		try(Connection conn = Connector.getConnection()) {
 			PreparedStatement ps = conn.prepareStatement(sql);
 			ps.setInt(1, id);
@@ -250,7 +250,7 @@ public class TicketsHandler implements TicketsDao {
 	@Override
 	public void removeAllTickets() {
 		// TODO Auto-generated method stub
-		String sql = "TRUNCATE TABLE exp_ticket";
+		String sql = "TRUNCATE TABLE exp_tickets";
 		try(Connection conn = Connector.getConnection()) {
 			Statement s = conn.createStatement();
 			s.execute(sql);
@@ -263,7 +263,7 @@ public class TicketsHandler implements TicketsDao {
 	@Override
 	public void removeAllTickets(int id) {
 		// TODO Auto-generated method stub
-		String sql = "DELETE FROM exp_ticket WHERE user_id = ?";
+		String sql = "DELETE FROM exp_tickets WHERE user_id = ?";
 		try(Connection conn = Connector.getConnection()) {
 			PreparedStatement ps = conn.prepareStatement(sql);
 			ps.setInt(1,id);
@@ -277,7 +277,7 @@ public class TicketsHandler implements TicketsDao {
 	@Override
 	public void removeAllRejectedTickets() {
 		// TODO Auto-generated method stub
-		String sql = "DELETE FROM exp_ticket WHERE approved = 'false'";
+		String sql = "DELETE FROM exp_tickets WHERE approved = 'false'";
 		try(Connection conn = Connector.getConnection()) {
 			Statement s = conn.createStatement();
 			s.execute(sql);

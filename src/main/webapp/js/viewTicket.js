@@ -1,6 +1,6 @@
-
 window.onload = function(){
     getTicket();
+    getUserType();
 }
 
 function DOMManipulation(data) {
@@ -22,6 +22,58 @@ function DOMManipulation(data) {
   document.getElementById("desc").innerHTML = data.description;
   document.getElementById("timestamp").innerHTML = data.timestamp;
   document.getElementById("amount").innerHTML = data.amount;
+}
+
+function DomManipulation2(data){
+  if(data.usertype === "Manager") {
+    let approveButton = document.createElement("input");
+    approveButton.setAttribute("type", "text");
+    approveButton.onclick(approveTicket());
+    let rejectButton = document.createElement("input");
+    rejectButton.setAttribute("type", "text");
+    rejectButton.onclick(rejectTicket());
+    document.getElementById("buttons").appendChild(approveButton);
+    document.getElementById("buttons").appendChild(rejectButton);
+  }
+}
+
+function approveTicket() {
+  let xhttp = new XMLHttpRequest();
+  xhttp.onreadystatechange = function() {
+    if(xhttp.readyState == 4 && xhttp.status == 200){
+        // document.location.reload();
+        console.log("Success");
+        document.getElementById.innerHTML="Successfully Approved.";
+        document.location.reload();
+    } else {
+        console.log("error");
+    }
+  }
+  let approveURL = "http://localhost:8080/ExpReimburse/expr/api/accept";
+  // let logoutURL = endPoints[getLogout];
+
+  xhttp.open("PUT", approveURL);
+  xhttp.send();
+}
+
+
+function rejectTicket() {
+  let xhttp = new XMLHttpRequest();
+  xhttp.onreadystatechange = function() {
+    if(xhttp.readyState == 4 && xhttp.status == 200){
+        // document.location.reload();
+        console.log("Success");
+        document.getElementById.innerHTML="Successfully Rejected.";
+        document.location.reload();
+    } else {
+        console.log("error");
+    }
+  }
+  let approveURL = "http://localhost:8080/ExpReimburse/expr/api/reject";
+  // let logoutURL = endPoints[getLogout];
+
+  xhttp.open("PUT", approveURL);
+  xhttp.send();
 }
 
 function logout() {
@@ -49,7 +101,7 @@ function getTicket() {
     let xhttp = new XMLHttpRequest();
     xhttp.onreadystatechange = function() {
         if(xhttp.status == 200 && xhttp.readyState == 4) {
-            data = xhttp.responseText;
+            data = JSON.parse(xhttp.responseText);
             DOMManipulation(data);
         }
     }
@@ -59,6 +111,11 @@ function getTicket() {
 
     xhttp.open("GET", logoutURL);
     xhttp.send();
+}
+
+function getUserType() {
+  fetch("http://localhost:8080/ExpReimburse/expr/api/getUserType")
+   .then(resp => resp.json()).then(data => DomManipulation2(data)).catch(alert)
 }
 
 function cellHeaders(tableId) {

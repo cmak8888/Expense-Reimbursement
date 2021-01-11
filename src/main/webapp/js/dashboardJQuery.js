@@ -1,12 +1,12 @@
 /* Scripts for css grid dashboard */
 
 $(document).ready(() => {
-    addResizeListeners();
-    setSidenavListeners();
+    // addResizeListeners();
+    // setSidenavListeners();
     setUserDropdownListener();
-    renderChart();
+    // renderChart();
     setMenuClickListener();
-    setSidenavCloseListener();
+    // setSidenavCloseListener();
   });
   
   // Set constants and grab needed elements
