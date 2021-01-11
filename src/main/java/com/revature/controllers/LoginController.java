@@ -73,8 +73,8 @@ public class LoginController {
 	public static void getHomePage(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
 		log.info("getHomePage() Retrieving home page");
 		User user;
-		HttpSession sesh = req.getSession();
-		if(sesh.getAttribute("User") == null) {
+		HttpSession sesh = req.getSession(false);
+		if(sesh == null) {
 			log.info("Not logged in");
 			RequestDispatcher redis = req.getRequestDispatcher("/login.html");
 			redis.forward(req,resp);

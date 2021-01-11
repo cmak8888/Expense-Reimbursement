@@ -33,8 +33,12 @@ function DOMManipulation(data) {
         <td>$${data[i].amount}</td>
         <td>${data[i].timeStamp}</td>`;
     if(usertype === "Manager") {
-      tr.innerHTML = tr.innerHTML + `<td><img src="/ExpReimburse/images/check.jpg" height="50px" width="50px" onclick="approveTicket(${data[i].id})"/><img src="/ExpReimburse/images/x.png" height="50px" width="50px" onclick="rejectTicket(${data[i].id})"/></td>`;
+      if(data[i].approved) {
+        tr.innerHTML = tr.innerHTML + `<td><img src="/ExpReimburse/images/x.png" height="50px" width="50px" onclick="rejectTicket(${data[i].id})"/></td>`;
+      } else {
+        tr.innerHTML = tr.innerHTML + `<td><img src="/ExpReimburse/images/check.jpg" height="50px" width="50px" onclick="approveTicket(${data[i].id})"/></td>`;
       }
+    }
     // tr.onclick = viewTicket(data[i].ticketid);
     ticket_table.appendChild(tr); 
     // document.location.reload();

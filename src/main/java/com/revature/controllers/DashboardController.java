@@ -40,8 +40,8 @@ public class DashboardController {
 	public static void getDashboardPage(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {JSONObject username = new JSONObject();
 		HttpSession sesh = req.getSession();
 		if(sesh == null) {
-			resp.setStatus(405);
-			resp.sendRedirect("http://localhost:8080/ExpReimburse/expr");
+//			resp.setStatus(405);
+			resp.sendRedirect("http://localhost:8080/ExpReimburse/expr/home");
 			return;
 		}
 		log.info(((User) sesh.getAttribute("User")).getUsername().toString());
@@ -183,10 +183,12 @@ public class DashboardController {
 				resp.getWriter().write(userObject.toString());
 			} else {
 				resp.setStatus(403);
-				throw new Exception403(resp, "Cannot get User");
+				resp.sendRedirect("http://localhost:8080/ExpReimburse/expr");
+//				throw new Exception403(resp, "Cannot get User");
 			}
 		} else {
 			resp.setStatus(403);
+			resp.sendRedirect("http://localhost:8080/ExpReimburse/expr");
 			throw new Exception403(resp, "Cannot get User Session");
 		}
 	}
@@ -205,10 +207,12 @@ public class DashboardController {
 				resp.getWriter().write(userObject.toString());
 			} else {
 				resp.setStatus(403);
-				throw new Exception405(resp, "Cannot get User");
+				resp.sendRedirect("http://localhost:8080/ExpReimburse/expr");
+//				throw new Exception405(resp, "Cannot get User");
 			}
 		} else {
 			resp.setStatus(403);
+			resp.sendRedirect("http://localhost:8080/ExpReimburse/expr");
 			throw new Exception405(resp, "Cannot get User Session");
 		}
 	}

@@ -47,6 +47,9 @@ function submitTicket() {
         description: document.getElementById('description').value,
         amount: document.getElementById('amount').value
     }
+    if(amount < 0) {
+        return;
+    }
     let ticket_type = document.getElementById('ticket_type').value;
     // console.log( document.getElementById('ticket_type').value);
     let xhttp = new XMLHttpRequest();
